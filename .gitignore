@@ -14,3 +14,7 @@ npm-debug.log*
 # os
 .DS_Store
 Thumbs.db
+
+# picker 個人作業物
+tools/picker/picks.json
+tools/picker/_raw_candidates.json
