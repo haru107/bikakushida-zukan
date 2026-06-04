@@ -1529,5 +1529,198 @@
     "notes": "「Butterfly」の名で流通する栽培品種。交配親は断定できない。",
     "iNatUrl": null,
     "lineage": []
+  },
+  {
+    "id": "netherlands",
+    "name": "ネザーランド",
+    "nameEn": "Netherlands",
+    "scientificName": "Platycerium bifurcatum 'Netherlands'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（選抜）",
+    "size": "中型（株張り40〜60cm）",
+    "shieldFrond": "丸い盾形で上部はあまり立ち上がらない",
+    "foliarFrond": "細めの胞子葉が二又に分岐し横〜上向きに展開",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "強（0〜5℃まで耐える）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ビフルカツム系",
+      "入門向け",
+      "丈夫",
+      "耐寒性"
+    ],
+    "description": "ビフルカツムの選抜として広く流通する定番品種。非常に丈夫で耐寒性もあり、子株もよく出すため群生株を作りやすい。園芸店で最もよく見かける系統のひとつで、入門用に最適。",
+    "notes": "P. bifurcatum の選抜。丈夫さは随一で、最初の一枚に向く。",
+    "iNatUrl": null,
+    "lineage": [
+      "bifurcatum"
+    ]
+  },
+  {
+    "id": "celso-tatsuta",
+    "name": "セルソタツタ",
+    "nameEn": "Celso Tatsuta",
+    "scientificName": "Platycerium willinckii 'Celso Tatsuta'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（選抜）",
+    "size": "中〜大型（胞子葉が長く垂れる）",
+    "shieldFrond": "上部が細かく裂けて立ち上がり白毛をまとう",
+    "foliarFrond": "長く垂れ下がり白毛に覆われて優美",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系",
+      "白毛",
+      "人気"
+    ],
+    "description": "白毛をまとった長い胞子葉が美しいウィリンキー系の人気選抜品種。整った草姿で愛好家に親しまれている。",
+    "notes": "P. willinckii の選抜。白毛ウィリンキーの銘品のひとつ。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "bali-spider",
+    "name": "バリスパイダー",
+    "nameEn": "Bali Spider",
+    "scientificName": "Platycerium willinckii 'Bali Spider'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（選抜）",
+    "size": "中〜大型",
+    "shieldFrond": "上部が細かく裂けて立ち上がる",
+    "foliarFrond": "非常に細かく分岐し、クモの脚のように広がる白毛の胞子葉",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系",
+      "白毛",
+      "個性派"
+    ],
+    "description": "胞子葉が極めて細かく分岐し、クモ（スパイダー）の脚のように繊細に広がるウィリンキー系選抜。バリ島由来の系統として知られ、軽やかで個性的な草姿が魅力。",
+    "notes": "P. willinckii の選抜。細かい分岐が最大の見どころ。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "moonlight",
+    "name": "ムーンライト",
+    "nameEn": "Moonlight",
+    "scientificName": "Platycerium willinckii 'Moonlight'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（選抜）",
+    "size": "中型",
+    "shieldFrond": "上部が裂けて立ち上がり白毛をまとう",
+    "foliarFrond": "白毛に覆われ、月光のように白く明るい胞子葉",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系",
+      "白毛",
+      "銀葉"
+    ],
+    "description": "白毛が際立ち、月明かりのように白く明るい草姿から名づけられたとされるウィリンキー系選抜。やわらかな銀白色が美しい人気品種。",
+    "notes": "P. willinckii の選抜。白さを楽しむ品種。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "blue-queen",
+    "name": "ブルークイーン",
+    "nameEn": "Blue Queen",
+    "scientificName": "Platycerium willinckii 'Blue Queen'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（選抜）",
+    "size": "中型",
+    "shieldFrond": "上部が裂けて立ち上がる",
+    "foliarFrond": "青みを帯びた銀葉の胞子葉が垂れ下がる",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系",
+      "銀葉",
+      "人気"
+    ],
+    "description": "青みがかった銀葉が美しいウィリンキー系の人気選抜品種。クールな色合いが特徴で、矮性傾向の個体も流通する。",
+    "notes": "P. willinckii の選抜。青みのある銀葉が身上。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "dragon",
+    "name": "ドラゴン",
+    "nameEn": "Dragon",
+    "scientificName": "Platycerium willinckii 'Dragon'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（選抜）",
+    "size": "中〜大型",
+    "shieldFrond": "上部が深く裂けて立ち上がる",
+    "foliarFrond": "力強く分岐して伸びる白毛の胞子葉",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系",
+      "個性派",
+      "白毛"
+    ],
+    "description": "力強く分岐して伸びる胞子葉が竜（ドラゴン）を思わせるウィリンキー系選抜。ダイナミックな草姿を好むコレクターに人気。",
+    "notes": "P. willinckii の選抜。荒々しく伸びる胞子葉が特徴とされる。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
   }
 ]
