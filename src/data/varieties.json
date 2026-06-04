@@ -16,8 +16,8 @@
     "light": "明るい日陰〜半日向。直射の強光は葉焼け注意",
     "watering": "板の水苔が乾いたらたっぷり。生育期は週1〜2回",
     "humidity": "普通（乾燥にも比較的強い）",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/322960815/medium.jpeg",
+    "imageCredit": "(c) Leon Perrie, some rights reserved (CC BY)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -27,7 +27,7 @@
     ],
     "description": "ビカクシダ栽培の入門種として最も普及している原種。非常に丈夫で耐寒性もあり、子株（仔吹き）を旺盛に出して群生株を作りやすい。コウモリランの名で園芸店に並ぶ多くがこの種かその交配。初心者が最初の1枚に選ぶなら間違いのない種。",
     "notes": "「ネザーランド」など流通名で売られる丈夫な系統の多くがビフルカツム由来。よく似たヒリーとは胞子葉の幅と分岐の細かさで見分ける。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/133619"
   },
   {
     "id": "veitchii",
@@ -46,8 +46,8 @@
     "light": "強光を好む。日照が強いほど白さが増す",
     "watering": "乾燥地原産で乾かし気味に。過湿に弱い",
     "humidity": "低〜普通（乾燥に強い）",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/180069386/medium.jpeg",
+    "imageCredit": "(c) sworboys, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -57,7 +57,7 @@
     ],
     "description": "全身が白い星状毛に覆われ、銀白色に輝く人気の原種。乾燥した岩場が原産のため強い日照と乾燥を好み、光が強いほど白さが際立つ。直立する細い胞子葉が群生するとシルバーの茂みのようになり観賞価値が高い。交配親としても多用される。",
     "notes": "白さを保つには強光と風通しが鍵。日照不足だと緑が勝って間延びする。ビフルカツムとの交配種も多く流通する。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/369401"
   },
   {
     "id": "hillii",
@@ -76,8 +76,8 @@
     "light": "明るい日陰〜半日向",
     "watering": "生育期はたっぷり、冬はやや控えめ",
     "humidity": "普通〜やや高め",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/330322896/medium.jpg",
+    "imageCredit": "(c) Donald Davesne, some rights reserved (CC BY)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -87,7 +87,7 @@
     ],
     "description": "ビフルカツムによく似るが、葉が濃い緑で光沢があり幅広く、トリコーム（毛）が少ないのが特徴。比較的丈夫で子株もよく出すため育てやすい部類。'Drummond' などの選抜系統や、ビフルカツムとの交配品種の親としても知られる。",
     "notes": "ビフルカツムとの判別は、胞子葉の幅が広く分岐が荒いこと、葉色が濃く光沢があることが目安。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/987744"
   },
   {
     "id": "willinckii",
@@ -106,8 +106,8 @@
     "light": "明るい日陰〜半日向",
     "watering": "生育期はたっぷり。垂れ葉が蒸れないよう風通しよく",
     "humidity": "高め",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/238556280/medium.jpeg",
+    "imageCredit": "CC0（パブリックドメイン, iNaturalist）",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -117,7 +117,7 @@
     ],
     "description": "長く垂れ下がる白毛の胞子葉が優美な人気種。'ジェイドガール''スパイダー'など数多くの有名栽培品種の母種となっており、ビカクシダ趣味の中心的存在。個体差・地域差が大きく、コレクション性が高い。",
     "notes": "ビフルカツムと近縁で交配種も多い。'ジェイドガール'などの園芸品種は本種の選抜・交配。寒さにはビフルカツムより弱い。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/133615"
   },
   {
     "id": "superbum",
@@ -136,8 +136,8 @@
     "light": "明るい半日向",
     "watering": "貯水葉の内側に水を溜めないよう、株元の水苔へ",
     "humidity": "高め",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/9083274/medium.jpg",
+    "imageCredit": "(c) John Barkla, some rights reserved (CC BY)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -147,7 +147,7 @@
     ],
     "description": "貯水葉が大きく王冠状に立ち上がる大型原種。胞子嚢の斑（ソーラスパッチ）が左右2か所にできることが名前（superbum＝堂々とした）の由来で、よく似たグランデとの最大の識別点。子株を出さない単頭性のため、群生はせず一株が雄大に育つ。",
     "notes": "グランデと酷似するが、胞子嚢パッチが2か所なのがスパーバム、1か所がグランデ。単頭性なので株分けでは増やせず、胞子培養で殖やす。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/122311"
   },
   {
     "id": "grande",
@@ -166,8 +166,8 @@
     "light": "明るい半日向",
     "watering": "高温多湿を好む。貯水葉内に溜め込まないよう注意",
     "humidity": "高い",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/60184268/medium.jpeg",
+    "imageCredit": "(c) anncabras24, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -177,7 +177,7 @@
     ],
     "description": "フィリピン原産の大型原種で「ビカクシダの王様」とも呼ばれる風格を持つ。スパーバムに極めてよく似るが、胞子嚢の斑が1か所である点で区別される。流通量が少なく、本物のグランデは希少。高温多湿を好み寒さに弱い。",
     "notes": "市場でグランデとして売られる株の多くは実際はスパーバム。胞子嚢パッチの数（1か所＝グランデ）で確認する。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/426440"
   },
   {
     "id": "coronarium",
@@ -196,8 +196,8 @@
     "light": "明るい半日向",
     "watering": "高温多湿を好む。生育期はたっぷり",
     "humidity": "高い",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/177485761/medium.png",
+    "imageCredit": "(c) Barbara Parris, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -207,7 +207,7 @@
     ],
     "description": "胞子葉が非常に長く垂れ下がり、2mを超えることもある大型原種。胞子嚢が胞子葉とは独立して垂れ下がる独特の構造を持ち、姿の個性が際立つ。'coronarium' は王冠の意で、立ち上がる貯水葉に由来。高温多湿の環境で本領を発揮する。",
     "notes": "胞子嚢が別パーツのように垂れる姿は他種にない特徴。低温と乾燥に弱いため日本では温室・室内向き。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/425758"
   },
   {
     "id": "ridleyi",
@@ -226,8 +226,8 @@
     "light": "明るい半日向",
     "watering": "過湿に弱く、株元が蒸れないよう水やりは慎重に",
     "humidity": "高い（ただし通気必須）",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/134553119/medium.jpeg",
+    "imageCredit": "(c) Vatcharavee Sriprasertsil, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -237,7 +237,7 @@
     ],
     "description": "貯水葉が脳のような網目状の凹凸を持ち、胞子葉が角のように直立する独特の姿で絶大な人気を誇る原種。野生では蟻と共生する。高温多湿を好む一方で株元の過湿に弱く、栽培難度は高め。愛好家の憧れの種のひとつ。",
     "notes": "原産地では樹上で蟻の巣を内包して育つ。日本では温度・湿度・通風の管理が難しく上級者向け。乱獲で野生個体は減少しており、栽培株の入手が基本。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/784799"
   },
   {
     "id": "wandae",
@@ -256,8 +256,8 @@
     "light": "明るい半日向",
     "watering": "高温多湿を好む。大株になるため水切れ注意",
     "humidity": "高い",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/614579929/medium.jpg",
+    "imageCredit": "(c) Hakim, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -267,7 +267,7 @@
     ],
     "description": "ビカクシダ属で最大級に育つ大型原種。貯水葉の上部が鬼の角のように細く長く伸び上がる独特の樹冠が特徴で「クイーン」の異名を持つ。十分なスペースと高温多湿があれば圧巻の大株に育つ。流通は少なめ。",
     "notes": "貯水葉の角状の伸長が最大の見どころ。大型化するため育成には広い空間と支えが必要。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/431476"
   },
   {
     "id": "holttumii",
@@ -286,8 +286,8 @@
     "light": "明るい半日向",
     "watering": "高温多湿を好む。生育期はたっぷり",
     "humidity": "高い",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/340537066/medium.jpg",
+    "imageCredit": "(c) Stefan Spring, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -297,7 +297,7 @@
     ],
     "description": "王冠状の貯水葉と、大小2枚に分かれた胞子葉を持つ大型原種。垂れ下がる大きな胞子葉の脇に小さな耳状の葉が付く独特の構造が識別点。グランデやスパーバムと並ぶ大型種で、迫力ある樹形が魅力。",
     "notes": "胞子葉が「大きく垂れる葉＋小さな耳葉」の2タイプに分かれるのが特徴。高温性で寒さに弱い。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/211026"
   },
   {
     "id": "wallichii",
@@ -316,8 +316,8 @@
     "light": "明るい半日向",
     "watering": "原産地は雨季と乾季がはっきり。乾季は乾かし気味に管理",
     "humidity": "高め（季節変化あり）",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/239021574/medium.jpeg",
+    "imageCredit": "(c) Ron Frumkin, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -326,7 +326,7 @@
     ],
     "description": "貯水葉の上部に三角形の深い切れ込みが入り、胞子葉が三又に分かれて胞子嚢が3か所にできる個性的な原種。原産地は雨季・乾季の明瞭なモンスーン気候で、乾季には生育が緩むため季節に応じた水管理が栽培のコツ。",
     "notes": "胞子嚢が3か所という点が和名・識別の手がかり。季節のメリハリをつけた管理が好結果につながる。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/1046845"
   },
   {
     "id": "madagascariense",
@@ -345,8 +345,8 @@
     "light": "明るい日陰（強光を嫌う）",
     "watering": "高湿度必須。乾燥させると一気に弱る",
     "humidity": "非常に高い（テラリウム向き）",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/8156679/medium.jpeg",
+    "imageCredit": "(c) Solofo Eric Rakotoarisoa, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -356,7 +356,7 @@
     ],
     "description": "貯水葉が深いワッフル状の網目を持つ、唯一無二の質感で知られる希少原種。葉脈が格子状に強く浮き出る姿はビカクシダ随一の個性。高温・高湿を強く好み乾燥に極端に弱いため、テラリウムなど湿度管理された環境が向く上級者向けの種。",
     "notes": "独特の網目は本種最大の魅力にして識別点。低湿度・低温・強光のいずれにも弱く、安定栽培の難度はトップクラス。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/469917"
   },
   {
     "id": "elephantotis",
@@ -375,8 +375,8 @@
     "light": "明るい半日向",
     "watering": "高温多湿を好む。生育期はたっぷり",
     "humidity": "高い",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/122064790/medium.jpeg",
+    "imageCredit": "(c) Katy Tanis, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -385,7 +385,7 @@
     ],
     "description": "胞子葉が二又に分岐せず、象の耳のように幅広い一枚葉として立ち上がる、ビカクシダの常識を覆す姿の原種。別名アンゴレンセ（angolense）。分岐しない丸い葉は他種にない柔らかな印象で、コレクションのアクセントになる。高温性で寒さに弱い。",
     "notes": "胞子葉が分岐しないのが最大の特徴。'angolense' の名でも流通する。象の耳の名にふさわしい丸い大葉が見どころ。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/354340"
   },
   {
     "id": "stemaria",
@@ -404,8 +404,8 @@
     "light": "明るい日陰（やや日陰を好む）",
     "watering": "高湿度を好む。乾燥に弱め",
     "humidity": "高い",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/646515/medium.jpg",
+    "imageCredit": "(c) Jakob Fahr, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -414,7 +414,7 @@
     ],
     "description": "胞子葉が楔形でY字に分かれ、先端が幅広く広がる独特のフォルムを持つアフリカ原産種。やや日陰と高湿度を好み、明るい木陰のような環境を再現するとよく育つ。流通も比較的あり、個性派の中では育てやすい部類。",
     "notes": "Y字に開く幅広の胞子葉が識別点。直射日光より明るい日陰を好むため、室内の窓辺などに向く。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/533762"
   },
   {
     "id": "alcicorne",
@@ -433,8 +433,8 @@
     "light": "明るい日向〜半日向",
     "watering": "乾季のある原産地のため乾かし気味も許容",
     "humidity": "普通",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/49193438/medium.jpg",
+    "imageCredit": "(c) Jean-Philippe BASUYAUX, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -443,7 +443,7 @@
     ],
     "description": "細く繊細な胞子葉をすっきりと展開する小〜中型の原種。'alcicorne' はヘラジカの角の意で、属名プラティケリウム（広い角）と同じくシダの葉姿に由来する。比較的丈夫で乾燥にもある程度耐え、コンパクトに飾れる扱いやすい種。マダガスカル産と東アフリカ産で性質に差がある。",
     "notes": "「ビフルカツム」と混同されやすいが別種。産地によって耐寒性や葉の細さに個体差がある。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/533759"
   },
   {
     "id": "ellisii",
@@ -462,8 +462,8 @@
     "light": "明るい日陰",
     "watering": "高湿度を好む。原産は湿地林で乾燥を嫌う",
     "humidity": "高い",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/57172442/medium.jpeg",
+    "imageCredit": "(c) axel413, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -472,7 +472,7 @@
     ],
     "description": "幅広く光沢のある明るい緑の胞子葉を直立気味に立ち上げるマダガスカル原産種。マングローブ近くの湿地林に自生し、高い湿度を好む。鮮やかな緑とつややかな質感が美しく、毛の多い種とは対照的なクリーンな印象を持つ。",
     "notes": "毛が少なくつややかな緑葉が特徴。高湿度を保つと色つやがよくなる。乾燥と低温に弱い。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/953512"
   },
   {
     "id": "quadridichotomum",
@@ -491,8 +491,8 @@
     "light": "明るい日向",
     "watering": "乾季は落葉して休眠。雨季にあたる生育期のみ水やり",
     "humidity": "低〜普通（季節差大）",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/98195004/medium.jpeg",
+    "imageCredit": "(c) feno, some rights reserved (CC BY-NC)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -502,7 +502,7 @@
     ],
     "description": "胞子葉が規則正しく4回二又に分岐する繊細な姿の希少原種。マダガスカルの乾燥林に自生し、乾季には葉を落として休眠する独特の生活サイクルを持つ。この休眠リズムを理解した季節管理が必要で、栽培難度は高い。コレクター垂涎の種。",
     "notes": "乾季の休眠（落葉）を病気と勘違いして水を与えすぎると腐敗する。原産地の季節サイクルの再現が栽培成功の鍵。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/467755"
   },
   {
     "id": "andinum",
@@ -521,8 +521,8 @@
     "light": "明るい半日向",
     "watering": "原産地は明瞭な乾季あり。季節に応じた水管理を",
     "humidity": "高め（季節差あり）",
-    "image": null,
-    "imageCredit": null,
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/424882377/medium.jpg",
+    "imageCredit": "(c) Martin Vallejos, some rights reserved (CC BY)",
     "instagramUrl": null,
     "tags": [
       "原種",
@@ -532,6 +532,6 @@
     ],
     "description": "ビカクシダ属で唯一、南米大陸（アンデス東麓）に自生する貴重な原種。長く垂れ下がる白毛の胞子葉が美しく、旧世界の白毛種とは独立に進化した点でも学術的に興味深い。自生地が限られ流通も少ないため、入手難易度・希少性ともに非常に高い。",
     "notes": "新大陸唯一のビカクシダとして特別な位置づけ。自生地は乱獲・環境破壊で危機にあり、栽培株の保全が重要。",
-    "iNatUrl": null
+    "iNatUrl": "https://www.inaturalist.org/taxa/790656"
   }
 ]
