@@ -29,7 +29,7 @@ for cid, paths in raw.items():
         print(f"  {cid:14} {p:40} -> {'OK' if ok else 'NG'}")
         if ok:
             good.append("https://www.instagram.com/" + p + "/")
-        if len(good) >= 3:
+        if len(good) >= 5:
             break
         time.sleep(0.3)
     result.append({"id": cid, "name": idname.get(cid, cid), "candidates": good})
