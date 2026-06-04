@@ -14,7 +14,7 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
     <div class="hero-content">
       <p class="hero-label">PLATYCERIUM DATABASE</p>
       <h1>🦌 ビカクシダ図鑑</h1>
-      <p class="hero-desc">ビフルカツム・リドレイ・グランデなど、ビカクシダ（コウモリラン）の原種を詳しく解説。<br>現在 <strong id="total">{varieties.length}</strong> 種掲載中。今後さまざまな栽培品種も追加予定。</p>
+      <p class="hero-desc">ビフルカツム・リドレイ・グランデなどの原種から、ジェイドガール・SSフーンなどの人気品種・交配種まで。<br>現在 <strong id="total">{varieties.length}</strong> 種掲載中。品種は随時追加していきます。</p>
     </div>
   </section>
 
@@ -33,7 +33,7 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
 
     <div class="filter-row">
       <div class="filter-group">
-        <span class="filter-label">産地</span>
+        <span class="filter-label">産地・系統</span>
         <div class="btn-group">
           <button class="filter-btn active" data-group="">すべて</button>
           {groups.map(g => (
