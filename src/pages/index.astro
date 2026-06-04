@@ -4,6 +4,7 @@ import VarietyCard from '../components/VarietyCard.astro';
 import varieties from '../data/varieties.json';
 
 const groups  = [...new Set(varieties.map(v => v.group))];
+const types   = [...new Set(varieties.map(v => v.type))];
 const allTags = [...new Set(varieties.flatMap(v => v.tags))];
 ---
 
@@ -29,6 +30,18 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
         <option value="rarity-asc">希少度：低い順</option>
         <option value="difficulty-desc">育てやすさ：簡単順</option>
       </select>
+    </div>
+
+    <div class="filter-row">
+      <div class="filter-group">
+        <span class="filter-label">種別</span>
+        <div class="btn-group">
+          <button class="kind-btn active" data-type="">すべて</button>
+          {types.map(t => (
+            <button class="kind-btn" data-type={t}>{t}</button>
+          ))}
+        </div>
+      </div>
     </div>
 
     <div class="filter-row">
@@ -70,6 +83,7 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
         data-name-en={v.nameEn.toLowerCase()}
         data-sci={v.scientificName.toLowerCase()}
         data-desc={v.description}
+        data-type={v.type}
         data-group={v.group}
         data-tags={v.tags.join(',')}
         data-rarity={v.rarity}
@@ -162,7 +176,7 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
 
   .btn-group { display: flex; flex-wrap: wrap; gap: 0.35rem; }
 
-  .filter-btn, .tag-btn {
+  .filter-btn, .tag-btn, .kind-btn {
     font-size: 0.76rem;
     padding: 0.25rem 0.72rem;
     border-radius: 20px;
@@ -174,12 +188,12 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
     transition: all 0.15s;
     white-space: nowrap;
   }
-  .filter-btn:hover, .tag-btn:hover {
+  .filter-btn:hover, .tag-btn:hover, .kind-btn:hover {
     border-color: var(--green-light);
     color: var(--green-mid);
     background: #f0f9f4;
   }
-  .filter-btn.active {
+  .filter-btn.active, .kind-btn.active {
     background: var(--green-dark);
     color: #fff;
     border-color: var(--green-dark);
@@ -236,9 +250,11 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
   const cards     = () => Array.from(grid.querySelectorAll<HTMLElement>('.card-wrap'));
   const filterBtns = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
   const tagBtns    = document.querySelectorAll<HTMLButtonElement>('.tag-btn');
+  const kindBtns   = document.querySelectorAll<HTMLButtonElement>('.kind-btn');
 
   let activeGroup = '';
   let activeTag   = '';
+  let activeType  = '';
 
   function update() {
     const text  = searchEl.value.trim().toLowerCase();
@@ -252,15 +268,17 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
       const sci    = card.dataset.sci     ?? '';
       const desc   = (card.dataset.desc   ?? '').toLowerCase();
       const group  = card.dataset.group   ?? '';
+      const type   = card.dataset.type    ?? '';
       const tags   = card.dataset.tags    ?? '';
 
       const matchSearch = !text ||
         name.includes(text) || nameEn.includes(text) ||
         sci.includes(text)  || desc.includes(text);
+      const matchType  = !activeType  || type === activeType;
       const matchGroup = !activeGroup || group === activeGroup;
       const matchTag   = !activeTag   || tags.split(',').includes(activeTag);
 
-      if (matchSearch && matchGroup && matchTag) {
+      if (matchSearch && matchType && matchGroup && matchTag) {
         card.classList.remove('hidden');
         visible.push(card);
       } else {
@@ -293,6 +311,15 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
 
   searchEl.addEventListener('input', update);
   sortEl.addEventListener('change', update);
+
+  kindBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      kindBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeType = btn.dataset.type ?? '';
+      update();
+    });
+  });
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
