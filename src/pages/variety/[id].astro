@@ -14,6 +14,17 @@ const difficultyStars = '★'.repeat(variety.difficulty) + '☆'.repeat(5 - vari
 
 const related = varieties.filter(v => v.group === variety.group && v.id !== variety.id);
 
+// 親種（系統）：自分自身を除いた親speciesを解決
+const parents = ((variety as any).lineage ?? [])
+  .filter((pid: string) => pid !== variety.id)
+  .map((pid: string) => varieties.find(v => v.id === pid))
+  .filter(Boolean);
+
+// この種を親に持つ品種（＝子の品種）
+const children = varieties.filter(v =>
+  v.id !== variety.id && ((v as any).lineage ?? []).includes(variety.id)
+);
+
 // Instagram 埋め込みID抽出
 let igPostId: string | null = null;
 if (variety.instagramUrl) {
@@ -127,6 +138,19 @@ if (variety.instagramUrl) {
             <tr><th>サイズ</th><td>{variety.size}</td></tr>
             <tr><th>タイプ</th><td>{variety.type}</td></tr>
             <tr><th>産地</th><td>{variety.group}</td></tr>
+            {parents.length > 0 && (
+              <tr>
+                <th>系統（親種）</th>
+                <td>
+                  {parents.map((p: any, i: number) => (
+                    <>
+                      {i > 0 && <span class="lineage-sep">×</span>}
+                      <a class="lineage-link" href={`/variety/${p.id}`}>{p.name}</a>
+                    </>
+                  ))}
+                </td>
+              </tr>
+            )}
           </tbody>
         </table>
       </section>
@@ -188,6 +212,26 @@ if (variety.instagramUrl) {
             )}
             <div class="related-info">
               <div class="related-name">{v.name}</div>
+              <div class="related-sci">{v.scientificName}</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- この種から生まれた品種 -->
+  {children.length > 0 && (
+    <section class="related">
+      <h2>この種から生まれた品種・交配</h2>
+      <div class="related-grid">
+        {children.map(v => (
+          <a href={`/variety/${v.id}`} class="related-card">
+            {v.image && (
+              <img src={v.image} alt={v.name} loading="lazy" />
+            )}
+            <div class="related-info">
+              <div class="related-name">{v.name} <span class="child-type">{v.type}</span></div>
               <div class="related-sci">{v.scientificName}</div>
             </div>
           </a>
@@ -371,6 +415,25 @@ if (variety.instagramUrl) {
     text-align: left;
   }
   th { width: 90px; color: var(--text-muted); font-weight: 500; white-space: nowrap; vertical-align: top; }
+
+  .lineage-link {
+    color: var(--green-mid);
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px dotted var(--green-light);
+  }
+  .lineage-link:hover { color: var(--green-light); }
+  .lineage-sep { color: var(--text-muted); margin: 0 0.4rem; }
+
+  .child-type {
+    font-size: 0.62rem;
+    background: #eef5f0;
+    color: var(--green-mid);
+    border: 1px solid #cce0d4;
+    border-radius: 10px;
+    padding: 0.05rem 0.4rem;
+    vertical-align: middle;
+  }
 
   /* 育て方 */
   .care-grid {

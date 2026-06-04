@@ -6,6 +6,12 @@ import varieties from '../data/varieties.json';
 const groups  = [...new Set(varieties.map(v => v.group))];
 const types   = [...new Set(varieties.map(v => v.type))];
 const allTags = [...new Set(varieties.flatMap(v => v.tags))];
+
+// 血統（親種）チップ：品種(選抜・交配)のlineageに登場する原種だけを抽出
+const idToName = Object.fromEntries(varieties.map(v => [v.id, v.name]));
+const lineageChips = [...new Set(
+  varieties.filter(v => v.type !== '原種').flatMap(v => v.lineage ?? [])
+)];
 ---
 
 <Base title="ビカクシダ図鑑 — 原種一覧">
@@ -46,11 +52,23 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
 
     <div class="filter-row">
       <div class="filter-group">
-        <span class="filter-label">産地・系統</span>
+        <span class="filter-label">産地</span>
         <div class="btn-group">
           <button class="filter-btn active" data-group="">すべて</button>
           {groups.map(g => (
             <button class="filter-btn" data-group={g}>{g.replace('系', '')}</button>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-row">
+      <div class="filter-group">
+        <span class="filter-label">血統（親種）</span>
+        <div class="btn-group">
+          <button class="lin-btn active" data-lin="">すべて</button>
+          {lineageChips.map(id => (
+            <button class="lin-btn" data-lin={id}>{idToName[id]}</button>
           ))}
         </div>
       </div>
@@ -85,6 +103,7 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
         data-desc={v.description}
         data-type={v.type}
         data-group={v.group}
+        data-lin={(v.lineage ?? []).join(',')}
         data-tags={v.tags.join(',')}
         data-rarity={v.rarity}
         data-difficulty={v.difficulty}
@@ -176,7 +195,7 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
 
   .btn-group { display: flex; flex-wrap: wrap; gap: 0.35rem; }
 
-  .filter-btn, .tag-btn, .kind-btn {
+  .filter-btn, .tag-btn, .kind-btn, .lin-btn {
     font-size: 0.76rem;
     padding: 0.25rem 0.72rem;
     border-radius: 20px;
@@ -188,7 +207,7 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
     transition: all 0.15s;
     white-space: nowrap;
   }
-  .filter-btn:hover, .tag-btn:hover, .kind-btn:hover {
+  .filter-btn:hover, .tag-btn:hover, .kind-btn:hover, .lin-btn:hover {
     border-color: var(--green-light);
     color: var(--green-mid);
     background: #f0f9f4;
@@ -202,6 +221,11 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
     background: var(--accent);
     color: #fff;
     border-color: var(--accent);
+  }
+  .lin-btn.active {
+    background: var(--green-light);
+    color: #fff;
+    border-color: var(--green-light);
   }
 
   /* リストヘッダー */
@@ -251,10 +275,12 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
   const filterBtns = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
   const tagBtns    = document.querySelectorAll<HTMLButtonElement>('.tag-btn');
   const kindBtns   = document.querySelectorAll<HTMLButtonElement>('.kind-btn');
+  const linBtns    = document.querySelectorAll<HTMLButtonElement>('.lin-btn');
 
-  let activeGroup = '';
-  let activeTag   = '';
-  let activeType  = '';
+  let activeGroup   = '';
+  let activeTag     = '';
+  let activeType    = '';
+  let activeLineage = '';
 
   function update() {
     const text  = searchEl.value.trim().toLowerCase();
@@ -269,16 +295,18 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
       const desc   = (card.dataset.desc   ?? '').toLowerCase();
       const group  = card.dataset.group   ?? '';
       const type   = card.dataset.type    ?? '';
+      const lin    = card.dataset.lin     ?? '';
       const tags   = card.dataset.tags    ?? '';
 
       const matchSearch = !text ||
         name.includes(text) || nameEn.includes(text) ||
         sci.includes(text)  || desc.includes(text);
-      const matchType  = !activeType  || type === activeType;
-      const matchGroup = !activeGroup || group === activeGroup;
-      const matchTag   = !activeTag   || tags.split(',').includes(activeTag);
+      const matchType    = !activeType    || type === activeType;
+      const matchGroup   = !activeGroup   || group === activeGroup;
+      const matchLineage = !activeLineage || lin.split(',').includes(activeLineage);
+      const matchTag     = !activeTag     || tags.split(',').includes(activeTag);
 
-      if (matchSearch && matchType && matchGroup && matchTag) {
+      if (matchSearch && matchType && matchGroup && matchLineage && matchTag) {
         card.classList.remove('hidden');
         visible.push(card);
       } else {
@@ -317,6 +345,15 @@ const allTags = [...new Set(varieties.flatMap(v => v.tags))];
       kindBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       activeType = btn.dataset.type ?? '';
+      update();
+    });
+  });
+
+  linBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      linBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeLineage = btn.dataset.lin ?? '';
       update();
     });
   });
