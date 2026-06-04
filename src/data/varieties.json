@@ -533,5 +533,36 @@
     "description": "ビカクシダ属で唯一、南米大陸（アンデス東麓）に自生する貴重な原種。長く垂れ下がる白毛の胞子葉が美しく、旧世界の白毛種とは独立に進化した点でも学術的に興味深い。自生地が限られ流通も少ないため、入手難易度・希少性ともに非常に高い。",
     "notes": "新大陸唯一のビカクシダとして特別な位置づけ。自生地は乱獲・環境破壊で危機にあり、栽培株の保全が重要。",
     "iNatUrl": "https://www.inaturalist.org/taxa/790656"
+  },
+  {
+    "id": "jade-girl",
+    "name": "ジェイドガール",
+    "nameEn": "Jade Girl",
+    "scientificName": "Platycerium willinckii 'Jade Girl'",
+    "group": "東南アジア系",
+    "type": "品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": "小型（コンパクトに育つ矮性）",
+    "shieldFrond": "上部が細かく裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "短めで密に分岐し、白毛に覆われてこんもりまとまる",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。密な草姿が蒸れないよう風通しよく",
+    "humidity": "高め",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Platycerium_willinckii_%22Jade_girl%22.jpg",
+    "imageCredit": "(c) Slience Suzuka, CC BY-SA 4.0 (Wikimedia Commons)",
+    "instagramUrl": "https://www.instagram.com/p/DGiBwafS7Ff/",
+    "tags": [
+      "園芸品種",
+      "ウィリンキー系",
+      "白毛",
+      "矮性",
+      "人気"
+    ],
+    "description": "ウィリンキー（P. willinckii）から選抜された矮性（ドワーフ）の人気園芸品種。親譲りの白い毛をまといつつコンパクトにまとまるため、小スペースでも飾りやすい。胞子葉が密に分岐し、銀緑のこんもりした草姿が愛らしいと評判で、willinckii系の入門的な品種としても人気が高い。",
+    "notes": "'ジェイドガール' はビカクシダ趣味で定番の選抜品種。矮性なので大型化せず、棚や壁面コレクションに向く。CC画像が存在する数少ない品種。",
+    "iNatUrl": "https://commons.wikimedia.org/w/index.php?curid=128721575"
   }
 ]
