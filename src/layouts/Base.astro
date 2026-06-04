@@ -1,0 +1,107 @@
+---
+export interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = 'ビカクシダ（コウモリラン）の品種図鑑。ビフルカツム・リドレイ・グランデなど原種を中心に、特徴・育て方を詳しく解説。' } = Astro.props;
+---
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green-dark:  #1d3528;
+      --green-mid:   #356048;
+      --green-light: #5aa873;
+      --accent:      #b5743a;
+      --bg:          #f3f1e9;
+      --card-bg:     #ffffff;
+      --text:        #2a2a2a;
+      --text-muted:  #666;
+      --border:      #d9d4c6;
+    }
+
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: var(--green-dark);
+      color: #fff;
+      padding: 0 1.5rem;
+    }
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+    .site-logo {
+      font-size: 1.3rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: #fff;
+      letter-spacing: 0.05em;
+    }
+    .site-logo span { color: var(--accent); }
+
+    nav a {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+      font-size: 0.9rem;
+      margin-left: 1.5rem;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: #fff; }
+
+    main {
+      flex: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      width: 100%;
+      padding: 2rem 1.5rem;
+    }
+
+    footer {
+      background: var(--green-dark);
+      color: rgba(255,255,255,0.6);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="/" class="site-logo">🦌 ビカクシダ<span>図鑑</span></a>
+      <nav>
+        <a href="/">原種一覧</a>
+        <a href="/#about">このサイトについて</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <slot />
+  </main>
+  <footer>
+    <p>© 2026 ビカクシダ図鑑 — データは随時更新中</p>
+  </footer>
+</body>
+</html>
