@@ -3,6 +3,9 @@ import Base from '../layouts/Base.astro';
 import VarietyCard from '../components/VarietyCard.astro';
 import varieties from '../data/varieties.json';
 
+// デフォルト表示は「新しく追加した順」（JSON末尾＝新規が先頭に来るよう逆順）
+const displayVarieties = [...varieties].reverse();
+
 const groups  = [...new Set(varieties.map(v => v.group))];
 const types   = [...new Set(varieties.map(v => v.type))];
 const allTags = [...new Set(varieties.flatMap(v => v.tags))];
@@ -93,7 +96,7 @@ const lineageChips = [...new Set(
 
   <!-- カードグリッド -->
   <div class="grid" id="grid">
-    {varieties.map((v, i) => (
+    {displayVarieties.map((v, i) => (
       <div
         class="card-wrap"
         data-index={i}
