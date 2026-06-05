@@ -12,7 +12,7 @@ const ROOT = path.resolve(__dirname, '../../');
 const CAND = path.join(__dirname, 'candidates.json');
 const PICKS = path.join(__dirname, 'picks.json');
 const DATA = path.join(ROOT, 'src/data/varieties.json');
-const PORT = 4399;
+const PORT = Number(process.env.PICKER_PORT) || 4399;
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36';
 
 const readJSON = (p, def) => { try { return JSON.parse(fs.readFileSync(p, 'utf-8')); } catch { return def; } };
