@@ -3046,5 +3046,1637 @@
     "lineage": [
       "bifurcatum"
     ]
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "nameEn": "貯水葉が横へ張り出し、胞子葉が非常に長く垂れ下がるジャワ産の代表的フォーム。野生味のある雄大な草姿が魅力。",
+    "scientificName": "Platycerium willinckii '貯水葉が横へ張り出し、胞子葉が非常に長く垂れ下がるジャワ産の代表的フォーム。野生味のある雄大な草姿が魅力。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "rarity": 2,
+      "tags": [
+        "垂れ葉",
+        "白毛"
+      ],
+      "note": "P. willinckii のジャワ産基本フォーム。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中〜大型（胞子葉が長く垂れる）",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "payton",
+    "name": "Payton",
+    "nameEn": "茶色く色づく貯水葉と白緑の胞子葉のコントラストが美しい選抜。",
+    "scientificName": "Platycerium willinckii '茶色く色づく貯水葉と白緑の胞子葉のコントラストが美しい選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "白毛"
+      ],
+      "note": "P. willinckii の選抜（Rainforest Flora 由来とされる）。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "bloomei",
+    "name": "Bloomei",
+    "nameEn": "かつてヒリー系に分類されたが、現在はウィリンキー系とされる選抜。幅広い胞子葉を持つ。",
+    "scientificName": "Platycerium willinckii 'かつてヒリー系に分類されたが、現在はウィリンキー系とされる選抜。幅広い胞子葉を持つ。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "note": "P. willinckii の選抜（旧ヒリー系とされた）。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "schofield",
+    "name": "Schofield",
+    "nameEn": "非常に長く深く裂ける胞子葉が120cm近くまで伸びる、迫力ある選抜。",
+    "scientificName": "Platycerium willinckii '非常に長く深く裂ける胞子葉が120cm近くまで伸びる、迫力ある選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "垂れ葉"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "大型（胞子葉が長く垂れる）",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "king-boko",
+    "name": "King Boko",
+    "nameEn": "ヒリーを思わせる短い指状の幅広い胞子葉を持つ選抜。",
+    "scientificName": "Platycerium willinckii 'ヒリーを思わせる短い指状の幅広い胞子葉を持つ選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {},
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "little-will",
+    "name": "Little Will",
+    "nameEn": "幅広く短い葉を持つ小型個体。貯水葉をあまり出さずコンパクトにまとまる。",
+    "scientificName": "Platycerium willinckii '幅広く短い葉を持つ小型個体。貯水葉をあまり出さずコンパクトにまとまる。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "矮性"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "小型（矮性）",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "weeks",
+    "name": "Weeks",
+    "nameEn": "胞子嚢が展開するにつれ胞子葉の先端が独特にカールする選抜。",
+    "scientificName": "Platycerium willinckii '胞子嚢が展開するにつれ胞子葉の先端が独特にカールする選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "個性派"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "piti",
+    "name": "Piti",
+    "nameEn": "胞子葉の数が多く、貯水葉が濃い緑を長く保つ選抜。",
+    "scientificName": "Platycerium willinckii '胞子葉の数が多く、貯水葉が濃い緑を長く保つ選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {},
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "mount-lewis",
+    "name": "Mount Lewis",
+    "nameEn": "マウントルイス産系統として知られるウィリンキー。",
+    "scientificName": "Platycerium willinckii 'マウントルイス産系統として知られるウィリンキー。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "note": "P. willinckii の産地系統。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "little-moon",
+    "name": "Little Moon",
+    "nameEn": "ムーンシリーズの小型選抜。白毛をまとった愛らしい草姿。",
+    "scientificName": "Platycerium willinckii 'ムーンシリーズの小型選抜。白毛をまとった愛らしい草姿。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "矮性",
+        "ムーンシリーズ"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "小型（矮性）",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "new-moon",
+    "name": "New Moon",
+    "nameEn": "ムーンシリーズの白系選抜。",
+    "scientificName": "Platycerium willinckii 'ムーンシリーズの白系選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "白毛",
+        "ムーンシリーズ"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "river-moon",
+    "name": "River Moon",
+    "nameEn": "ムーンシリーズの選抜のひとつ。",
+    "scientificName": "Platycerium willinckii 'ムーンシリーズの選抜のひとつ。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "ムーンシリーズ"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "siamwillin",
+    "name": "Siamwillin",
+    "nameEn": "タイで育成・流通するウィリンキー系統。",
+    "scientificName": "Platycerium willinckii 'タイで育成・流通するウィリンキー系統。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {},
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "typhoon",
+    "name": "Typhoon",
+    "nameEn": "胞子葉が荒々しく暴れる個性派の選抜。",
+    "scientificName": "Platycerium willinckii '胞子葉が荒々しく暴れる個性派の選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "個性派"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中〜大型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "copperwill",
+    "name": "Copperwill",
+    "nameEn": "銅色を帯びた毛が特徴のウィリンキー選抜。",
+    "scientificName": "Platycerium willinckii '銅色を帯びた毛が特徴のウィリンキー選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "銀葉"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "pygmaeum",
+    "name": "Pygmaeum",
+    "nameEn": "極小型に育つ矮性選抜。",
+    "scientificName": "Platycerium willinckii '極小型に育つ矮性選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "rarity": 4,
+      "tags": [
+        "矮性",
+        "極小"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "極小型（矮性）",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "scissorhands",
+    "name": "Scissorhands",
+    "nameEn": "ハサミ（シザーハンズ）のように鋭く分岐する胞子葉の個性派。",
+    "scientificName": "Platycerium willinckii 'ハサミ（シザーハンズ）のように鋭く分岐する胞子葉の個性派。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "個性派"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "trex",
+    "name": "T-rex",
+    "nameEn": "恐竜の名を冠した力強い草姿の選抜。",
+    "scientificName": "Platycerium willinckii '恐竜の名を冠した力強い草姿の選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "個性派"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中〜大型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "bali",
+    "name": "Bali",
+    "nameEn": "バリ島産のウィリンキーフォーム。",
+    "scientificName": "Platycerium willinckii 'バリ島産のウィリンキーフォーム。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "note": "P. willinckii のバリ島産フォーム。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "timun-emas",
+    "name": "Timun Emas",
+    "nameEn": "インドネシアで育成された選抜。",
+    "scientificName": "Platycerium willinckii 'インドネシアで育成された選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {},
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "little-angel",
+    "name": "Little Angel",
+    "nameEn": "白毛をまとった小型の愛らしい選抜。",
+    "scientificName": "Platycerium willinckii '白毛をまとった小型の愛らしい選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "矮性",
+        "白毛"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "小型（矮性）",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "smurf",
+    "name": "Smurf",
+    "nameEn": "青みを帯びた小型の選抜。",
+    "scientificName": "Platycerium willinckii '青みを帯びた小型の選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "銀葉",
+        "矮性"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "小型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "antler-crown",
+    "name": "Antler Crown",
+    "nameEn": "鹿の角のような胞子葉が王冠状に立ち上がる選抜。",
+    "scientificName": "Platycerium willinckii '鹿の角のような胞子葉が王冠状に立ち上がる選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "個性派"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中〜大型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "lucky-girl",
+    "name": "Lucky Girl",
+    "nameEn": "整った白毛の草姿で流通する選抜。",
+    "scientificName": "Platycerium willinckii '整った白毛の草姿で流通する選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "tags": [
+        "白毛"
+      ]
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "wild-indonesia",
+    "name": "Wild Indonesia",
+    "nameEn": "インドネシア野生由来のワイルドな草姿のフォーム。",
+    "scientificName": "Platycerium willinckii 'インドネシア野生由来のワイルドな草姿のフォーム。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "note": "P. willinckii の野生インドネシア産フォーム。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中〜大型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "sawangensis",
+    "name": "Sawangensis",
+    "nameEn": "ジャワのサワンゲン産フォームとして知られる。",
+    "scientificName": "Platycerium willinckii 'ジャワのサワンゲン産フォームとして知られる。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "note": "P. willinckii の産地フォーム。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "chin-chuck",
+    "name": "Chin Chuck",
+    "nameEn": "ウィリンキー系の選抜のひとつ。",
+    "scientificName": "Platycerium willinckii 'ウィリンキー系の選抜のひとつ。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "fairchild",
+    "name": "Fairchild",
+    "nameEn": "細い帯状の胞子葉が二又に分岐する選抜（Fairchild Tropical Garden 由来）。",
+    "scientificName": "Platycerium willinckii '細い帯状の胞子葉が二又に分岐する選抜（Fairchild Tropical Garden 由来）。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {},
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "kingii",
+    "name": "Kingii",
+    "nameEn": "ウィリンキー系の古い選抜名。",
+    "scientificName": "Platycerium willinckii 'ウィリンキー系の古い選抜名。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "miami",
+    "name": "Miami",
+    "nameEn": "流通するウィリンキー系の選抜。",
+    "scientificName": "Platycerium willinckii '流通するウィリンキー系の選抜。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "balee",
+    "name": "Balee",
+    "nameEn": "ウィリンキー系の選抜・フォーム。",
+    "scientificName": "Platycerium willinckii 'ウィリンキー系の選抜・フォーム。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "doc",
+    "name": "Doc",
+    "nameEn": "ウィリンキー系の選抜として流通する。",
+    "scientificName": "Platycerium willinckii 'ウィリンキー系の選抜として流通する。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "zion",
+    "name": "Zion",
+    "nameEn": "ウィリンキー系の選抜として流通する。",
+    "scientificName": "Platycerium willinckii 'ウィリンキー系の選抜として流通する。'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "size": {
+      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
+    },
+    "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ウィリンキー系"
+    ],
+    "description": "中型",
+    "notes": "P. willinckii の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "willinckii"
+    ]
+  },
+  {
+    "id": "popcorn",
+    "name": "ポップコーン",
+    "nameEn": "Popcorn",
+    "scientificName": "Platycerium bifurcatum 'Popcorn'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ビフルカツムの選抜）",
+    "size": "中型",
+    "shieldFrond": "丸い盾形で群生株を作る",
+    "foliarFrond": "胞子葉が二又に分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "強（0〜5℃まで耐える）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "やや高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ビフルカツム系",
+      "丈夫",
+      "人気"
+    ],
+    "description": "ポップコーンのように丸くこんもりと密に茂る人気のビフルカツム選抜。丈夫で育てやすい。",
+    "notes": "P. bifurcatum の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "bifurcatum"
+    ]
+  },
+  {
+    "id": "short-borthong",
+    "name": "ショートボートン",
+    "nameEn": "Short Borthong",
+    "scientificName": "Platycerium bifurcatum 'Short Borthong'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ビフルカツムの選抜）",
+    "size": "中型",
+    "shieldFrond": "丸い盾形で群生株を作る",
+    "foliarFrond": "胞子葉が二又に分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "強（0〜5℃まで耐える）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "やや高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ビフルカツム系",
+      "丈夫"
+    ],
+    "description": "タイの選抜で、短くまとまる草姿のビフルカツム。",
+    "notes": "P. bifurcatum の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "bifurcatum"
+    ]
+  },
+  {
+    "id": "blue-borthong",
+    "name": "ブルーボートン",
+    "nameEn": "Blue Borthong",
+    "scientificName": "Platycerium bifurcatum 'Blue Borthong'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ビフルカツムの選抜）",
+    "size": "中型",
+    "shieldFrond": "丸い盾形で群生株を作る",
+    "foliarFrond": "胞子葉が二又に分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "強（0〜5℃まで耐える）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "やや高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ビフルカツム系",
+      "銀葉"
+    ],
+    "description": "青みを帯びた葉が美しいボートン系のビフルカツム選抜。",
+    "notes": "P. bifurcatum の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "bifurcatum"
+    ]
+  },
+  {
+    "id": "majus",
+    "name": "マジュス",
+    "nameEn": "Majus",
+    "scientificName": "Platycerium bifurcatum 'Majus'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ビフルカツムの選抜）",
+    "size": "大型（株張り60cm前後）",
+    "shieldFrond": "丸い盾形で群生株を作る",
+    "foliarFrond": "胞子葉が二又に分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "強（0〜5℃まで耐える）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "やや高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ビフルカツム系",
+      "大型",
+      "丈夫"
+    ],
+    "description": "大型に育つビフルカツムの古典的選抜。",
+    "notes": "P. bifurcatum の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "bifurcatum"
+    ]
+  },
+  {
+    "id": "ziesenhenne",
+    "name": "ジーセンヘン",
+    "nameEn": "Ziesenhenne",
+    "scientificName": "Platycerium bifurcatum 'Ziesenhenne'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ビフルカツムの選抜）",
+    "size": "中型",
+    "shieldFrond": "丸い盾形で群生株を作る",
+    "foliarFrond": "胞子葉が二又に分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "強（0〜5℃まで耐える）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "やや高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ビフルカツム系",
+      "丈夫",
+      "古典品種"
+    ],
+    "description": "著名な園芸家ジーセンヘンに由来する古典的なビフルカツム選抜。",
+    "notes": "P. bifurcatum の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "bifurcatum"
+    ]
+  },
+  {
+    "id": "tom-crain",
+    "name": "トムクレイン",
+    "nameEn": "Tom Crain",
+    "scientificName": "Platycerium bifurcatum 'Tom Crain'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ビフルカツムの選抜）",
+    "size": "中型",
+    "shieldFrond": "丸い盾形で群生株を作る",
+    "foliarFrond": "胞子葉が二又に分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "強（0〜5℃まで耐える）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "やや高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ビフルカツム系",
+      "丈夫"
+    ],
+    "description": "丈夫で群生しやすいビフルカツムの選抜。",
+    "notes": "P. bifurcatum の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "bifurcatum"
+    ]
+  },
+  {
+    "id": "bif-special",
+    "name": "ビフスペシャル",
+    "nameEn": "Bif Special",
+    "scientificName": "Platycerium bifurcatum 'Bif Special'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ビフルカツムの選抜）",
+    "size": "中型",
+    "shieldFrond": "丸い盾形で群生株を作る",
+    "foliarFrond": "胞子葉が二又に分岐して展開する",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "強（0〜5℃まで耐える）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "やや高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ビフルカツム系",
+      "丈夫"
+    ],
+    "description": "ビフルカツムの選抜のひとつ。",
+    "notes": "P. bifurcatum の選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "bifurcatum"
+    ]
+  },
+  {
+    "id": "hula-hands",
+    "name": "フラハンズ",
+    "nameEn": "Hula Hands",
+    "scientificName": "Platycerium hillii 'Hula Hands'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（ヒリーの選抜）",
+    "size": "中型",
+    "shieldFrond": "丸く縁が滑らかで濃緑",
+    "foliarFrond": "深く細かく裂けて手のように広がる濃緑の胞子葉",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "中（5℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "やや高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "ヒリー系",
+      "個性派",
+      "丈夫"
+    ],
+    "description": "胞子葉が深く細かく裂け、踊る手（フラハンズ）のように見える人気のヒリー系選抜。仔株をよく出し丈夫。",
+    "notes": "P. hillii の選抜（'Hula Hand' とも表記）。",
+    "iNatUrl": null,
+    "lineage": [
+      "hillii"
+    ]
+  },
+  {
+    "id": "ridleyi-pakarang",
+    "name": "パカラン",
+    "nameEn": "Pakarang",
+    "scientificName": "Platycerium ridleyi 'Pakarang'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（リドレイの選抜）",
+    "size": "中型",
+    "shieldFrond": "脳状の網目の凹凸を持ち球状に包む",
+    "foliarFrond": "細かく分岐して珊瑚状に広がる角状の胞子葉",
+    "rarity": 4,
+    "difficulty": 3,
+    "coldResistance": "弱（最低15℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "やや高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "リドレイ系",
+      "希少",
+      "個性派"
+    ],
+    "description": "タイ語で「サンゴ」を意味する、細かく分岐する胞子葉が珊瑚状に広がるリドレイ選抜。",
+    "notes": "P. ridleyi の選抜（Pakarang＝珊瑚）。",
+    "iNatUrl": null,
+    "lineage": [
+      "ridleyi"
+    ]
+  },
+  {
+    "id": "ridleyi-dwarf-silver",
+    "name": "ドワーフシルバー",
+    "nameEn": "Dwarf Silver",
+    "scientificName": "Platycerium ridleyi 'Dwarf Silver'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "園芸品種（リドレイの選抜）",
+    "size": "小型（矮性）",
+    "shieldFrond": "脳状の網目の凹凸を持ち球状に包む",
+    "foliarFrond": "角状に直立し銀色を帯びる",
+    "rarity": 4,
+    "difficulty": 3,
+    "coldResistance": "弱（最低15℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "やや高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "リドレイ系",
+      "希少",
+      "銀葉",
+      "矮性"
+    ],
+    "description": "小型で銀色を帯びるリドレイの選抜。",
+    "notes": "P. ridleyi の小型選抜。",
+    "iNatUrl": null,
+    "lineage": [
+      "ridleyi"
+    ]
+  },
+  {
+    "id": "diversifolium",
+    "name": "ディバーシフォリウム",
+    "nameEn": "Diversifolium",
+    "scientificName": "Platycerium 'Diversifolium'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "ウィリンキー／ビフルカツム近縁の分類群（諸説あり）",
+    "size": "中型",
+    "shieldFrond": "上部が裂けて立ち上がり白い毛をまとう",
+    "foliarFrond": "白毛をまとい分岐して垂れる",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "白毛",
+      "個性派"
+    ],
+    "description": "ウィリンキーやビフルカツムに近縁とされる分類群。白毛をまとった胞子葉を持ち、白系交配（オモ等）の親としても重要視される。分類上の扱いには諸説ある。",
+    "notes": "分類には諸説あり（P. bifurcatum/willinckii 近縁）。'Omo' 等の白系交配の親。",
+    "iNatUrl": null,
+    "lineage": [
+      "bifurcatum"
+    ]
+  },
+  {
+    "id": "cross-bifurcatum-veitchii",
+    "name": "ビフルカツム × ベイチー",
+    "nameEn": "P. bifurcatum × veitchii",
+    "scientificName": "Platycerium bifurcatum × veitchii",
+    "group": "交配種",
+    "type": "交配種",
+    "origin": "園芸交配種（種間交配）",
+    "size": "中型（両親による）",
+    "shieldFrond": "両親の中間的な貯水葉",
+    "foliarFrond": "両親の形質を受け継いだ胞子葉",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10〜12℃）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。蒸れないよう風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "交配種",
+      "丈夫",
+      "銀葉"
+    ],
+    "description": "ビフルカツム（P. bifurcatum）とベイチー（P. veitchii）の種間交配。両種の特徴を併せ持つ園芸交配で、親の組み合わせならではの草姿が楽しめる。古くから作られる丈夫な銀葉系の交配。",
+    "notes": "交配親は P. bifurcatum × P. veitchii。両親の血を引くため、血統フィルターで両種から辿れる。",
+    "iNatUrl": null,
+    "lineage": [
+      "bifurcatum",
+      "veitchii"
+    ]
+  },
+  {
+    "id": "cross-bifurcatum-willinckii",
+    "name": "ビフルカツム × ウィリンキー",
+    "nameEn": "P. bifurcatum × willinckii",
+    "scientificName": "Platycerium bifurcatum × willinckii",
+    "group": "交配種",
+    "type": "交配種",
+    "origin": "園芸交配種（種間交配）",
+    "size": "中型（両親による）",
+    "shieldFrond": "両親の中間的な貯水葉",
+    "foliarFrond": "両親の形質を受け継いだ胞子葉",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10〜12℃）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。蒸れないよう風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "交配種",
+      "丈夫",
+      "白毛"
+    ],
+    "description": "ビフルカツム（P. bifurcatum）とウィリンキー（P. willinckii）の種間交配。両種の特徴を併せ持つ園芸交配で、親の組み合わせならではの草姿が楽しめる。丈夫さと白毛の優美さを兼ねる普及交配。",
+    "notes": "交配親は P. bifurcatum × P. willinckii。両親の血を引くため、血統フィルターで両種から辿れる。",
+    "iNatUrl": null,
+    "lineage": [
+      "bifurcatum",
+      "willinckii"
+    ]
+  },
+  {
+    "id": "cross-hillii-veitchii",
+    "name": "ヒリー × ベイチー",
+    "nameEn": "P. hillii × veitchii",
+    "scientificName": "Platycerium hillii × veitchii",
+    "group": "交配種",
+    "type": "交配種",
+    "origin": "園芸交配種（種間交配）",
+    "size": "中型（両親による）",
+    "shieldFrond": "両親の中間的な貯水葉",
+    "foliarFrond": "両親の形質を受け継いだ胞子葉",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10〜12℃）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。蒸れないよう風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "交配種",
+      "丈夫",
+      "銀葉"
+    ],
+    "description": "ヒリー（P. hillii）とベイチー（P. veitchii）の種間交配。両種の特徴を併せ持つ園芸交配で、親の組み合わせならではの草姿が楽しめる。",
+    "notes": "交配親は P. hillii × P. veitchii。両親の血を引くため、血統フィルターで両種から辿れる。",
+    "iNatUrl": null,
+    "lineage": [
+      "hillii",
+      "veitchii"
+    ]
+  },
+  {
+    "id": "cross-coronarium-willinckii",
+    "name": "コロナリウム × ウィリンキー",
+    "nameEn": "P. coronarium × willinckii",
+    "scientificName": "Platycerium coronarium × willinckii",
+    "group": "交配種",
+    "type": "交配種",
+    "origin": "園芸交配種（種間交配）",
+    "size": "大型（胞子葉が長く垂れる）",
+    "shieldFrond": "両親の中間的な貯水葉",
+    "foliarFrond": "両親の形質を受け継いだ胞子葉",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10〜12℃）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。蒸れないよう風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "交配種",
+      "垂れ葉"
+    ],
+    "description": "コロナリウム（P. coronarium）とウィリンキー（P. willinckii）の種間交配。両種の特徴を併せ持つ園芸交配で、親の組み合わせならではの草姿が楽しめる。",
+    "notes": "交配親は P. coronarium × P. willinckii。両親の血を引くため、血統フィルターで両種から辿れる。",
+    "iNatUrl": null,
+    "lineage": [
+      "coronarium",
+      "willinckii"
+    ]
+  },
+  {
+    "id": "cross-superbum-coronarium",
+    "name": "スパーバム × コロナリウム",
+    "nameEn": "P. superbum × coronarium",
+    "scientificName": "Platycerium superbum × coronarium",
+    "group": "交配種",
+    "type": "交配種",
+    "origin": "園芸交配種（種間交配）",
+    "size": "大型（王冠状）",
+    "shieldFrond": "両親の中間的な貯水葉",
+    "foliarFrond": "両親の形質を受け継いだ胞子葉",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10〜12℃）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。蒸れないよう風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "交配種",
+      "大型"
+    ],
+    "description": "スパーバム（P. superbum）とコロナリウム（P. coronarium）の種間交配。両種の特徴を併せ持つ園芸交配で、親の組み合わせならではの草姿が楽しめる。",
+    "notes": "交配親は P. superbum × P. coronarium。両親の血を引くため、血統フィルターで両種から辿れる。",
+    "iNatUrl": null,
+    "lineage": [
+      "superbum",
+      "coronarium"
+    ]
+  },
+  {
+    "id": "cross-grande-willinckii",
+    "name": "グランデ × ウィリンキー",
+    "nameEn": "P. grande × willinckii",
+    "scientificName": "Platycerium grande × willinckii",
+    "group": "交配種",
+    "type": "交配種",
+    "origin": "園芸交配種（種間交配）",
+    "size": "大型",
+    "shieldFrond": "両親の中間的な貯水葉",
+    "foliarFrond": "両親の形質を受け継いだ胞子葉",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10〜12℃）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。蒸れないよう風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "tags": [
+      "交配種"
+    ],
+    "description": "グランデ（P. grande）とウィリンキー（P. willinckii）の種間交配。両種の特徴を併せ持つ園芸交配で、親の組み合わせならではの草姿が楽しめる。",
+    "notes": "交配親は P. grande × P. willinckii。両親の血を引くため、血統フィルターで両種から辿れる。",
+    "iNatUrl": null,
+    "lineage": [
+      "grande",
+      "willinckii"
+    ]
   }
 ]
