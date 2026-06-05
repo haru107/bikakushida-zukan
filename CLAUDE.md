@@ -7,7 +7,7 @@
 - 構成: Astro 静的サイト / Cloudflare Pages 公開（月額0円）
 - リポジトリ: https://github.com/haru107/bikakushida-zukan （default: main）
 - 公開URL: **https://bikakushida-zukan.pages.dev**
-- 現在 **84種**（原種18 / 選抜品種41 / 交配種25）。写真は54種設定済み、残り23種は「画像募集中」
+- 現在 **95種**（原種18 / 選抜品種45 / 交配種32）。写真54種設定済み、残り34種は「画像募集中」（写真選定で順次設定）
 
 ## デプロイ（手動 wrangler 運用）
 ```

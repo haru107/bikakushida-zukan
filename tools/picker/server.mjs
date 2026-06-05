@@ -62,6 +62,44 @@ async function getImage(code) {
   return out;
 }
 
+const capCache = new Map(); // code -> {username, caption}
+function jsonUnescape(s) {
+  try { return JSON.parse('"' + s + '"'); } catch { return s.replace(/\\n/g, '\n').replace(/\\"/g, '"').replace(/\\\//g, '/'); }
+}
+function decodeEntities(s) {
+  return s
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(parseInt(d, 10)))
+    .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'")
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ');
+}
+async function getCaption(code) {
+  if (capCache.has(code)) return capCache.get(code);
+  const html = await fetchText(`https://www.instagram.com/p/${code}/embed/captioned/`);
+  let caption = '', username = '';
+  // ユーザー名（Captionブロック先頭のリンク or JSON）
+  let um = html.match(/class="Username"[^>]*>([^<]+)</) || html.match(/"owner":\{"[^}]*?"username":"((?:[^"\\]|\\.)*)"/) || html.match(/"username":"((?:[^"\\]|\\.)*)"/);
+  if (um) username = jsonUnescape(um[1]).trim();
+  // 本文：まずクリーンなJSON、無ければHTMLのCaptionブロック
+  let m = html.match(/"edge_media_to_caption":\{"edges":\[\{"node":\{"text":"((?:[^"\\]|\\.)*)"/);
+  if (m) caption = jsonUnescape(m[1]);
+  if (!caption) { m = html.match(/"caption":"((?:[^"\\]|\\.)*)"/); if (m) caption = jsonUnescape(m[1]); }
+  if (!caption) {
+    m = html.match(/<div class="Caption"[^>]*>([\s\S]*?)<\/div>\s*<\/div>/);
+    if (m) {
+      let block = m[1];
+      // 先頭のユーザー名リンクを除去（本文と分離）
+      block = block.replace(/^[\s\S]*?<a[^>]*class="Username"[^>]*>[^<]*<\/a>/, '');
+      caption = block.replace(/<[^>]+>/g, '').trim();
+    }
+  }
+  caption = decodeEntities(caption || '').replace(/ /g, ' ').trim();
+  if (username && caption.startsWith(username)) caption = caption.slice(username.length).replace(/^[\s:：・]+/, '');
+  const out = { username, caption: caption.slice(0, 1500) };
+  capCache.set(code, out);
+  return out;
+}
+
 const HTML = `<!doctype html><html lang="ja"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ビカクシダ図鑑 — Instagram選定ツール</title>
@@ -82,7 +120,12 @@ const HTML = `<!doctype html><html lang="ja"><head><meta charset="utf-8">
   .col .imgwrap{flex:1;min-height:0;position:relative;background:#eee}
   .col img{width:100%;height:100%;object-fit:cover;display:block}
   .col .num{position:absolute;top:8px;left:8px;width:30px;height:30px;line-height:30px;text-align:center;background:rgba(29,53,40,.85);color:#fff;border-radius:8px;font-weight:700;font-size:16px;z-index:2}
-  .col .cap{flex:none;padding:8px;text-align:center;font-size:13px;font-weight:700;color:#356048;background:#fff}
+  .col .cap{flex:none;padding:6px 8px;display:flex;align-items:center;justify-content:space-between;gap:6px;font-size:13px;font-weight:700;color:#356048;background:#fff;border-top:1px solid #eee}
+  .col .capbox{flex:none;height:96px;overflow:auto;padding:7px 9px;font-size:11.5px;line-height:1.5;color:#444;background:#fbfaf5;border-top:1px solid #eee;text-align:left;white-space:pre-wrap;word-break:break-word}
+  .col .capbox .user{font-weight:700;color:#1d3528}
+  .col .capbox.loading{color:#aaa}
+  .openlink{flex:none;font-size:11px;font-weight:700;color:#fff;background:#356048;border-radius:6px;padding:3px 8px;text-decoration:none;white-space:nowrap}
+  .openlink:hover{background:#5aa873}
   .col.curbadge .num{background:#b5743a}
   .noimg{display:flex;align-items:center;justify-content:center;height:100%;color:#999;font-size:12px;padding:10px;text-align:center}
   .actions{flex:none;display:flex;gap:10px;align-items:center}
@@ -110,7 +153,9 @@ function render(){
     const isCur=it.current&&c.url.replace(/\\/$/,'')===it.current.replace(/\\/$/,'');
     const code=codeOf(c.url);
     const inner='<div class="imgwrap"><span class="num">'+(i+1)+'</span><img class="cand" src="/img?code='+code+'" loading="eager"></div>';
-    return '<div class="col'+(isCur?' curbadge':'')+'" onclick="choose(\\''+c.url+'\\')">'+inner+'<div class="cap">'+(i+1)+(isCur?'（現在）':'')+'</div></div>';
+    const capbox='<div class="capbox loading" id="cap-'+code+'" onclick="event.stopPropagation()">本文読み込み中…</div>';
+    const foot='<div class="cap"><span>'+(i+1)+(isCur?'（現在）':'')+'</span><a class="openlink" href="'+c.url+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">🔗 投稿を開く</a></div>';
+    return '<div class="col'+(isCur?' curbadge':'')+'" onclick="choose(\\''+c.url+'\\')">'+inner+capbox+foot+'</div>';
   }).join('');
   $('app').innerHTML='<div class="head"><span class="name">'+it.name+'</span> <span class="sci">'+it.sci+'</span>'+
     '<div class="hint">写真をクリック、または キー '+it.candidates.map((_,i)=>i+1).join('/')+' で選択 ・ S=スキップ ・ ←戻る</div></div>'+
@@ -119,6 +164,21 @@ function render(){
   document.querySelectorAll('img.cand').forEach(img=>{
     img.onerror=function(){ this.onerror=null; this.style.display='none'; this.parentElement.insertAdjacentHTML('beforeend','<div class="noimg">画像読込不可<br>クリックで選択</div>'); };
   });
+  loadCaptions(it);
+}
+async function loadCaptions(it){
+  for(const c of it.candidates){
+    const code=codeOf(c.url); const box=$('cap-'+code); if(!box) continue;
+    try{
+      const d=await (await fetch('/cap?code='+code)).json();
+      box.classList.remove('loading');
+      if(d.caption||d.username){
+        box.textContent='';
+        if(d.username){ const u=document.createElement('span'); u.className='user'; u.textContent='@'+d.username+'  '; box.appendChild(u); }
+        box.appendChild(document.createTextNode(d.caption||'（本文なし）'));
+      } else { box.textContent='（本文を取得できませんでした）'; }
+    }catch(e){ box.classList.remove('loading'); box.textContent='（本文取得エラー）'; }
+  }
 }
 function renderDone(){
   const lines=STATE.items.filter(it=>STATE.picks[it.id]&&STATE.picks[it.id]!=='__skip__').map(it=>'  "'+it.id+'": "'+STATE.picks[it.id]+'"').join(',\\n');
@@ -146,6 +206,16 @@ const server = http.createServer(async (req, res) => {
       res.writeHead(200, { 'content-type': type, 'cache-control': 'max-age=86400' });
       res.end(buf);
     } catch (e) { res.writeHead(502); res.end(); }
+    return;
+  }
+  if (req.url.startsWith('/cap')) {
+    const code = new URL(req.url, 'http://x').searchParams.get('code');
+    if (!code) { res.writeHead(400); res.end('{}'); return; }
+    try {
+      const data = await getCaption(code);
+      res.writeHead(200, { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'max-age=86400' });
+      res.end(JSON.stringify(data));
+    } catch (e) { res.writeHead(200, {'content-type':'application/json'}); res.end('{"caption":"","username":""}'); }
     return;
   }
   if (req.url === '/api/pick' && req.method === 'POST') {
