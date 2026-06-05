@@ -1,0 +1,132 @@
+---
+import Base from '../layouts/Base.astro';
+
+const primary = [
+  { name: "Halling — Hobbyist's Guide to Identifying Platyceriums", note: '交配親リスト・原種・栽培品種の主軸', links: [
+    { label: '交配親インデックス（hybrid index）', url: 'https://www.halling.com/Platyceriums/hybrid_index.htm' },
+    { label: 'ウィリンキー品種一覧', url: 'https://www.halling.com/Platyceriums/Willinckii.htm' },
+    { label: 'トップ', url: 'https://halling.com/Platyceriums/Default.htm' },
+  ]},
+  { name: 'staghornfern.org', note: '交配ガイド・交配品種データベース（400件超）', links: [
+    { label: '交配ガイド', url: 'https://staghornfern.org/guides/platycerium-hybridization-guide/' },
+    { label: '交配品種データベース', url: 'https://staghornfern.org/database/hybrid-cultivar-database/' },
+    { label: 'ベイチー解説', url: 'https://staghornfern.org/guides/platycerium-veitchii-care/' },
+  ]},
+  { name: 'Tropical Addictions — Platycerium Cultivars', note: 'Tonkla作出品種・Elemaria等の交配親', links: [
+    { label: '品種一覧', url: 'https://www.tropicaladdictions.com/platycerium-cultivars/' },
+  ]},
+];
+
+const taxonomy = [
+  { label: 'Kew POWO — Platycerium × mentelosii', url: 'https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17448410-1' },
+  { label: 'GBIF — Platycerium × mentelosii', url: 'https://www.gbif.org/species/4024793' },
+  { label: 'ISHS — × kitshakoodiense（学名登録論文）', url: 'https://ishs.org/ishs-article/1025_11/' },
+  { label: 'ActaHort — × kitshakoodiense', url: 'https://www.actahort.org/books/1025/1025_11.htm' },
+];
+
+const breeder = [
+  { label: 'Tonkla Chantaburi Garden（育種家公式・交配親の一次情報）', url: 'https://www.facebook.com/tonklachantaburigarden' },
+];
+
+const vendors = [
+  { label: 'The Basements（Moe / Nano / Watchara “Fishbone”）', url: 'https://www.thebasements.com/collections/platycherium' },
+  { label: 'Rainforest Flora（Payton / Lemoinei）', url: 'https://rainforestflora.com/' },
+  { label: 'SibOrchid（Jenny / Kitshakood / Thin Thin）', url: 'https://siborchid.com/' },
+  { label: 'We Love Tropical Plants（Thin Thin / Jenny / Omo）', url: 'https://welovetropicalplants.com/' },
+  { label: 'Greenboog（ridleyi wide / coronarium thin・compact / diversifolium）', url: 'https://greenboog.com/' },
+  { label: 'SapphireChild Orchids（South Pole Star / Omo＝diversifolium×willinckii）', url: 'https://juliaredman.com/' },
+  { label: 'Fern Factory（willinckii Java / veitchii系）', url: 'https://www.fernfactory.com/' },
+  { label: 'Tropical Exotique（coronarium Thin Thin）', url: 'https://www.tropicalexotique.com/' },
+];
+
+const photos = [
+  { label: 'iNaturalist（原種のCC写真）', url: 'https://www.inaturalist.org' },
+  { label: 'Wikimedia Commons（ジェイドガールのCC写真ほか）', url: 'https://commons.wikimedia.org' },
+  { label: 'Instagram 公式埋め込み（品種写真／写真は埋め込みのみ・転載なし）', url: 'https://www.instagram.com' },
+];
+---
+
+<Base title="出典・参考資料 — ビカク図鑑">
+  <section class="intro">
+    <p class="label">SOURCES &amp; REFERENCES</p>
+    <h1>出典・参考資料</h1>
+    <p class="lead">本図鑑の品種データ（実在の確認・交配親・学名）は、以下の資料をもとに裏取りしています。捏造は行わず、交配親が不明なものは「諸説あり」と明記しています。</p>
+  </section>
+
+  <section class="block">
+    <h2>① 主要・権威ソース（品種名・交配親の主軸）</h2>
+    {primary.map(s => (
+      <div class="src">
+        <p class="src-name">{s.name}</p>
+        <p class="src-note">{s.note}</p>
+        <ul>
+          {s.links.map(l => <li><a href={l.url} target="_blank" rel="noopener">{l.label}</a></li>)}
+        </ul>
+      </div>
+    ))}
+  </section>
+
+  <section class="block">
+    <h2>② 学名・分類の確認（公的データベース）</h2>
+    <ul class="flat">
+      {taxonomy.map(l => <li><a href={l.url} target="_blank" rel="noopener">{l.label}</a></li>)}
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>③ 育種家の一次情報（交配親の確認）</h2>
+    <ul class="flat">
+      {breeder.map(l => <li><a href={l.url} target="_blank" rel="noopener">{l.label}</a></li>)}
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>④ 販売店・専門店（名称の実在・流通の補助確認）</h2>
+    <ul class="flat">
+      {vendors.map(l => <li><a href={l.url} target="_blank" rel="noopener">{l.label}</a></li>)}
+    </ul>
+  </section>
+
+  <section class="block">
+    <h2>⑤ 写真ソース</h2>
+    <ul class="flat">
+      {photos.map(l => <li><a href={l.url} target="_blank" rel="noopener">{l.label}</a></li>)}
+    </ul>
+  </section>
+
+  <section class="note-box">
+    <h2>信頼度についての注記</h2>
+    <ul>
+      <li><strong>固いデータ</strong>：Halling 交配インデックス・Tonkla 公式で<strong>交配親まで確認できたもの</strong>、Kew/IPNI で<strong>学名登録があるもの</strong>（× mentelosii, × kitshakoodiense など）。</li>
+      <li><strong>やや弱いデータ</strong>：一部のウィリンキー流通名は、Halling の「ネット出品から集めた名称リスト」が出典です。実在はするものの由来情報が薄いため、各品種の備考に「カタログ記載のフォーム／流通名」と明記しています。</li>
+      <li>写真は <strong>Instagram 公式埋め込み</strong> または <strong>CC ライセンス画像</strong>のみを使用し、ダウンロード転載は行っていません。</li>
+      <li>誤りや追加情報があれば歓迎します。情報は随時更新します。</li>
+    </ul>
+  </section>
+</Base>
+
+<style>
+  .intro { margin-bottom: 1.5rem; }
+  .label { font-size: 0.72rem; letter-spacing: 0.15em; color: var(--accent); font-weight: 700; margin-bottom: 0.4rem; }
+  h1 { font-size: 1.8rem; color: var(--green-dark); margin-bottom: 0.6rem; }
+  .lead { font-size: 0.92rem; line-height: 1.8; color: var(--text-muted); max-width: 760px; }
+
+  .block { margin-top: 2rem; }
+  .block h2 { font-size: 1.05rem; color: var(--green-dark); margin-bottom: 0.9rem; border-left: 4px solid var(--green-light); padding-left: 0.6rem; }
+
+  .src { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 1rem 1.2rem; margin-bottom: 0.8rem; }
+  .src-name { font-weight: 700; color: var(--green-mid); font-size: 0.95rem; }
+  .src-note { font-size: 0.8rem; color: var(--text-muted); margin: 0.2rem 0 0.6rem; }
+
+  ul { list-style: none; }
+  ul.flat { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 0.9rem 1.2rem; }
+  li { font-size: 0.88rem; line-height: 1.7; padding: 0.15rem 0; }
+  a { color: var(--green-mid); text-decoration: none; word-break: break-word; }
+  a:hover { text-decoration: underline; color: var(--green-light); }
+
+  .note-box { margin-top: 2.5rem; background: #fbfaf5; border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem 1.4rem; }
+  .note-box h2 { font-size: 1rem; color: var(--green-dark); margin-bottom: 0.7rem; }
+  .note-box ul { list-style: disc; padding-left: 1.2rem; }
+  .note-box li { font-size: 0.85rem; line-height: 1.8; color: var(--text-muted); }
+  .note-box strong { color: var(--text); }
+</style>
