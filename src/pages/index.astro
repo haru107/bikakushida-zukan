@@ -338,6 +338,16 @@ const lineageChips = [...new Set(
     visible.forEach(card => grid.appendChild(card));
 
     countEl.textContent = `${visible.length}種 表示中`;
+
+    // フィルタ状態をURLに反映（共有・ブックマーク用）
+    const p = new URLSearchParams();
+    if (text)          p.set('q',     searchEl.value.trim());
+    if (activeType)    p.set('type',  activeType);
+    if (activeGroup)   p.set('group', activeGroup);
+    if (activeLineage) p.set('lin',   activeLineage);
+    if (activeTag)     p.set('tag',   activeTag);
+    const qs = p.toString();
+    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
   }
 
   searchEl.addEventListener('input', update);
@@ -378,4 +388,21 @@ const lineageChips = [...new Set(
       update();
     });
   });
+
+  // URLパラメータから初期フィルタを適用（詳細ページのタグ・系統リンク等から遷移）
+  function applyParam(btns: NodeListOf<HTMLButtonElement>, key: string, value: string): string {
+    const target = Array.from(btns).find(b => (b.dataset[key] ?? '') === value);
+    if (!target) return '';
+    btns.forEach(b => b.classList.remove('active'));
+    target.classList.add('active');
+    return value;
+  }
+  const params = new URLSearchParams(location.search);
+  const q = params.get('q');
+  if (q) searchEl.value = q;
+  activeType    = applyParam(kindBtns,   'type',  params.get('type')  ?? '');
+  activeGroup   = applyParam(filterBtns, 'group', params.get('group') ?? '');
+  activeLineage = applyParam(linBtns,    'lin',   params.get('lin')   ?? '');
+  activeTag     = applyParam(tagBtns,    'tag',   params.get('tag')   ?? '');
+  if (q || activeType || activeGroup || activeLineage || activeTag) update();
 </script>

@@ -3049,23 +3049,16 @@
   },
   {
     "id": "java",
-    "name": "Java",
-    "nameEn": "貯水葉が横へ張り出し、胞子葉が非常に長く垂れ下がるジャワ産の代表的フォーム。野生味のある雄大な草姿が魅力。",
-    "scientificName": "Platycerium willinckii '貯水葉が横へ張り出し、胞子葉が非常に長く垂れ下がるジャワ産の代表的フォーム。野生味のある雄大な草姿が魅力。'",
+    "name": "ジャワ",
+    "nameEn": "Java",
+    "scientificName": "Platycerium willinckii 'Java'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "rarity": 2,
-      "tags": [
-        "垂れ葉",
-        "白毛"
-      ],
-      "note": "P. willinckii のジャワ産基本フォーム。"
-    },
+    "size": "中〜大型（胞子葉が長く垂れる）",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
-    "rarity": 3,
+    "rarity": 2,
     "difficulty": 3,
     "coldResistance": "弱〜中（最低10℃前後）",
     "light": "明るい日陰〜半日向",
@@ -3075,10 +3068,12 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "垂れ葉",
+      "白毛"
     ],
-    "description": "中〜大型（胞子葉が長く垂れる）",
-    "notes": "P. willinckii の選抜。",
+    "description": "貯水葉が横へ張り出し、胞子葉が非常に長く垂れ下がるジャワ産の代表的フォーム。野生味のある雄大な草姿が魅力。",
+    "notes": "P. willinckii のジャワ産基本フォーム。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -3086,18 +3081,13 @@
   },
   {
     "id": "payton",
-    "name": "Payton",
-    "nameEn": "茶色く色づく貯水葉と白緑の胞子葉のコントラストが美しい選抜。",
-    "scientificName": "Platycerium willinckii '茶色く色づく貯水葉と白緑の胞子葉のコントラストが美しい選抜。'",
+    "name": "ペイトン",
+    "nameEn": "Payton",
+    "scientificName": "Platycerium willinckii 'Payton'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "白毛"
-      ],
-      "note": "P. willinckii の選抜（Rainforest Flora 由来とされる）。"
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3110,10 +3100,11 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "白毛"
     ],
-    "description": "中型",
-    "notes": "P. willinckii の選抜。",
+    "description": "茶色く色づく貯水葉と白緑の胞子葉のコントラストが美しい選抜。",
+    "notes": "P. willinckii の選抜（Rainforest Flora 由来とされる）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -3121,15 +3112,13 @@
   },
   {
     "id": "bloomei",
-    "name": "Bloomei",
-    "nameEn": "かつてヒリー系に分類されたが、現在はウィリンキー系とされる選抜。幅広い胞子葉を持つ。",
-    "scientificName": "Platycerium willinckii 'かつてヒリー系に分類されたが、現在はウィリンキー系とされる選抜。幅広い胞子葉を持つ。'",
+    "name": "ブルーメイ",
+    "nameEn": "Bloomei",
+    "scientificName": "Platycerium willinckii 'Bloomei'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "note": "P. willinckii の選抜（旧ヒリー系とされた）。"
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3144,8 +3133,8 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
-    "notes": "P. willinckii の選抜。",
+    "description": "かつてヒリー系に分類されたが、現在はウィリンキー系とされる選抜。幅広い胞子葉を持つ。",
+    "notes": "P. willinckii の選抜（旧ヒリー系とされた）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -3153,17 +3142,13 @@
   },
   {
     "id": "schofield",
-    "name": "Schofield",
-    "nameEn": "非常に長く深く裂ける胞子葉が120cm近くまで伸びる、迫力ある選抜。",
-    "scientificName": "Platycerium willinckii '非常に長く深く裂ける胞子葉が120cm近くまで伸びる、迫力ある選抜。'",
+    "name": "スコフィールド",
+    "nameEn": "Schofield",
+    "scientificName": "Platycerium willinckii 'Schofield'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "垂れ葉"
-      ]
-    },
+    "size": "大型（胞子葉が長く垂れる）",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3176,9 +3161,10 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "垂れ葉"
     ],
-    "description": "大型（胞子葉が長く垂れる）",
+    "description": "非常に長く深く裂ける胞子葉が120cm近くまで伸びる、迫力ある選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3187,13 +3173,13 @@
   },
   {
     "id": "king-boko",
-    "name": "King Boko",
-    "nameEn": "ヒリーを思わせる短い指状の幅広い胞子葉を持つ選抜。",
-    "scientificName": "Platycerium willinckii 'ヒリーを思わせる短い指状の幅広い胞子葉を持つ選抜。'",
+    "name": "キングボコ",
+    "nameEn": "King Boko",
+    "scientificName": "Platycerium willinckii 'King Boko'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {},
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3208,7 +3194,7 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
+    "description": "ヒリーを思わせる短い指状の幅広い胞子葉を持つ選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3217,17 +3203,13 @@
   },
   {
     "id": "little-will",
-    "name": "Little Will",
-    "nameEn": "幅広く短い葉を持つ小型個体。貯水葉をあまり出さずコンパクトにまとまる。",
-    "scientificName": "Platycerium willinckii '幅広く短い葉を持つ小型個体。貯水葉をあまり出さずコンパクトにまとまる。'",
+    "name": "リトルウィル",
+    "nameEn": "Little Will",
+    "scientificName": "Platycerium willinckii 'Little Will'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "矮性"
-      ]
-    },
+    "size": "小型（矮性）",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3240,9 +3222,10 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "矮性"
     ],
-    "description": "小型（矮性）",
+    "description": "幅広く短い葉を持つ小型個体。貯水葉をあまり出さずコンパクトにまとまる。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3251,17 +3234,13 @@
   },
   {
     "id": "weeks",
-    "name": "Weeks",
-    "nameEn": "胞子嚢が展開するにつれ胞子葉の先端が独特にカールする選抜。",
-    "scientificName": "Platycerium willinckii '胞子嚢が展開するにつれ胞子葉の先端が独特にカールする選抜。'",
+    "name": "ウィークス",
+    "nameEn": "Weeks",
+    "scientificName": "Platycerium willinckii 'Weeks'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "個性派"
-      ]
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3274,9 +3253,10 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "個性派"
     ],
-    "description": "中型",
+    "description": "胞子嚢が展開するにつれ胞子葉の先端が独特にカールする選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3285,13 +3265,13 @@
   },
   {
     "id": "piti",
-    "name": "Piti",
-    "nameEn": "胞子葉の数が多く、貯水葉が濃い緑を長く保つ選抜。",
-    "scientificName": "Platycerium willinckii '胞子葉の数が多く、貯水葉が濃い緑を長く保つ選抜。'",
+    "name": "ピティ",
+    "nameEn": "Piti",
+    "scientificName": "Platycerium willinckii 'Piti'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {},
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3306,7 +3286,7 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
+    "description": "胞子葉の数が多く、貯水葉が濃い緑を長く保つ選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3315,15 +3295,13 @@
   },
   {
     "id": "mount-lewis",
-    "name": "Mount Lewis",
-    "nameEn": "マウントルイス産系統として知られるウィリンキー。",
-    "scientificName": "Platycerium willinckii 'マウントルイス産系統として知られるウィリンキー。'",
+    "name": "マウントルイス",
+    "nameEn": "Mount Lewis",
+    "scientificName": "Platycerium willinckii 'Mount Lewis'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "note": "P. willinckii の産地系統。"
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3338,8 +3316,8 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
-    "notes": "P. willinckii の選抜。",
+    "description": "マウントルイス産系統として知られるウィリンキー。",
+    "notes": "P. willinckii の産地系統。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -3347,18 +3325,13 @@
   },
   {
     "id": "little-moon",
-    "name": "Little Moon",
-    "nameEn": "ムーンシリーズの小型選抜。白毛をまとった愛らしい草姿。",
-    "scientificName": "Platycerium willinckii 'ムーンシリーズの小型選抜。白毛をまとった愛らしい草姿。'",
+    "name": "リトルムーン",
+    "nameEn": "Little Moon",
+    "scientificName": "Platycerium willinckii 'Little Moon'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "矮性",
-        "ムーンシリーズ"
-      ]
-    },
+    "size": "小型（矮性）",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3371,9 +3344,11 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "矮性",
+      "ムーンシリーズ"
     ],
-    "description": "小型（矮性）",
+    "description": "ムーンシリーズの小型選抜。白毛をまとった愛らしい草姿。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3382,18 +3357,13 @@
   },
   {
     "id": "new-moon",
-    "name": "New Moon",
-    "nameEn": "ムーンシリーズの白系選抜。",
-    "scientificName": "Platycerium willinckii 'ムーンシリーズの白系選抜。'",
+    "name": "ニュームーン",
+    "nameEn": "New Moon",
+    "scientificName": "Platycerium willinckii 'New Moon'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "白毛",
-        "ムーンシリーズ"
-      ]
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3406,9 +3376,11 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "白毛",
+      "ムーンシリーズ"
     ],
-    "description": "中型",
+    "description": "ムーンシリーズの白系選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3417,17 +3389,13 @@
   },
   {
     "id": "river-moon",
-    "name": "River Moon",
-    "nameEn": "ムーンシリーズの選抜のひとつ。",
-    "scientificName": "Platycerium willinckii 'ムーンシリーズの選抜のひとつ。'",
+    "name": "リバームーン",
+    "nameEn": "River Moon",
+    "scientificName": "Platycerium willinckii 'River Moon'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "ムーンシリーズ"
-      ]
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3440,9 +3408,10 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "ムーンシリーズ"
     ],
-    "description": "中型",
+    "description": "ムーンシリーズの選抜のひとつ。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3451,13 +3420,13 @@
   },
   {
     "id": "siamwillin",
-    "name": "Siamwillin",
-    "nameEn": "タイで育成・流通するウィリンキー系統。",
-    "scientificName": "Platycerium willinckii 'タイで育成・流通するウィリンキー系統。'",
+    "name": "サイアムウィリン",
+    "nameEn": "Siamwillin",
+    "scientificName": "Platycerium willinckii 'Siamwillin'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {},
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3472,7 +3441,7 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
+    "description": "タイで育成・流通するウィリンキー系統。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3481,17 +3450,13 @@
   },
   {
     "id": "typhoon",
-    "name": "Typhoon",
-    "nameEn": "胞子葉が荒々しく暴れる個性派の選抜。",
-    "scientificName": "Platycerium willinckii '胞子葉が荒々しく暴れる個性派の選抜。'",
+    "name": "タイフーン",
+    "nameEn": "Typhoon",
+    "scientificName": "Platycerium willinckii 'Typhoon'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "個性派"
-      ]
-    },
+    "size": "中〜大型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3504,9 +3469,10 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "個性派"
     ],
-    "description": "中〜大型",
+    "description": "胞子葉が荒々しく暴れる個性派の選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3515,17 +3481,13 @@
   },
   {
     "id": "copperwill",
-    "name": "Copperwill",
-    "nameEn": "銅色を帯びた毛が特徴のウィリンキー選抜。",
-    "scientificName": "Platycerium willinckii '銅色を帯びた毛が特徴のウィリンキー選抜。'",
+    "name": "コッパーウィル",
+    "nameEn": "Copperwill",
+    "scientificName": "Platycerium willinckii 'Copperwill'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "銀葉"
-      ]
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3538,9 +3500,10 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "銀葉"
     ],
-    "description": "中型",
+    "description": "銅色を帯びた毛が特徴のウィリンキー選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3549,22 +3512,16 @@
   },
   {
     "id": "pygmaeum",
-    "name": "Pygmaeum",
-    "nameEn": "極小型に育つ矮性選抜。",
-    "scientificName": "Platycerium willinckii '極小型に育つ矮性選抜。'",
+    "name": "ピグマエウム",
+    "nameEn": "Pygmaeum",
+    "scientificName": "Platycerium willinckii 'Pygmaeum'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "rarity": 4,
-      "tags": [
-        "矮性",
-        "極小"
-      ]
-    },
+    "size": "極小型（矮性）",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
-    "rarity": 3,
+    "rarity": 4,
     "difficulty": 3,
     "coldResistance": "弱〜中（最低10℃前後）",
     "light": "明るい日陰〜半日向",
@@ -3574,9 +3531,11 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "矮性",
+      "極小"
     ],
-    "description": "極小型（矮性）",
+    "description": "極小型に育つ矮性選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3585,17 +3544,13 @@
   },
   {
     "id": "scissorhands",
-    "name": "Scissorhands",
-    "nameEn": "ハサミ（シザーハンズ）のように鋭く分岐する胞子葉の個性派。",
-    "scientificName": "Platycerium willinckii 'ハサミ（シザーハンズ）のように鋭く分岐する胞子葉の個性派。'",
+    "name": "シザーハンズ",
+    "nameEn": "Scissorhands",
+    "scientificName": "Platycerium willinckii 'Scissorhands'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "個性派"
-      ]
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3608,9 +3563,10 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "個性派"
     ],
-    "description": "中型",
+    "description": "ハサミ（シザーハンズ）のように鋭く分岐する胞子葉の個性派。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3619,17 +3575,13 @@
   },
   {
     "id": "trex",
-    "name": "T-rex",
-    "nameEn": "恐竜の名を冠した力強い草姿の選抜。",
-    "scientificName": "Platycerium willinckii '恐竜の名を冠した力強い草姿の選抜。'",
+    "name": "ティーレックス",
+    "nameEn": "T-rex",
+    "scientificName": "Platycerium willinckii 'T-rex'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "個性派"
-      ]
-    },
+    "size": "中〜大型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3642,9 +3594,10 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "個性派"
     ],
-    "description": "中〜大型",
+    "description": "恐竜の名を冠した力強い草姿の選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3653,15 +3606,13 @@
   },
   {
     "id": "bali",
-    "name": "Bali",
-    "nameEn": "バリ島産のウィリンキーフォーム。",
-    "scientificName": "Platycerium willinckii 'バリ島産のウィリンキーフォーム。'",
+    "name": "バリ",
+    "nameEn": "Bali",
+    "scientificName": "Platycerium willinckii 'Bali'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "note": "P. willinckii のバリ島産フォーム。"
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3676,8 +3627,8 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
-    "notes": "P. willinckii の選抜。",
+    "description": "バリ島産のウィリンキーフォーム。",
+    "notes": "P. willinckii のバリ島産フォーム。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -3685,13 +3636,13 @@
   },
   {
     "id": "timun-emas",
-    "name": "Timun Emas",
-    "nameEn": "インドネシアで育成された選抜。",
-    "scientificName": "Platycerium willinckii 'インドネシアで育成された選抜。'",
+    "name": "ティムンマス",
+    "nameEn": "Timun Emas",
+    "scientificName": "Platycerium willinckii 'Timun Emas'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {},
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3706,7 +3657,7 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
+    "description": "インドネシアで育成された選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3715,18 +3666,13 @@
   },
   {
     "id": "little-angel",
-    "name": "Little Angel",
-    "nameEn": "白毛をまとった小型の愛らしい選抜。",
-    "scientificName": "Platycerium willinckii '白毛をまとった小型の愛らしい選抜。'",
+    "name": "リトルエンジェル",
+    "nameEn": "Little Angel",
+    "scientificName": "Platycerium willinckii 'Little Angel'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "矮性",
-        "白毛"
-      ]
-    },
+    "size": "小型（矮性）",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3739,9 +3685,11 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "矮性",
+      "白毛"
     ],
-    "description": "小型（矮性）",
+    "description": "白毛をまとった小型の愛らしい選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3750,18 +3698,13 @@
   },
   {
     "id": "smurf",
-    "name": "Smurf",
-    "nameEn": "青みを帯びた小型の選抜。",
-    "scientificName": "Platycerium willinckii '青みを帯びた小型の選抜。'",
+    "name": "スマーフ",
+    "nameEn": "Smurf",
+    "scientificName": "Platycerium willinckii 'Smurf'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "銀葉",
-        "矮性"
-      ]
-    },
+    "size": "小型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3774,9 +3717,11 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "銀葉",
+      "矮性"
     ],
-    "description": "小型",
+    "description": "青みを帯びた小型の選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3785,17 +3730,13 @@
   },
   {
     "id": "antler-crown",
-    "name": "Antler Crown",
-    "nameEn": "鹿の角のような胞子葉が王冠状に立ち上がる選抜。",
-    "scientificName": "Platycerium willinckii '鹿の角のような胞子葉が王冠状に立ち上がる選抜。'",
+    "name": "アントラークラウン",
+    "nameEn": "Antler Crown",
+    "scientificName": "Platycerium willinckii 'Antler Crown'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "個性派"
-      ]
-    },
+    "size": "中〜大型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3808,9 +3749,10 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "個性派"
     ],
-    "description": "中〜大型",
+    "description": "鹿の角のような胞子葉が王冠状に立ち上がる選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3819,17 +3761,13 @@
   },
   {
     "id": "lucky-girl",
-    "name": "Lucky Girl",
-    "nameEn": "整った白毛の草姿で流通する選抜。",
-    "scientificName": "Platycerium willinckii '整った白毛の草姿で流通する選抜。'",
+    "name": "ラッキーガール",
+    "nameEn": "Lucky Girl",
+    "scientificName": "Platycerium willinckii 'Lucky Girl'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "tags": [
-        "白毛"
-      ]
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3842,9 +3780,10 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ウィリンキー系",
+      "白毛"
     ],
-    "description": "中型",
+    "description": "整った白毛の草姿で流通する選抜。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3853,15 +3792,13 @@
   },
   {
     "id": "wild-indonesia",
-    "name": "Wild Indonesia",
-    "nameEn": "インドネシア野生由来のワイルドな草姿のフォーム。",
-    "scientificName": "Platycerium willinckii 'インドネシア野生由来のワイルドな草姿のフォーム。'",
+    "name": "ワイルドインドネシア",
+    "nameEn": "Wild Indonesia",
+    "scientificName": "Platycerium willinckii 'Wild Indonesia'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "note": "P. willinckii の野生インドネシア産フォーム。"
-    },
+    "size": "中〜大型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3876,8 +3813,8 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中〜大型",
-    "notes": "P. willinckii の選抜。",
+    "description": "インドネシア野生由来のワイルドな草姿のフォーム。",
+    "notes": "P. willinckii の野生インドネシア産フォーム。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -3885,15 +3822,13 @@
   },
   {
     "id": "sawangensis",
-    "name": "Sawangensis",
-    "nameEn": "ジャワのサワンゲン産フォームとして知られる。",
-    "scientificName": "Platycerium willinckii 'ジャワのサワンゲン産フォームとして知られる。'",
+    "name": "サワンゲンシス",
+    "nameEn": "Sawangensis",
+    "scientificName": "Platycerium willinckii 'Sawangensis'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "note": "P. willinckii の産地フォーム。"
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3908,8 +3843,8 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
-    "notes": "P. willinckii の選抜。",
+    "description": "ジャワのサワンゲン産フォームとして知られる。",
+    "notes": "P. willinckii の産地フォーム。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -3917,15 +3852,13 @@
   },
   {
     "id": "chin-chuck",
-    "name": "Chin Chuck",
-    "nameEn": "ウィリンキー系の選抜のひとつ。",
-    "scientificName": "Platycerium willinckii 'ウィリンキー系の選抜のひとつ。'",
+    "name": "チンチャック",
+    "nameEn": "Chin Chuck",
+    "scientificName": "Platycerium willinckii 'Chin Chuck'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3940,8 +3873,8 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
-    "notes": "P. willinckii の選抜。",
+    "description": "ウィリンキー系の選抜のひとつ。",
+    "notes": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -3949,13 +3882,13 @@
   },
   {
     "id": "fairchild",
-    "name": "Fairchild",
-    "nameEn": "細い帯状の胞子葉が二又に分岐する選抜（Fairchild Tropical Garden 由来）。",
-    "scientificName": "Platycerium willinckii '細い帯状の胞子葉が二又に分岐する選抜（Fairchild Tropical Garden 由来）。'",
+    "name": "フェアチャイルド",
+    "nameEn": "Fairchild",
+    "scientificName": "Platycerium willinckii 'Fairchild'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {},
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -3970,7 +3903,7 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
+    "description": "細い帯状の胞子葉が二又に分岐する選抜（Fairchild Tropical Garden 由来）。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
@@ -3979,15 +3912,13 @@
   },
   {
     "id": "kingii",
-    "name": "Kingii",
-    "nameEn": "ウィリンキー系の古い選抜名。",
-    "scientificName": "Platycerium willinckii 'ウィリンキー系の古い選抜名。'",
+    "name": "キンギー",
+    "nameEn": "Kingii",
+    "scientificName": "Platycerium willinckii 'Kingii'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -4002,8 +3933,8 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
-    "notes": "P. willinckii の選抜。",
+    "description": "ウィリンキー系の古い選抜名。",
+    "notes": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -4011,15 +3942,13 @@
   },
   {
     "id": "miami",
-    "name": "Miami",
-    "nameEn": "流通するウィリンキー系の選抜。",
-    "scientificName": "Platycerium willinckii '流通するウィリンキー系の選抜。'",
+    "name": "マイアミ",
+    "nameEn": "Miami",
+    "scientificName": "Platycerium willinckii 'Miami'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -4034,8 +3963,8 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
-    "notes": "P. willinckii の選抜。",
+    "description": "流通するウィリンキー系の選抜。",
+    "notes": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -4043,15 +3972,13 @@
   },
   {
     "id": "balee",
-    "name": "Balee",
-    "nameEn": "ウィリンキー系の選抜・フォーム。",
-    "scientificName": "Platycerium willinckii 'ウィリンキー系の選抜・フォーム。'",
+    "name": "バリー",
+    "nameEn": "Balee",
+    "scientificName": "Platycerium willinckii 'Balee'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -4066,8 +3993,8 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
-    "notes": "P. willinckii の選抜。",
+    "description": "ウィリンキー系の選抜・フォーム。",
+    "notes": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -4075,15 +4002,13 @@
   },
   {
     "id": "doc",
-    "name": "Doc",
-    "nameEn": "ウィリンキー系の選抜として流通する。",
-    "scientificName": "Platycerium willinckii 'ウィリンキー系の選抜として流通する。'",
+    "name": "ドック",
+    "nameEn": "Doc",
+    "scientificName": "Platycerium willinckii 'Doc'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -4098,8 +4023,8 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
-    "notes": "P. willinckii の選抜。",
+    "description": "ウィリンキー系の選抜として流通する。",
+    "notes": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
@@ -4107,15 +4032,13 @@
   },
   {
     "id": "zion",
-    "name": "Zion",
-    "nameEn": "ウィリンキー系の選抜として流通する。",
-    "scientificName": "Platycerium willinckii 'ウィリンキー系の選抜として流通する。'",
+    "name": "ザイオン",
+    "nameEn": "Zion",
+    "scientificName": "Platycerium willinckii 'Zion'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキー系の選抜）",
-    "size": {
-      "note": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。"
-    },
+    "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
     "rarity": 3,
@@ -4130,8 +4053,8 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "中型",
-    "notes": "P. willinckii の選抜。",
+    "description": "ウィリンキー系の選抜として流通する。",
+    "notes": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"

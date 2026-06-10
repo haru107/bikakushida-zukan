@@ -3,7 +3,7 @@
 ビカクシダ（コウモリラン）の品種図鑑サイト。会話は日本語。
 
 ## 基本情報
-- パス: `C:\Users\user\Desktop\bikakushida-zukan`
+- パス: `C:\Users\i2wal\dev\bikakushida-zukan`（メインPC。旧ノートPCパス `C:\Users\user\Desktop\...` は廃止）
 - 構成: Astro 静的サイト / Cloudflare Pages 公開（月額0円）
 - リポジトリ: https://github.com/haru107/bikakushida-zukan （default: main）
 - 公開URL: **https://bikakushida-zukan.pages.dev**
@@ -11,7 +11,7 @@
 
 ## デプロイ（手動 wrangler 運用）
 ```
-cd C:\Users\user\Desktop\bikakushida-zukan
+cd C:\Users\i2wal\dev\bikakushida-zukan
 npm run build
 npx wrangler pages deploy dist --project-name=bikakushida-zukan --branch=main --commit-dirty=true --commit-message="english message here"
 ```

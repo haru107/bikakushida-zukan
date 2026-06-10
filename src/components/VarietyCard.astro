@@ -20,7 +20,7 @@ export interface Props {
 const { variety } = Astro.props;
 
 const rarityStars = '★'.repeat(variety.rarity) + '☆'.repeat(5 - variety.rarity);
-const difficultyLabel = ['', 'やや難しい', 'やや難しい', '普通', '比較的簡単', '簡単'][variety.difficulty];
+const difficultyLabel = ['', '難しい', 'やや難しい', '普通', '比較的簡単', '簡単'][variety.difficulty];
 
 // プレースホルダー用の色（グループ別）
 const groupColors: Record<string, string> = {
@@ -57,7 +57,7 @@ const placeholderColor = groupColors[variety.group] ?? '#356048';
     <div class="group-label">{variety.group}</div>
     <h2 class="name-ja">{variety.name}</h2>
     <p class="name-sci">{variety.scientificName}</p>
-    <p class="description">{variety.description.slice(0, 60)}…</p>
+    <p class="description">{variety.description.length > 60 ? variety.description.slice(0, 60) + '…' : variety.description}</p>
 
     <div class="meta">
       <div class="meta-item">

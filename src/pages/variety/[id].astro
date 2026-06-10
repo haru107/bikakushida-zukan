@@ -12,7 +12,20 @@ const variety = varieties.find(v => v.id === id)!;
 const rarityStars     = '★'.repeat(variety.rarity)     + '☆'.repeat(5 - variety.rarity);
 const difficultyStars = '★'.repeat(variety.difficulty) + '☆'.repeat(5 - variety.difficulty);
 
-const related = varieties.filter(v => v.group === variety.group && v.id !== variety.id);
+// 関連種：血統が同じものを優先し、同グループを次点。写真ありを先に出し最大8件
+const lineageSet = new Set((variety as any).lineage ?? []);
+const related = varieties
+  .filter(v => v.id !== variety.id)
+  .map(v => {
+    const sharedLineage = ((v as any).lineage ?? []).filter((p: string) => lineageSet.has(p)).length;
+    const sameGroup = v.group === variety.group ? 1 : 0;
+    const hasPhoto = (v.image || (v as any).instagramUrl) ? 1 : 0;
+    return { v, score: sharedLineage * 2 + sameGroup, hasPhoto };
+  })
+  .filter(s => s.score > 0)
+  .sort((a, b) => b.score - a.score || b.hasPhoto - a.hasPhoto)
+  .slice(0, 8)
+  .map(s => s.v);
 
 // 親種（系統）：自分自身を除いた親speciesを解決
 const parents = ((variety as any).lineage ?? [])
@@ -20,10 +33,12 @@ const parents = ((variety as any).lineage ?? [])
   .map((pid: string) => varieties.find(v => v.id === pid))
   .filter(Boolean);
 
-// この種を親に持つ品種（＝子の品種）
-const children = varieties.filter(v =>
+// この種を親に持つ品種（＝子の品種）。多い場合は12件＋「すべて見る」リンク
+const childrenAll = varieties.filter(v =>
   v.id !== variety.id && ((v as any).lineage ?? []).includes(variety.id)
 );
+const children = childrenAll.slice(0, 12);
+const childrenMore = childrenAll.length - children.length;
 
 // Instagram 埋め込みID抽出
 let igPostId: string | null = null;
@@ -193,7 +208,7 @@ if (variety.instagramUrl) {
         <h2>タグ</h2>
         <div class="tags">
           {variety.tags.map(tag => (
-            <a href={`/#tag-${tag}`} class="tag">{tag}</a>
+            <a href={`/?tag=${encodeURIComponent(tag)}`} class="tag">{tag}</a>
           ))}
         </div>
       </section>
@@ -237,6 +252,11 @@ if (variety.instagramUrl) {
           </a>
         ))}
       </div>
+      {childrenMore > 0 && (
+        <p class="children-more">
+          <a href={`/?lin=${variety.id}`}>ほか{childrenMore}種をすべて見る →</a>
+        </p>
+      )}
     </section>
   )}
 
@@ -498,6 +518,10 @@ if (variety.instagramUrl) {
   .related-info { padding: 0.7rem 0.8rem; }
   .related-name { font-size: 0.95rem; font-weight: 700; color: var(--green-dark); }
   .related-sci  { font-size: 0.68rem; color: var(--text-muted); font-style: italic; margin-top: 0.2rem; }
+
+  .children-more { margin-top: 0.8rem; font-size: 0.85rem; }
+  .children-more a { color: var(--green-light); text-decoration: none; }
+  .children-more a:hover { text-decoration: underline; }
 
   .back-link { margin-top: 1rem; }
   .back-link a { color: var(--green-light); text-decoration: none; font-size: 0.9rem; }

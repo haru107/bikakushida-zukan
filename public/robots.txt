@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bikakushida-zukan.pages.dev/sitemap-index.xml
