@@ -153,7 +153,7 @@ if (variety.instagramUrl) {
             <tr><th>サイズ</th><td>{variety.size}</td></tr>
             <tr><th>タイプ</th><td>{variety.type}</td></tr>
             <tr><th>産地</th><td>{variety.group}</td></tr>
-            {parents.length > 0 && (
+            {(parents.length > 0 || variety.type === '交配種') && (
               <tr>
                 <th>系統（親種）</th>
                 <td>
@@ -163,6 +163,12 @@ if (variety.instagramUrl) {
                       <a class="lineage-link" href={`/variety/${p.id}`}>{p.name}</a>
                     </>
                   ))}
+                  {variety.type === '交配種' && parents.length === 1 && (
+                    <><span class="lineage-sep">×</span><span class="lineage-unknown">不明</span></>
+                  )}
+                  {variety.type === '交配種' && parents.length === 0 && (
+                    <span class="lineage-unknown">交配不明</span>
+                  )}
                 </td>
               </tr>
             )}
@@ -444,6 +450,7 @@ if (variety.instagramUrl) {
   }
   .lineage-link:hover { color: var(--green-light); }
   .lineage-sep { color: var(--text-muted); margin: 0 0.4rem; }
+  .lineage-unknown { color: var(--text-muted); }
 
   .child-type {
     font-size: 0.62rem;
