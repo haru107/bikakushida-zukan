@@ -96,6 +96,8 @@ const ogImage = new URL('/ogp.png', Astro.site);
       padding: 1.5rem;
       font-size: 0.85rem;
     }
+    footer a { color: rgba(255,255,255,0.75); text-decoration: underline; }
+    footer .footer-links { margin-top: 0.5rem; font-size: 0.78rem; }
   </style>
 </head>
 <body>
@@ -104,8 +106,8 @@ const ogImage = new URL('/ogp.png', Astro.site);
       <a href="/" class="site-logo">🦌 ビカク<span>図鑑</span></a>
       <nav>
         <a href="/">品種一覧</a>
+        <a href="/lineage">血統マップ</a>
         <a href="/sources">出典</a>
-        <a href="/#about">このサイトについて</a>
       </nav>
     </div>
   </header>
@@ -113,7 +115,8 @@ const ogImage = new URL('/ogp.png', Astro.site);
     <slot />
   </main>
   <footer>
-    <p>© 2026 ビカク図鑑 — データは随時更新中 ・ <a href="/sources" style="color:rgba(255,255,255,0.75);text-decoration:underline;">出典・参考資料</a></p>
+    <p>© 2026 ビカク図鑑 — データは随時更新中 ・ <a href="/sources">出典・参考資料</a> ・ <a href="/lineage">血統マップ</a></p>
+    <p class="footer-links">姉妹サイト: <a href="https://agave-zukan.pages.dev" target="_blank" rel="noopener">アガベ図鑑</a> ・ グッズ: <a href="https://suzuri.jp/Norimaro" target="_blank" rel="noopener">AOAO（SUZURI）</a></p>
   </footer>
 </body>
 </html>

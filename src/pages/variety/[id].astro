@@ -46,6 +46,15 @@ if (variety.instagramUrl) {
   const m = variety.instagramUrl.match(/\/p\/([A-Za-z0-9_-]+)/);
   if (m) igPostId = m[1];
 }
+
+// 自社グッズ（SUZURI・AOAO）。血統に合うデザインを先頭に
+const goods = [
+  { key: 'ridleyi',    label: 'リドレイ',    url: 'https://suzuri.jp/Norimaro/products/86172324' },
+  { key: 'willinckii', label: 'ウィリンキー', url: 'https://suzuri.jp/Norimaro/products/86172322' },
+];
+const sortedGoods = [...goods].sort((a, b) =>
+  (lineageSet.has(b.key) || variety.id === b.key ? 1 : 0) - (lineageSet.has(a.key) || variety.id === a.key ? 1 : 0)
+);
 ---
 
 <Base title={`${variety.name} — ビカク図鑑`} description={variety.description}>
@@ -210,6 +219,17 @@ if (variety.instagramUrl) {
         </div>
       </section>
 
+      <section class="goods-section">
+        <h2>ビカクシダグッズ</h2>
+        <p class="goods-lead">姉妹ブランド <strong>AOAO</strong> の手描きボタニカルTシャツ、SUZURIで販売中。</p>
+        <div class="goods-links">
+          {sortedGoods.map(g => (
+            <a class="goods-btn" href={g.url} target="_blank" rel="noopener">🦌 {g.label} Tシャツ ↗</a>
+          ))}
+          <a class="goods-btn shop" href="https://suzuri.jp/Norimaro" target="_blank" rel="noopener">ほかの植物グッズを見る ↗</a>
+        </div>
+      </section>
+
       <section class="tags-section">
         <h2>タグ</h2>
         <div class="tags">
@@ -218,6 +238,17 @@ if (variety.instagramUrl) {
           ))}
         </div>
       </section>
+
+      {((variety as any).sources ?? []).length > 0 && (
+        <section class="sources-section">
+          <h2>出典</h2>
+          <ul class="src-list">
+            {((variety as any).sources as string[]).map(u => (
+              <li><a href={u} target="_blank" rel="noopener noreferrer">{new URL(u).hostname}{new URL(u).pathname.length > 1 ? new URL(u).pathname : ''}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
     </main>
   </div>
 
@@ -480,6 +511,23 @@ if (variety.instagramUrl) {
   .care-label { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 0.2rem; }
   .care-val   { font-size: 0.82rem; font-weight: 500; line-height: 1.5; }
 
+  /* グッズ導線 */
+  .goods-lead { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.8rem; }
+  .goods-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .goods-btn {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #fff;
+    background: var(--green-mid);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .goods-btn:hover { background: var(--green-light); }
+  .goods-btn.shop { background: var(--accent); }
+  .goods-btn.shop:hover { background: #c98a4e; }
+
   .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
   .tag {
     font-size: 0.78rem;
@@ -492,6 +540,18 @@ if (variety.instagramUrl) {
     transition: background 0.15s;
   }
   .tag:hover { background: #d8eddf; }
+
+  /* 出典 */
+  .src-list { list-style: none; }
+  .src-list li { margin-bottom: 0.3rem; }
+  .src-list a {
+    font-size: 0.78rem;
+    color: var(--green-mid);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--green-light);
+    word-break: break-all;
+  }
+  .src-list a:hover { color: var(--green-light); }
 
   /* 関連種 */
   .related { margin-bottom: 2rem; }

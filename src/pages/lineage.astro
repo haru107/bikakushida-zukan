@@ -1,0 +1,185 @@
+---
+import Base from '../layouts/Base.astro';
+import varieties from '../data/varieties.json';
+
+const byId = Object.fromEntries(varieties.map(v => [v.id, v]));
+
+// 親として登場するid（原種＋ディバーシフォリウムのような準親種）
+const parentIds = new Set(
+  varieties.filter(v => v.type !== '原種').flatMap(v => ((v as any).lineage ?? []).filter((p: string) => p !== v.id))
+);
+const roots = varieties
+  .filter(v => v.type === '原種' || parentIds.has(v.id))
+  .map(root => {
+    const children = varieties.filter(v => v.id !== root.id && ((v as any).lineage ?? []).includes(root.id));
+    const selections = children.filter(v => ((v as any).lineage ?? []).length === 1);
+    // 交配は「×相手」ごとにグループ化
+    const hybridGroups: Record<string, typeof varieties> = {};
+    children.filter(v => ((v as any).lineage ?? []).length === 2).forEach(v => {
+      const other = ((v as any).lineage ?? []).find((p: string) => p !== root.id) ?? root.id;
+      (hybridGroups[other] ??= [] as any).push(v);
+    });
+    return { root, selections, hybridGroups, total: children.length };
+  })
+  .filter(r => r.total > 0)
+  .sort((a, b) => b.total - a.total);
+
+// 交配親不明
+const unknownHybrids = varieties.filter(v => v.type === '交配種' && (((v as any).lineage ?? []).length === 0));
+
+const speciesCount = varieties.filter(v => v.type === '原種').length;
+const selCount = varieties.filter(v => v.type === '選抜品種').length;
+const hybCount = varieties.filter(v => v.type === '交配種').length;
+---
+
+<Base title="血統マップ — ビカク図鑑" description="ビカクシダの原種から選抜品種・交配種への血統（家系図）マップ。どの原種からどの品種が生まれたかをたどれます。">
+  <section class="intro">
+    <p class="label">LINEAGE MAP</p>
+    <h1>🧬 血統マップ</h1>
+    <p class="lead">原種{speciesCount}種から、選抜{selCount}品種・交配{hybCount}品種がどう生まれたかをたどる家系図。品種名をクリックすると詳細ページへ。交配種は両方の親の下に表示されます。</p>
+  </section>
+
+  {roots.map(({ root, selections, hybridGroups, total }) => (
+    <section class="family">
+      <header class="family-head">
+        <a href={`/variety/${root.id}`} class="root-name">{root.name}</a>
+        <span class="root-sci">{root.scientificName}</span>
+        <span class="root-meta">{root.type} ・ 派生 {total}種</span>
+      </header>
+
+      {selections.length > 0 && (
+        <div class="branch">
+          <div class="branch-label">選抜・フォーム（{selections.length}）</div>
+          <div class="chips">
+            {selections.map(v => (
+              <a href={`/variety/${v.id}`} class={`chip ${v.type === '交配種' ? 'hyb' : ''}`}>{v.name}</a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {Object.keys(hybridGroups).length > 0 && (
+        <div class="branch">
+          <div class="branch-label">交配（{Object.values(hybridGroups).reduce((n, g) => n + g.length, 0)}）</div>
+          {Object.entries(hybridGroups).map(([otherId, group]) => (
+            <div class="cross-row">
+              <span class="cross-partner">×
+                {byId[otherId]
+                  ? <a href={`/variety/${otherId}`}>{byId[otherId].name}</a>
+                  : otherId}
+              </span>
+              <div class="chips">
+                {group.map(v => (
+                  <a href={`/variety/${v.id}`} class="chip hyb">{v.name}</a>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </section>
+  ))}
+
+  {unknownHybrids.length > 0 && (
+    <section class="family unknown">
+      <header class="family-head">
+        <span class="root-name muted">交配不明</span>
+        <span class="root-meta">交配親が公表されていない品種 {unknownHybrids.length}種</span>
+      </header>
+      <div class="branch">
+        <div class="chips">
+          {unknownHybrids.map(v => (
+            <a href={`/variety/${v.id}`} class="chip hyb">{v.name}</a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</Base>
+
+<style>
+  .intro { margin-bottom: 2rem; }
+  .label {
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .intro h1 { font-size: 1.7rem; color: var(--green-dark); margin-bottom: 0.6rem; }
+  .lead { font-size: 0.9rem; line-height: 1.8; color: var(--text-muted); max-width: 720px; }
+
+  .family {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.3rem 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .family-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--green-light);
+  }
+  .root-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    text-decoration: none;
+  }
+  .root-name:hover { color: var(--green-mid); }
+  .root-name.muted { color: var(--text-muted); }
+  .root-sci { font-size: 0.78rem; font-style: italic; color: var(--text-muted); }
+  .root-meta { font-size: 0.75rem; color: var(--green-light); font-weight: 700; margin-left: auto; }
+
+  .branch {
+    border-left: 3px solid var(--border);
+    margin-left: 0.4rem;
+    padding-left: 1.1rem;
+    margin-bottom: 0.9rem;
+  }
+  .branch:last-child { margin-bottom: 0; }
+  .branch-label {
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .cross-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .cross-partner {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--accent);
+    white-space: nowrap;
+    padding-top: 0.18rem;
+    min-width: 110px;
+  }
+  .cross-partner a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 0.35rem; flex: 1; }
+  .chip {
+    font-size: 0.78rem;
+    padding: 0.22rem 0.65rem;
+    border-radius: 20px;
+    border: 1.5px solid #cce0d4;
+    background: #eef5f0;
+    color: var(--green-mid);
+    text-decoration: none;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .chip:hover { background: var(--green-light); color: #fff; border-color: var(--green-light); }
+  .chip.hyb { background: #f4eef7; border-color: #d9c8e0; color: #54395a; }
+  .chip.hyb:hover { background: #54395a; color: #fff; border-color: #54395a; }
+</style>
