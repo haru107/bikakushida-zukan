@@ -116,6 +116,21 @@ const lineageChips = [...new Set(
     ))}
   </div>
 
+  <!-- 育て方ガイド導線 -->
+  <section class="guide-promo">
+    <div class="guide-promo-head">
+      <h2>🌱 育て方ガイド</h2>
+      <a href="/guide/" class="guide-all">すべて見る →</a>
+    </div>
+    <div class="guide-promo-links">
+      <a href="/guide/itazuke/">板付けの方法</a>
+      <a href="/guide/mizuyari/">水やり・ドブ漬け</a>
+      <a href="/guide/fuyugoshi/">冬越し</a>
+      <a href="/guide/kokabu/">子株の外し方</a>
+      <a href="/guide/houshi/">胞子培養入門</a>
+    </div>
+  </section>
+
   <!-- このサイトについて -->
   <section class="about" id="about">
     <h2>このサイトについて</h2>
@@ -248,6 +263,36 @@ const lineageChips = [...new Set(
     margin-bottom: 3rem;
   }
   .card-wrap.hidden { display: none !important; }
+
+  /* 育て方ガイド導線 */
+  .guide-promo {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.3rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .guide-promo-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 0.9rem;
+  }
+  .guide-promo-head h2 { font-size: 1.05rem; color: var(--green-dark); font-weight: 700; }
+  .guide-all { font-size: 0.82rem; color: var(--green-light); text-decoration: none; font-weight: 700; }
+  .guide-all:hover { text-decoration: underline; }
+  .guide-promo-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .guide-promo-links a {
+    font-size: 0.82rem;
+    color: var(--green-mid);
+    background: #eef5f0;
+    border: 1px solid #cce0d4;
+    border-radius: 20px;
+    padding: 0.35rem 0.9rem;
+    text-decoration: none;
+    transition: all 0.15s;
+  }
+  .guide-promo-links a:hover { background: var(--green-light); color: #fff; border-color: var(--green-light); }
 
   /* about */
   .about {

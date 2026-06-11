@@ -7,11 +7,25 @@ const hardyIds = ['bifurcatum', 'veitchii', 'netherlands'];
 const tenderIds = ['ridleyi', 'coronarium', 'madagascariense'];
 const hardy = hardyIds.map(id => varieties.find(v => v.id === id)).filter(Boolean);
 const tender = tenderIds.map(id => varieties.find(v => v.id === id)).filter(Boolean);
+
+const siteUrl = Astro.site!.toString().replace(/\/$/, '');
+const pageUrl = `${siteUrl}/guide/fuyugoshi/`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: '育て方ガイド', item: `${siteUrl}/guide/` },
+      { '@type': 'ListItem', position: 2, name: '冬越し', item: pageUrl },
+    ] },
+    { '@type': 'Article', headline: 'ビカクシダの冬越し【耐寒温度・置き場所・冬の水やり】', description: 'ビカクシダの冬越しを解説。品種ごとの耐寒温度の目安、室内への取り込み、冬の置き場所と水やりの絞り方まで。', image: `${siteUrl}/guide/fuyugoshi_hero.jpg`, inLanguage: 'ja', mainEntityOfPage: pageUrl, isPartOf: { '@id': `${siteUrl}/#website` }, publisher: { '@id': `${siteUrl}/#org` } },
+  ],
+};
 ---
 
 <Base
   title="ビカクシダの冬越し【耐寒温度・置き場所・冬の水やり】 — ビカク図鑑"
   description="ビカクシダ（コウモリラン）の冬越しを解説。品種ごとの耐寒温度の目安、室内への取り込みタイミング、冬の置き場所と水やりの絞り方、よくある失敗まで。"
+  jsonLd={jsonLd}
 >
   <nav class="breadcrumb">
     <a href="/guide/">育て方ガイド</a>

@@ -5,11 +5,25 @@ import varieties from '../../data/varieties.json';
 // 子株を出しにくい＝胞子培養で増やす代表種
 const sporeIds = ['grande', 'superbum', 'ridleyi', 'wandae'];
 const sporeVars = sporeIds.map(id => varieties.find(v => v.id === id)).filter(Boolean);
+
+const siteUrl = Astro.site!.toString().replace(/\/$/, '');
+const pageUrl = `${siteUrl}/guide/houshi/`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: '育て方ガイド', item: `${siteUrl}/guide/` },
+      { '@type': 'ListItem', position: 2, name: '胞子培養入門', item: pageUrl },
+    ] },
+    { '@type': 'Article', headline: 'ビカクシダの胞子培養入門【採取から幼苗まで】', description: 'ビカクシダの胞子培養を初心者向けに解説。胞子の採取、殺菌と播種、前葉体から幼苗までの経過とカビ対策まで。', image: `${siteUrl}/guide/houshi_hero.jpg`, inLanguage: 'ja', mainEntityOfPage: pageUrl, isPartOf: { '@id': `${siteUrl}/#website` }, publisher: { '@id': `${siteUrl}/#org` } },
+  ],
+};
 ---
 
 <Base
   title="ビカクシダの胞子培養入門【採取・播き方・前葉体から幼苗まで】 — ビカク図鑑"
   description="ビカクシダ（コウモリラン）の胞子培養を初心者向けに解説。胞子の採取タイミング、殺菌と播種のやり方、前葉体から幼苗までの経過、カビ対策まで。"
+  jsonLd={jsonLd}
 >
   <nav class="breadcrumb">
     <a href="/guide/">育て方ガイド</a>

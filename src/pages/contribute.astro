@@ -1,0 +1,102 @@
+---
+import Base from '../layouts/Base.astro';
+
+const FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSe-CBUphkmwyzStaqKkEH5H6D5W1zfhPYJ2f1LHLS4NVsnytg/viewform';
+const ENTRY = 'entry.386725646'; // 品種名
+---
+
+<Base
+  title="写真提供のお願い — ビカク図鑑"
+  description="ビカク図鑑では「画像募集中」の品種の写真を募集しています。あなたが撮影したビカクシダの写真をご提供いただける方を募集中。お名前をクレジット表記して掲載します。"
+>
+  <section class="intro">
+    <p class="label">PHOTO CONTRIBUTION</p>
+    <h1 id="head">📷 写真提供のお願い</h1>
+    <p class="lead" id="lead">ビカク図鑑では、まだ写真のない「画像募集中」の品種がたくさんあります。あなたが育てているビカクシダの写真をご提供いただけませんか？ いただいた写真は、<strong>お名前をクレジット表記</strong>して掲載します。</p>
+  </section>
+
+  <section class="card">
+    <h2>ご提供にあたってのお願い</h2>
+    <ul class="rules">
+      <li><strong>あなたが撮影し、権利をお持ちの写真</strong>に限ります（他人の写真・拾い画像は不可）。</li>
+      <li>Instagram や X に投稿済みの写真なら、<strong>その投稿URL</strong>をお知らせください。公式の埋め込み機能で掲載します（写真の権利は投稿者に帰属したまま）。</li>
+      <li>SNSに投稿していない写真は、まず連絡先（メール等）をお知らせください。こちらから掲載方法をご相談します。</li>
+      <li>掲載時は、ご記入いただいた<strong>お名前をクレジット表記</strong>します。</li>
+      <li>品種の同定（名前）に誤りが疑われる場合など、掲載を見送ることがあります。あらかじめご了承ください。</li>
+    </ul>
+  </section>
+
+  <section class="card cta-card">
+    <h2 id="cta-title">提供フォームへ</h2>
+    <p>下のボタンからフォームが開きます（Googleフォーム・ログイン不要・1〜2分）。</p>
+    <a id="form-btn" class="form-btn" href={FORM} target="_blank" rel="noopener">📝 写真提供フォームを開く ↗</a>
+    <p class="sub"><a href="/">← 品種一覧に戻る</a></p>
+  </section>
+</Base>
+
+<script define:vars={{ FORM, ENTRY }}>
+  const params = new URLSearchParams(location.search);
+  const v = params.get('v');
+  const btn = document.getElementById('form-btn');
+  if (v) {
+    const label = `${v}（ビカク図鑑）`;
+    btn.href = `${FORM}?usp=pp_url&${ENTRY}=${encodeURIComponent(label)}`;
+    document.getElementById('head').textContent = `📷 「${v}」の写真を提供する`;
+    document.getElementById('lead').innerHTML =
+      `<strong>${v}</strong> の写真をご提供いただけるとのこと、ありがとうございます！ いただいた写真は、お名前をクレジット表記して掲載します。下記をご確認のうえ、フォームへお進みください。`;
+    document.getElementById('cta-title').textContent = `「${v}」の写真を提供`;
+  } else {
+    btn.href = `${FORM}?usp=pp_url&${ENTRY}=${encodeURIComponent('（ビカク図鑑）')}`;
+  }
+</script>
+
+<style>
+  .intro { margin-bottom: 1.5rem; }
+  .label {
+    font-size: 0.72rem; letter-spacing: 0.15em; color: var(--accent);
+    font-weight: 700; margin-bottom: 0.4rem;
+  }
+  .intro h1 { font-size: 1.7rem; color: var(--green-dark); margin-bottom: 0.6rem; line-height: 1.4; }
+  .lead { font-size: 0.92rem; line-height: 1.9; color: var(--text-muted); max-width: 720px; }
+  .lead strong { color: var(--green-mid); }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.4rem;
+    margin-bottom: 1rem;
+    max-width: 720px;
+  }
+  .card h2 {
+    font-size: 1.05rem; font-weight: 700; color: var(--green-dark);
+    margin-bottom: 0.9rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--green-light);
+  }
+  .rules { list-style: none; }
+  .rules li {
+    font-size: 0.88rem; line-height: 1.8; color: #444;
+    padding: 0.5rem 0 0.5rem 1.5rem; position: relative;
+    border-bottom: 1px dashed var(--border);
+  }
+  .rules li:last-child { border-bottom: none; }
+  .rules li::before { content: '✓'; position: absolute; left: 0; color: var(--green-light); font-weight: 700; }
+  .rules strong { color: #2a2a2a; }
+  .card p { font-size: 0.88rem; line-height: 1.8; color: #444; }
+
+  .cta-card { text-align: center; }
+  .form-btn {
+    display: inline-block;
+    background: var(--green-dark);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+    padding: 0.85rem 2rem;
+    border-radius: 10px;
+    margin: 0.8rem 0;
+    transition: background 0.2s;
+  }
+  .form-btn:hover { background: var(--green-mid); }
+  .sub { margin-top: 0.5rem; }
+  .sub a { color: var(--green-light); text-decoration: none; font-size: 0.85rem; }
+</style>

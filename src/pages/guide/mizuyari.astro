@@ -1,11 +1,25 @@
 ---
 import Base from '../../layouts/Base.astro';
 import varieties from '../../data/varieties.json';
+
+const siteUrl = Astro.site!.toString().replace(/\/$/, '');
+const pageUrl = `${siteUrl}/guide/mizuyari/`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: '育て方ガイド', item: `${siteUrl}/guide/` },
+      { '@type': 'ListItem', position: 2, name: '水やり', item: pageUrl },
+    ] },
+    { '@type': 'Article', headline: 'ビカクシダの水やり【頻度・ドブ漬け・水切れサイン】', description: 'ビカクシダの水やりを解説。乾いたらたっぷりが基本。シャワーとドブ漬けのやり方、季節ごとの頻度、水切れ・やりすぎのサインまで。', image: `${siteUrl}/guide/mizuyari_hero.jpg`, inLanguage: 'ja', mainEntityOfPage: pageUrl, isPartOf: { '@id': `${siteUrl}/#website` }, publisher: { '@id': `${siteUrl}/#org` } },
+  ],
+};
 ---
 
 <Base
   title="ビカクシダの水やり【頻度・ドブ漬けのやり方・水切れサイン】 — ビカク図鑑"
   description="ビカクシダ（コウモリラン）の水やりを解説。水苔が乾いたらたっぷりが基本。シャワーとドブ漬けのやり方、季節ごとの頻度目安、水切れ・水のやりすぎのサインまで。"
+  jsonLd={jsonLd}
 >
   <nav class="breadcrumb">
     <a href="/guide/">育て方ガイド</a>

@@ -2,10 +2,19 @@
 export interface Props {
   title: string;
   description?: string;
+  jsonLd?: object;
 }
-const { title, description = 'ビカクシダ（コウモリラン）の品種図鑑。ビフルカツム・リドレイ・グランデなど原種を中心に、特徴・育て方を詳しく解説。' } = Astro.props;
+const { title, description = 'ビカクシダ（コウモリラン）の品種図鑑。ビフルカツム・リドレイ・グランデなど原種を中心に、特徴・育て方を詳しく解説。', jsonLd } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL('/ogp.png', Astro.site);
+const siteUrl = Astro.site.toString().replace(/\/$/, '');
+const siteJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebSite', '@id': siteUrl + '/#website', url: siteUrl + '/', name: 'ビカク図鑑', description: 'ビカクシダ（コウモリラン）の品種データベース。原種から人気の選抜品種・交配種まで特徴・育て方・血統を解説。', inLanguage: 'ja' },
+    { '@type': 'Organization', '@id': siteUrl + '/#org', name: 'ビカク図鑑', url: siteUrl + '/', logo: siteUrl + '/ogp.png' },
+  ],
+};
 ---
 <!doctype html>
 <html lang="ja">
@@ -22,6 +31,8 @@ const ogImage = new URL('/ogp.png', Astro.site);
   <meta property="og:image" content={ogImage} />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <script type="application/ld+json" set:html={JSON.stringify(siteJsonLd)} is:inline />
+  {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />}
   <title>{title}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
