@@ -1285,9 +1285,10 @@
       "白毛"
     ],
     "description": "タイの育種家トンクラ（Tonkla）が手がけたウィリンキー系の交配ライン。スノークイーン系など多くの人気選抜品種の母体となった名ライン。",
-    "notes": "Tonkla（タイ）作出。F2〜F4など世代ごとの選抜があり、エルサ等の親系統。",
+    "notes": "Tonkla（タイ）作出。P. veitchii 'Silver Frond' × P. willinckii とされる。F2〜F4など世代ごとの選抜があり、スノークイーン系・エルサ等の親系統。",
     "iNatUrl": null,
     "lineage": [
+      "veitchii",
       "willinckii"
     ]
   },
@@ -1380,10 +1381,17 @@
       "交配種",
       "個性派"
     ],
-    "description": "胞子葉が三又（トライデント）状に分かれる姿で知られる栽培品種。詳しい交配親には諸説ある。",
-    "notes": "名前のとおり三又に分岐する胞子葉が特徴とされる。交配親は資料により諸説あり。",
+    "description": "マウントルイス×ヒリーの交配種。名のとおり胞子葉が三又（トライデント）状に分岐するのが特徴で、ルイス由来の葉数の多さも魅力。日本ではメリクロン苗で流通する人気種。",
+    "notes": "交配親は P. Mt. Lewis × P. hillii。メリクロン苗で流通。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [
+      "mount-lewis",
+      "hillii"
+    ],
+    "sources": [
+      "https://item.rakuten.co.jp/morimizuki/platytrident/",
+      "http://www.bandlaqua.shop/shopdetail/000000000183/"
+    ]
   },
   {
     "id": "indominus-rex",
@@ -1468,10 +1476,17 @@
       "交配種",
       "銀葉"
     ],
-    "description": "青みを帯びた銀葉が美しいとされる栽培品種。詳しい交配親には諸説ある。",
-    "notes": "「Blue Moon」の名で流通する栽培品種。交配親は断定できない。",
+    "description": "ウィリンキー×ディバーシフォリウムの交配で、ムーンシリーズのひとつ。星状毛で青白く輝く幅広の胞子葉がふわりと弧を描き、貯水葉の縁にフリル状の切れ込みが入る。丈夫で子株もよく増える。",
+    "notes": "交配親は P. willinckii × P. diversifolium。ムーンシリーズのひとつ。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [
+      "willinckii",
+      "diversifolium"
+    ],
+    "sources": [
+      "https://conophy.com/?eid=6243",
+      "https://item.rakuten.co.jp/bandlaqua/40946/"
+    ]
   },
   {
     "id": "wolverine",
@@ -1497,10 +1512,17 @@
       "交配種",
       "個性派"
     ],
-    "description": "力強くワイルドな草姿で流通する栽培品種。詳細な交配親は不明な点が多い。",
-    "notes": "「Wolverine」の名で流通。資料が乏しく交配親は断定できない。",
+    "description": "ベイチー'オーバンリバー'×ウィリンキーの交配。やや波打つ細めの胞子葉が弓なりに伸び、貯水葉は銀白色で硬く隆起する。ベイチーの直立性とウィリンキーの流れるような姿を併せ持つ流通の少ない品種。",
+    "notes": "交配親は P. veitchii 'Auburn River' × P. willinckii。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [
+      "veitchii",
+      "willinckii"
+    ],
+    "sources": [
+      "https://welovetropicalplants.com/products/platycerium-wolverine",
+      "https://juliaredman.com/platycerium-wolverine-veitchii-auburn-river-x-willinckii-rare-hybrid-fern-sapphirechild-orchids/"
+    ]
   },
   {
     "id": "butterfly",
@@ -1589,11 +1611,15 @@
       "白毛",
       "人気"
     ],
-    "description": "白毛をまとった長い胞子葉が美しいウィリンキー系の人気選抜品種。整った草姿で愛好家に親しまれている。",
+    "description": "ウィリンキーの希少選抜。銀色のビロード状の毛をまとい、四方へ動きのある胞子葉を伸ばす彫刻的な草姿が魅力。栽培家セルソ・タツタにちなむ銘品で、市場では稀。",
     "notes": "P. willinckii の選抜。白毛ウィリンキーの銘品のひとつ。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://kla.vn/en/plant/platycerium-willinckii-celso-tatsuta/",
+      "https://sugoigreen.com/willinckii-celso-tatsuta/"
     ]
   },
   {
@@ -2110,8 +2136,12 @@
       "白毛",
       "銀葉"
     ],
-    "description": "銀花（ギンカ）の名のとおり銀白色が美しいウィリンキー系選抜。白毛が際立つ草姿が魅力。",
-    "notes": "P. willinckii の選抜。"
+    "description": "ジャワ島由来とされるウィリンキーの矮性変異。星状毛で白銀に輝く、細く分岐の多い小ぶりな胞子葉が特徴。成株でも40〜60cmにとどまる小型種で、極めて希少。日本で胞子培養が重ねられている。",
+    "notes": "P. willinckii の選抜。",
+    "sources": [
+      "https://plantswith.com/ginka/",
+      "https://ameblo.jp/calmplants/entry-12861787054.html"
+    ]
   },
   {
     "rarity": 3,
@@ -2141,8 +2171,12 @@
       "ウィリンキー系",
       "白毛"
     ],
-    "description": "ジャワ島ボゴール地域に由来するとされるウィリンキー系統。白毛をまとった整った草姿で知られる。",
-    "notes": "P. willinckii のジャワ産系統。"
+    "description": "インドネシア・ボゴール地域由来のウィリンキー産地系統。星状毛がたっぷりのった、白く肉厚な胞子葉が先端で多く分岐しながら大きく垂れ下がるのが特徴。生育が早い。",
+    "notes": "P. willinckii のジャワ産系統。",
+    "sources": [
+      "https://ameblo.jp/calmplants/entry-12835506914.html",
+      "https://indoor-hobbies.com/indoorhobbies/2022/05/15/bika-541/"
+    ]
   },
   {
     "rarity": 3,
@@ -2268,8 +2302,12 @@
       "ウィリンキー系",
       "白毛"
     ],
-    "description": "宝石（ジュエル）の名を冠したウィリンキー系選抜。白毛の美しい整った草姿で流通する。",
-    "notes": "P. willinckii の選抜。"
+    "description": "ウィリンキーの矮性選抜。コンパクトにまとまり、短く細かく分岐する胞子葉を持つ。場所を取らずに飾れる人気のドワーフウィリンキー。",
+    "notes": "P. willinckii の選抜。",
+    "sources": [
+      "https://protoleaf.thebase.in/items/120404385",
+      "https://manas-green.com/items/69b3a80227538344a62c6343"
+    ]
   },
   {
     "rarity": 3,
@@ -2363,8 +2401,11 @@
       "白毛",
       "人気"
     ],
-    "description": "セーラーシリーズのウィリンキー系選抜のひとつ。白毛をまとった美しい草姿で流通する人気品種。",
-    "notes": "P. willinckii の選抜（セーラーシリーズ）。"
+    "description": "ベイチー（シルバーフロンド）×ウィリンキー由来のピューチャン系・スノークイーンシリーズの選抜。肉厚で幅広い白く美しい胞子葉が、リボンのように伸びる。",
+    "notes": "P. willinckii の選抜（セーラーシリーズ）。",
+    "sources": [
+      "https://leafylife101.com/2516"
+    ]
   },
   {
     "id": "jenny",
@@ -3105,11 +3146,15 @@
       "ウィリンキー系",
       "白毛"
     ],
-    "description": "茶色く色づく貯水葉と白緑の胞子葉のコントラストが美しい選抜。",
+    "description": "Rainforest Flora由来とされるウィリンキー選抜。茶色く色づく深裂した貯水葉と、白緑の胞子葉のコントラストが美しい。胞子葉は立ち上がってから回転して垂れ下がり、成株では十数枚に達する。",
     "notes": "P. willinckii の選抜（Rainforest Flora 由来とされる）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://rainforestflora.com/products/staghorn-fern-platycerium-willinckii-payton",
+      "https://staghornandpitcher.com/product/platicerium-willinckii-payton/"
     ]
   },
   {
@@ -3166,11 +3211,14 @@
       "ウィリンキー系",
       "垂れ葉"
     ],
-    "description": "非常に長く深く裂ける胞子葉が120cm近くまで伸びる、迫力ある選抜。",
+    "description": "ビカクシダ栽培家グレン・スコフィールドにちなむウィリンキー選抜（'Scofield'表記）。長く寝そべるように伸びる胞子葉が長い指状に裂け、横へ大きく広がる。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "http://tom-piergrossi.squarespace.com/ferns/platycerium-willinckii-scofield"
     ]
   },
   {
@@ -3299,10 +3347,10 @@
     "id": "mount-lewis",
     "name": "マウントルイス",
     "nameEn": "Mount Lewis",
-    "scientificName": "Platycerium willinckii 'Mount Lewis'",
-    "group": "東南アジア系",
+    "scientificName": "Platycerium 'Mt. Lewis'",
+    "group": "オーストラリア系",
     "type": "選抜品種",
-    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "origin": "オーストラリア・クイーンズランド州（マウントルイス産地系統）",
     "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
@@ -3316,13 +3364,17 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ビフルカツム系",
+      "個性派"
     ],
-    "description": "マウントルイス産系統として知られるウィリンキー。",
-    "notes": "P. willinckii の産地系統。",
+    "description": "オーストラリア北部クイーンズランドのマウントルイス山に由来する産地系統。栽培下に複数のフォームがあり、ビフルカツムの一型か独立種かは諸説あり分類が定まっていない。",
+    "notes": "ビフルカツムの一型か独立種かは諸説あり、分類未確定。トライデント等の交配親。",
     "iNatUrl": null,
     "lineage": [
-      "willinckii"
+      "bifurcatum"
+    ],
+    "sources": [
+      "http://platyceriumcultivar.blogspot.com/2009/05/platycerium-mt-lewis.html"
     ]
   },
   {
@@ -3424,10 +3476,10 @@
     "id": "siamwillin",
     "name": "サイアムウィリン",
     "nameEn": "Siamwillin",
-    "scientificName": "Platycerium willinckii 'Siamwillin'",
-    "group": "東南アジア系",
+    "scientificName": "Platycerium bifurcatum 'Siam Willin'",
+    "group": "オーストラリア系",
     "type": "選抜品種",
-    "origin": "園芸品種（ウィリンキー系の選抜）",
+    "origin": "園芸品種（タイ由来のビフルカツム系選抜）",
     "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がり、白い毛をまとう",
     "foliarFrond": "白毛をまとい分岐して展開する",
@@ -3441,13 +3493,16 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系"
+      "ビフルカツム系"
     ],
-    "description": "タイで育成・流通するウィリンキー系統。",
-    "notes": "P. willinckii の選抜。",
+    "description": "タイ由来の流通品種。シャム（タイ）の名を冠し、海外のビカクシダ愛好家のコレクションにはビフルカツム系の新しい選抜として記録されている。",
+    "notes": "名前に反しウィリンキーではなく、ビフルカツム系の選抜として記録されている。",
     "iNatUrl": null,
     "lineage": [
-      "willinckii"
+      "bifurcatum"
+    ],
+    "sources": [
+      "http://tomsstaghornferns.blogspot.com/2009/06/platycerium-staghorn-ferns.html"
     ]
   },
   {
@@ -3537,11 +3592,15 @@
       "矮性",
       "極小"
     ],
-    "description": "極小型に育つ矮性選抜。",
+    "description": "極小型に育つウィリンキー系の矮性選抜として古くから知られる希少種。名（pygmaeum＝小人・矮性）のとおり小ぶりにまとまり、コレクター間で人気が高い。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "http://staghornfern-willinckiipygmaeum.blogspot.com/2009/06/willinckii-pygmaeum.html",
+      "https://hcorchids.com/products/p-willinckii-pygmaeum-x-p-willinckii-wild-cat-spore-700-1"
     ]
   },
   {
@@ -3629,11 +3688,16 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "バリ島産のウィリンキーフォーム。",
+    "description": "インドネシア・バリ島の野生由来とされるウィリンキー系のフォーム。細葉（thin leaf）タイプとして流通することが多く、長く垂れる胞子葉が優美。産地名を冠した地域系統のひとつ。",
     "notes": "P. willinckii のバリ島産フォーム。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://greenboog.com/product/platycerium-willinckii-cv-bali/",
+      "https://en.pinkoi.com/product/UCGwwYfc",
+      "https://uni-plants.stores.jp/items/64fe7782eb496f002da111d2"
     ]
   },
   {
@@ -3723,11 +3787,14 @@
       "銀葉",
       "矮性"
     ],
-    "description": "青みを帯びた小型の選抜。",
+    "description": "青緑がかった色みと、極端に細く狭い胞子葉の先端が特徴のウィリンキー系選抜。やや強めの光で銀色みが増す。コンパクトにまとまり、銀葉系の中でも繊細な印象を与える。",
     "notes": "P. willinckii の選抜。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://staghornfern.org/species/p-willinckii/"
     ]
   },
   {
@@ -4087,11 +4154,14 @@
       "丈夫",
       "人気"
     ],
-    "description": "ポップコーンのように丸くこんもりと密に茂る人気のビフルカツム選抜。丈夫で育てやすい。",
+    "description": "ポップコーンのように波打ち、カールする胞子葉が名の由来のビフルカツム選抜。コンパクトにまとまる草姿で観賞価値が高く、遊び心のある人気種。丈夫で育てやすい。",
     "notes": "P. bifurcatum の選抜。",
     "iNatUrl": null,
     "lineage": [
       "bifurcatum"
+    ],
+    "sources": [
+      "https://welovetropicalplants.com/products/platycerium-bifurcatum-cv-popcorn"
     ]
   },
   {
@@ -4118,11 +4188,14 @@
       "ビフルカツム系",
       "丈夫"
     ],
-    "description": "タイの選抜で、短くまとまる草姿のビフルカツム。",
+    "description": "タイのボートン・ガーデン（Wanna氏）由来として知られるビフルカツム選抜。短くまとまる草姿が名の由来で、丈夫。仔株（pup）からも増やせる。",
     "notes": "P. bifurcatum の選抜。",
     "iNatUrl": null,
     "lineage": [
       "bifurcatum"
+    ],
+    "sources": [
+      "https://staghornfern.org/guides/platycerium-hybridization-guide/"
     ]
   },
   {
@@ -4149,11 +4222,14 @@
       "ビフルカツム系",
       "銀葉"
     ],
-    "description": "青みを帯びた葉が美しいボートン系のビフルカツム選抜。",
+    "description": "タイのボートン・ガーデン（Wanna氏）由来として知られる、青みを帯びた葉が美しいビフルカツム選抜。ショートボートンと並ぶボートン系の代表的な選抜のひとつ。",
     "notes": "P. bifurcatum の選抜。",
     "iNatUrl": null,
     "lineage": [
       "bifurcatum"
+    ],
+    "sources": [
+      "https://staghornfern.org/guides/platycerium-hybridization-guide/"
     ]
   },
   {
@@ -4181,11 +4257,14 @@
       "大型",
       "丈夫"
     ],
-    "description": "大型に育つビフルカツムの古典的選抜。",
+    "description": "大型に育つビフルカツムの古典的選抜。灰緑色の胞子葉は二〜三又に分かれ、長いものでは90cm近くに達する。生育旺盛で丈夫、迫力ある草姿に育つ。",
     "notes": "P. bifurcatum の選抜。",
     "iNatUrl": null,
     "lineage": [
       "bifurcatum"
+    ],
+    "sources": [
+      "https://www.backyardgardener.com/plantname/platycerium-bifurcatum-majus-staghorn-fern/"
     ]
   },
   {
@@ -4213,11 +4292,14 @@
       "丈夫",
       "古典品種"
     ],
-    "description": "著名な園芸家ジーセンヘンに由来する古典的なビフルカツム選抜。",
+    "description": "ジーセンヘン夫妻（John & Monique Ziesenhenne）の名を冠したビフルカツムの古典的選抜。丈夫で育てやすく、草丈はおよそ50〜90cmにまとまる。",
     "notes": "P. bifurcatum の選抜。",
     "iNatUrl": null,
     "lineage": [
       "bifurcatum"
+    ],
+    "sources": [
+      "https://www.backyardgardener.com/plantname/platycerium-bifurcatum-ziesenhenne-elkhorn-fern/"
     ]
   },
   {
@@ -4307,11 +4389,15 @@
       "個性派",
       "丈夫"
     ],
-    "description": "胞子葉が深く細かく裂け、踊る手（フラハンズ）のように見える人気のヒリー系選抜。仔株をよく出し丈夫。",
+    "description": "深く細かく裂け、波打つ貯水葉が踊る手のように見えるヒリー（hillii）の選抜。エルクの角のように深く分岐する胞子葉も持ち、個性的な草姿で愛好家に親しまれる。",
     "notes": "P. hillii の選抜（'Hula Hand' とも表記）。",
     "iNatUrl": null,
     "lineage": [
       "hillii"
+    ],
+    "sources": [
+      "https://orchideeen-shop.nl/en/products/platycerium-hillii-hula-hand",
+      "https://fernfactory.com/Main/Default/ProductList.aspx?cate=154"
     ]
   },
   {
@@ -4339,11 +4425,16 @@
       "希少",
       "個性派"
     ],
-    "description": "タイ語で「サンゴ」を意味する、細かく分岐する胞子葉が珊瑚状に広がるリドレイ選抜。",
+    "description": "タイ語で「珊瑚」を意味する名のとおり、細かく分岐する胞子葉が珊瑚状に広がるリドレイの選抜。丸い貯水葉とレース状の繊細な胞子葉が美しく、コレクター垂涎の人気フォーム。",
     "notes": "P. ridleyi の選抜（Pakarang＝珊瑚）。",
     "iNatUrl": null,
     "lineage": [
       "ridleyi"
+    ],
+    "sources": [
+      "https://platyandco.ca/products/platycerium-ridleyi-pakarang-coral-form-staghorn",
+      "https://siborchid.com/platycerium-ridleyi-pakarang/",
+      "https://welovetropicalplants.com/products/platycerium-ridleyi-pakarang"
     ]
   },
   {
@@ -4372,11 +4463,16 @@
       "銀葉",
       "矮性"
     ],
-    "description": "小型で銀色を帯びるリドレイの選抜。",
+    "description": "南タイ由来の小型リドレイ選抜。トリコーム（白い微毛）に覆われて銀色に輝く葉が特徴で、貯水葉は25cmほどとコンパクト。栽培難度は高めだが愛好家に人気。",
     "notes": "P. ridleyi の小型選抜。",
     "iNatUrl": null,
     "lineage": [
       "ridleyi"
+    ],
+    "sources": [
+      "https://greenboog.com/product/platycerium-ridleyi-dwarf-silver-phosadet/",
+      "https://siborchid.com/platycerium-ridleyi-the-regal-fern-and-its-dwarf-varieties/",
+      "https://platyandco.ca/products/dwarf-silver-platycerium-ridleyi"
     ]
   },
   {
@@ -4727,12 +4823,16 @@
       "希少",
       "個性派"
     ],
-    "description": "アンディヌム（南米唯一）とエレファントティス（アフリカ）の交配。大陸をまたぐ珍しい組み合わせ。",
-    "notes": "交配親は P. andinum × P. elephantotis。両親の血を引くため血統フィルターで辿れる。",
+    "description": "アンディヌムとエレファントティスの交配とされる希少種（Kewはステマリア交配とする説も）。両親より長く緑を保つ貯水葉を持ち、株を環状に増やしながら大きく育つ。",
+    "notes": "Tropical Addictions は P. andinum × P. elephantotis、Kew POWO は P. elephantotis × P. stemaria とする（諸説あり）。",
     "iNatUrl": null,
     "lineage": [
       "andinum",
       "elephantotis"
+    ],
+    "sources": [
+      "https://www.tropicaladdictions.com/platycerium-cultivars/platycerium-elemaria/",
+      "https://powo.science.kew.org/taxon/17531060-1"
     ]
   },
   {
@@ -4760,12 +4860,16 @@
       "網目葉",
       "希少"
     ],
-    "description": "エレファントティスとマダガスカリエンセの交配。網目質感を帯びる希少なハイブリッド。",
+    "description": "エレファントティスとマダガスカリエンセの交配。明るい緑の幅広い貯水葉に網目状の葉脈が走り、両親より丈夫で育てやすい希少ハイブリッド。",
     "notes": "交配親は P. elephantotis × P. madagascariense。両親の血を引くため血統フィルターで辿れる。",
     "iNatUrl": null,
     "lineage": [
       "elephantotis",
       "madagascariense"
+    ],
+    "sources": [
+      "https://juliaredman.com/platycerium-erawan-jade-fan-madagascariense-x-elephantotis-sapphirechild-orchids/",
+      "https://www.woonleng.com/product-tag/platycerium-erawan-elephantotis-madagascariens/"
     ]
   },
   {
@@ -4792,12 +4896,16 @@
       "交配種",
       "希少"
     ],
-    "description": "アルシコルネ（マダガスカル型）とマダガスカリエンセの交配。マダガスカル系の血を濃く引く。",
+    "description": "アルシコルネとマダガスカリエンセの交配種。マダガスカル系の血を引き、'Horn's Surprise'と並ぶ同じ交配の代表的な選抜として知られる希少種。",
     "notes": "交配親は P. alcicorne × P. madagascariense。両親の血を引くため血統フィルターで辿れる。",
     "iNatUrl": null,
     "lineage": [
       "alcicorne",
       "madagascariense"
+    ],
+    "sources": [
+      "https://rareferns.com/platycerium/",
+      "https://orchideeen-shop.nl/en/products/platycerium-horns-surprise-madagascariens-x-aicicone-africa-darwin"
     ]
   },
   {
@@ -4825,7 +4933,7 @@
       "個性派"
     ],
     "description": "エレファントティスとステマリアのアフリカ系同士の交配。幅広い葉が個性的。",
-    "notes": "交配親は P. elephantotis × P. stemaria。両親の血を引くため血統フィルターで辿れる。",
+    "notes": "⚠ この名前の交配は一次情報で確認できていない。elephantotis × stemaria の交配は P. 'Neptune' として記録されており、stemaria 'Laurentii' との混同の可能性あり（要再確認）。",
     "iNatUrl": null,
     "lineage": [
       "elephantotis",
@@ -4856,12 +4964,16 @@
       "交配種",
       "希少"
     ],
-    "description": "アンディヌムとマダガスカリエンセの交配。ビカクシダ研究家ロイ・ヴェイルにちなむ。",
+    "description": "アンディヌムとマダガスカリエンセの交配。米国チャールズ・アルフォードの温室で生まれ、ビカクシダ研究家ロイ・ヴェイルにちなんで命名された希少種。マダガスカリエンセ譲りの貯水葉を持つ。",
     "notes": "交配親は P. andinum × P. madagascariense。両親の血を引くため血統フィルターで辿れる。",
     "iNatUrl": null,
     "lineage": [
       "andinum",
       "madagascariense"
+    ],
+    "sources": [
+      "https://sandiegofernsociety.com/platycerium-hybrids",
+      "https://rareferns.com/platycerium/"
     ]
   },
   {
@@ -4890,12 +5002,16 @@
       "白毛",
       "人気"
     ],
-    "description": "ウィリンキーとベイチーの交配で、銀白の毛をまとった美しい葉を持つ人気ハイブリッド。",
-    "notes": "交配親は P. willinckii × P. veitchii。両親の血を引くため血統フィルターで辿れる。",
+    "description": "銀白の毛に覆われ、銀色に輝く胞子葉が美しい人気品種。生長は遅いが長命で、よく育てると大型に育つ。強い日照を好む。",
+    "notes": "ベイチーの銀葉選抜として扱う資料が多く、willinckii × veitchii 交配とする表記もある（諸説あり）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii",
       "veitchii"
+    ],
+    "sources": [
+      "https://tomorchid.com/products/platycerium-veitchii-silver-frond-silver-elkhorn-fern",
+      "https://kla.vn/en/plant/platycerium-veitchii-silver/"
     ]
   },
   {
@@ -4922,12 +5038,16 @@
       "交配種",
       "個性派"
     ],
-    "description": "エレファントティスとウィリンキーの交配。ビロード状の質感を帯びる珍しい組み合わせ。",
+    "description": "エレファントティスとウィリンキーの交配。明るい春緑色で立ち上がる貯水葉と、指状に裂ける幅広の胞子葉を持つ。中型に育つ珍しいハイブリッド。",
     "notes": "交配親は P. elephantotis × P. willinckii。両親の血を引くため血統フィルターで辿れる。",
     "iNatUrl": null,
     "lineage": [
       "elephantotis",
       "willinckii"
+    ],
+    "sources": [
+      "https://juliaredman.com/platycerium-elephantotis-x-willinckii-rare-fern-sapphirechild-orchids/",
+      "https://www.tropicaladdictions.com/product-category/staghorn-platycerium/"
     ]
   },
   {
@@ -4954,12 +5074,16 @@
       "交配種",
       "丈夫"
     ],
-    "description": "ヒリーとウィリンキーの交配。丈夫さと白毛の優美さを併せ持つ。",
+    "description": "ウィリンキーとヒリーの交配（WHクロス）。ヒリー譲りの丸い貯水葉と、幅広く弧を描く胞子葉を併せ持ち、彫刻的で力強い草姿になる。",
     "notes": "交配親は P. hillii × P. willinckii。両親の血を引くため血統フィルターで辿れる。",
     "iNatUrl": null,
     "lineage": [
       "hillii",
       "willinckii"
+    ],
+    "sources": [
+      "https://greenboog.com/product/platycerium-willinckii-x-hillii/",
+      "https://staghornfern.org/guides/platycerium-hybridization-guide/"
     ]
   },
   {
@@ -4988,12 +5112,16 @@
       "銀葉",
       "人気"
     ],
-    "description": "タイ・Tonkla 作出。ベイチーとビフルカツムの交配で、丈夫で銀葉が映える人気品種。",
+    "description": "タイ・トンクラ作出。ベイチーとビフルカツムの交配で、ベイチー譲りの銀葉とビフルカツムの旺盛な生育力を併せ持つ丈夫な人気品種。",
     "notes": "交配親は P. veitchii × P. bifurcatum（Tonkla 作出）。",
     "iNatUrl": null,
     "lineage": [
       "veitchii",
       "bifurcatum"
+    ],
+    "sources": [
+      "https://www.facebook.com/tonklachantaburigarden/posts/for-show-platycerium-unicorn-hybrid-from-pveitchii-x-pbifurcatum%EF%B8%8Fspecial-tiffany/1488147597993100/",
+      "https://welovetropicalplants.com/products/platycerium-veitchii-x-bifurcatum-white-shine"
     ]
   },
   {
@@ -5019,11 +5147,15 @@
     "tags": [
       "交配種"
     ],
-    "description": "アルシコルネを親とする交配（第二親は不明）。",
+    "description": "アルシコルネを片親とする交配種で、もう一方の親は不明とされる。数あるアルシコルネ系交配のひとつとして栽培・流通する。",
     "notes": "交配親は P. alcicorne × 不明（諸説あり）。",
     "iNatUrl": null,
     "lineage": [
       "alcicorne"
+    ],
+    "sources": [
+      "https://staghornfern.org/database/hybrid-cultivar-database/",
+      "https://rareferns.com/platycerium/"
     ]
   },
   {
@@ -5050,11 +5182,15 @@
       "交配種",
       "個性派"
     ],
-    "description": "アルシコルネを親とするアフリカ系の珍しい交配（第二親は不明）。",
+    "description": "アルシコルネを片親とするアフリカ系の交配種で、もう一方の親は不明とされる。'Lucy'などと並ぶアルシコルネ系交配のひとつとして流通する。",
     "notes": "交配親は P. alcicorne × 不明（諸説あり）。",
     "iNatUrl": null,
     "lineage": [
       "alcicorne"
+    ],
+    "sources": [
+      "https://staghornfern.org/database/hybrid-cultivar-database/",
+      "https://picclick.com/ESTABLISHED-Staghorn-Fern-Platycerium-African-Oddity-Hybrid-On-303556756811.html"
     ]
   },
   {
@@ -5081,9 +5217,12 @@
       "交配種"
     ],
     "description": "タイの育種家トンクラ作出の交配品種。白毛系の美しい草姿で人気。",
-    "notes": "タイの育種家 Tonkla 作出。交配親は諸説あり（非公開）。",
+    "notes": "タイ・トンクラ（Tonkla Chantaburi Garden）作出。交配親は非公表。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [],
+    "sources": [
+      "https://www.tropicaladdictions.com/platycerium-cultivars/"
+    ]
   },
   {
     "id": "bambi",
@@ -5111,9 +5250,12 @@
       "人気"
     ],
     "description": "トンクラ作出の人気交配。柔らかな白毛の草姿が愛らしい。",
-    "notes": "タイの育種家 Tonkla 作出。交配親は諸説あり（非公開）。",
+    "notes": "タイ・トンクラ（Tonkla Chantaburi Garden）作出。交配親は非公表。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [],
+    "sources": [
+      "https://www.tropicaladdictions.com/platycerium-cultivars/"
+    ]
   },
   {
     "id": "bling-bling",
@@ -5140,9 +5282,12 @@
       "白毛"
     ],
     "description": "トンクラ作出の交配。きらめくような白毛の草姿。",
-    "notes": "タイの育種家 Tonkla 作出。交配親は諸説あり（非公開）。",
+    "notes": "タイ・トンクラ（Tonkla Chantaburi Garden）作出。交配親は非公表。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [],
+    "sources": [
+      "https://www.tropicaladdictions.com/platycerium-cultivars/"
+    ]
   },
   {
     "id": "blue-bird",
@@ -5169,9 +5314,12 @@
       "銀葉"
     ],
     "description": "トンクラ作出の交配。青みを帯びた銀葉が美しい。",
-    "notes": "タイの育種家 Tonkla 作出。交配親は諸説あり（非公開）。",
+    "notes": "タイ・トンクラ（Tonkla Chantaburi Garden）作出。交配親は非公表。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [],
+    "sources": [
+      "https://www.tropicaladdictions.com/platycerium-cultivars/"
+    ]
   },
   {
     "id": "ice-age",
@@ -5198,9 +5346,12 @@
       "白毛"
     ],
     "description": "トンクラ作出の白系交配。氷のように白い草姿。",
-    "notes": "タイの育種家 Tonkla 作出。交配親は諸説あり（非公開）。",
+    "notes": "タイ・トンクラ（Tonkla Chantaburi Garden）作出。交配親は非公表。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [],
+    "sources": [
+      "https://www.tropicaladdictions.com/platycerium-cultivars/"
+    ]
   },
   {
     "id": "jynx",
@@ -5226,9 +5377,13 @@
       "交配種"
     ],
     "description": "トンクラ作出の交配品種。",
-    "notes": "タイの育種家 Tonkla 作出。交配親は諸説あり（非公開）。",
+    "notes": "タイ・トンクラ（Tonkla Chantaburi Garden）作出。交配親は非公表。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [],
+    "sources": [
+      "https://www.tropicaladdictions.com/platycerium-cultivars/",
+      "https://www.facebook.com/tonklachantaburigarden/posts/speshow-platycerium-jynx/1967949606679561/"
+    ]
   },
   {
     "id": "moomin",
@@ -5256,9 +5411,12 @@
       "人気"
     ],
     "description": "トンクラ作出の人気交配。ふっくらした白毛の草姿。",
-    "notes": "タイの育種家 Tonkla 作出。交配親は諸説あり（非公開）。",
+    "notes": "タイ・トンクラ（Tonkla Chantaburi Garden）作出。交配親は非公表。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [],
+    "sources": [
+      "https://www.tropicaladdictions.com/platycerium-cultivars/"
+    ]
   },
   {
     "id": "summer-breeze",
@@ -5284,9 +5442,12 @@
       "交配種"
     ],
     "description": "トンクラ作出の交配。軽やかに分岐する葉が涼やか。",
-    "notes": "タイの育種家 Tonkla 作出。交配親は諸説あり（非公開）。",
+    "notes": "タイ・トンクラ（Tonkla Chantaburi Garden）作出。交配親は非公表。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [],
+    "sources": [
+      "https://www.tropicaladdictions.com/platycerium-cultivars/"
+    ]
   },
   {
     "id": "vanilla-ice-cream",
@@ -5313,9 +5474,12 @@
       "白毛"
     ],
     "description": "トンクラ作出の白系交配。クリーミーな白毛の草姿。",
-    "notes": "タイの育種家 Tonkla 作出。交配親は諸説あり（非公開）。",
+    "notes": "タイ・トンクラ（Tonkla Chantaburi Garden）作出。交配親は非公表。",
     "iNatUrl": null,
-    "lineage": []
+    "lineage": [],
+    "sources": [
+      "https://www.tropicaladdictions.com/platycerium-cultivars/"
+    ]
   },
   {
     "id": "xoxo",
@@ -5342,12 +5506,16 @@
       "白毛",
       "銀葉"
     ],
-    "description": "トンクラの DW（ディバーシフォリウム × ウィリンキー）系の白系交配。極端な白さが身上。",
+    "description": "タイ・トンクラのDW系（ディバーシフォリウム × ウィリンキー）の交配。白いトリコームをまとう白系として流通する。",
     "notes": "Tonkla の DW（diversifolium × willinckii）系。血統はウィリンキーで辿れる。",
     "iNatUrl": null,
     "lineage": [
       "diversifolium",
       "willinckii"
+    ],
+    "sources": [
+      "https://www.facebook.com/tonklachantaburigarden/posts/platycerium-tonkla-dw-hybrid-from-pdiversifolium-x-pwillinckii/1690103657797492/",
+      "https://staghornfern.org/database/hybrid-cultivar-database/"
     ]
   },
   {
@@ -5374,12 +5542,16 @@
       "交配種",
       "白毛"
     ],
-    "description": "トンクラの DW（ディバーシフォリウム × ウィリンキー）系。白毛が花火のように広がる。",
+    "description": "タイ・トンクラのDW系（ディバーシフォリウム × ウィリンキー）の交配品種。DW系は白い毛をまとうことで知られる。",
     "notes": "Tonkla の DW（diversifolium × willinckii）系。",
     "iNatUrl": null,
     "lineage": [
       "diversifolium",
       "willinckii"
+    ],
+    "sources": [
+      "https://www.facebook.com/tonklachantaburigarden/posts/platycerium-tonkla-dw-hybrid-from-pdiversifolium-x-pwillinckii/1690103657797492/",
+      "https://staghornfern.org/database/hybrid-cultivar-database/"
     ]
   },
   {
@@ -5389,7 +5561,7 @@
     "scientificName": "Platycerium willinckii 'Kawah Ijen'",
     "group": "東南アジア系",
     "type": "選抜品種",
-    "origin": "園芸品種（ウィリンキーの選抜）",
+    "origin": "インドネシア・東ジャワ（イジェン火山周辺の野生フォーム）",
     "size": "中型",
     "shieldFrond": "上部が裂けて立ち上がる",
     "foliarFrond": "分岐して展開する",
@@ -5403,14 +5575,17 @@
     "imageCredit": null,
     "instagramUrl": null,
     "tags": [
-      "ウィリンキー系",
-      "矮性"
+      "ウィリンキー系"
     ],
-    "description": "トンクラの矮性ウィリンキー選抜。ジャワの火山カワイジェンに由来。",
-    "notes": "Tonkla の矮性ウィリンキー選抜。",
+    "description": "東ジャワ・バニュワンギのイジェン火山一帯に由来する野生系ウィリンキー。ロール状の貯水葉と細毛をまとう葉が特徴で、現地採集個体が流通する。",
+    "notes": "東ジャワ・バニュワンギのイジェン火山一帯から採集される野生系統。ロール状の葉のフォームが知られる。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://www.facebook.com/groups/176002333973858/posts/682771563296930/",
+      "https://www.youtube.com/watch?v=FXbvnHCfgDM"
     ]
   },
   {
@@ -5468,11 +5643,15 @@
       "ヒリー系",
       "個性派"
     ],
-    "description": "トンクラのヒリー系選抜。濃緑で力強い草姿。",
+    "description": "タイ・トンクラ作出のヒリー系交配シリーズ。ヒリー'パオパオ'×ヒリー'ドラゴン'から生まれ、濃い葉脈と力強い草姿を持つ番号付き個体群として展開される。",
     "notes": "Tonkla のヒリー選抜。",
     "iNatUrl": null,
     "lineage": [
       "hillii"
+    ],
+    "sources": [
+      "https://www.facebook.com/tonklachantaburigarden/posts/speshowplatycerium-kiss-or-kill-2phillii-pao-pao-x-phillii-dragon/930323268287742/",
+      "https://staghornfern.org/database/hybrid-cultivar-database/"
     ]
   },
   {
@@ -5499,11 +5678,15 @@
       "ヒリー系",
       "個性派"
     ],
-    "description": "トンクラのヒリー系選抜。キスオアキルと対をなす。",
+    "description": "トンクラのヒリー系交配シリーズの一系統で、ヒリー'パオパオ'×'ドラゴン'の組み合わせから生まれる。ドラゴンを母とする個体は丸みのある頭部に出やすいとされる。",
     "notes": "Tonkla のヒリー選抜。",
     "iNatUrl": null,
     "lineage": [
       "hillii"
+    ],
+    "sources": [
+      "https://staghornfern.org/guides/platycerium-hybridization-guide/",
+      "https://www.facebook.com/tonklachantaburigarden/posts/speshowplatycerium-kiss-or-kill-2phillii-pao-pao-x-phillii-dragon/930323268287742/"
     ]
   },
   {
@@ -5562,11 +5745,15 @@
       "個性派",
       "希少"
     ],
-    "description": "細く繊細に分岐する胞子葉がレース状に広がる人気のコロナリウム選抜。",
+    "description": "細く繊細に裂ける胞子葉がレース状に広がる希少なコロナリウム選抜。優美で軽やかな草姿が珍重される。",
     "notes": "P. coronarium 'Thin Thin' の選抜。",
     "iNatUrl": null,
     "lineage": [
       "coronarium"
+    ],
+    "sources": [
+      "https://welovetropicalplants.com/products/platycerium-coronarium-thin-thin",
+      "https://siborchid.com/product/platycerium-coronarium-thin-thin/"
     ]
   },
   {
@@ -5592,11 +5779,14 @@
     "tags": [
       "コロナリウム系"
     ],
-    "description": "コンパクトに育つコロナリウムのフォーム。狭いスペースでも飾りやすい。",
+    "description": "標準種より密でまとまった草姿に育つコロナリウムのコンパクトフォーム。アンテラー状の葉形を保ちつつ省スペースで飾れる。",
     "notes": "P. coronarium のコンパクトフォーム。",
     "iNatUrl": null,
     "lineage": [
       "coronarium"
+    ],
+    "sources": [
+      "https://greenboog.com/product/platycerium-coronarium-compact-form/"
     ]
   },
   {
@@ -5622,11 +5812,15 @@
     "tags": [
       "コロナリウム系"
     ],
-    "description": "トンクラによる白系コロナリウム選抜。",
+    "description": "トンクラ・チャンタブリ作出の白系コロナリウム選抜。明るい葉色が珍しく、成長につれ葉先がカールする希少なフォーム。",
     "notes": "P. coronarium の選抜（Tonkla）。",
     "iNatUrl": null,
     "lineage": [
       "coronarium"
+    ],
+    "sources": [
+      "https://www.facebook.com/tonklachantaburigarden/photos/p-coronarium-cv-whitespecial-variety-cultivated-by-tonkla-chanthaburi-garden-pew/919837891490743/",
+      "https://www.engei.net/products/detail?id=201319"
     ]
   },
   {
@@ -5654,11 +5848,14 @@
       "銀葉",
       "白毛"
     ],
-    "description": "タイ語で「銀葉」を意味する、白銀の葉が美しいウィリンキー選抜。",
+    "description": "タイ語で「銀の葉（バイ＝葉、グン＝銀）」を意味する、白銀に輝く葉をもつウィリンキー系統。星状毛に覆われ銀色を帯びる。",
     "notes": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://thailandfoundation.or.th/all-wrapped-up-the-cultural-side-of-flowers-and-banana-leaves-in-thailand/"
     ]
   },
   {
@@ -5684,11 +5881,14 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "ウィリンキー系の選抜のひとつ。",
+    "description": "細長く垂れ下がり、先端が幾重にも分岐する胞子葉をもつウィリンキー選抜。繊細な分岐を好む愛好家向けの個体。",
     "notes": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://the-tribus-studio.waca.shop/en/product/detail/1553896"
     ]
   },
   {
@@ -5956,11 +6156,14 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "ウィリンキー系の選抜のひとつ。",
-    "notes": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。",
+    "description": "カールする胞子葉が珍しい大型のウィリンキー。米国の故ジェリー・ホーン由来とされ流通量の少ない希少系統。",
+    "notes": "原典の綴りは 'Mayii'（Tropical Addictions）。米国の故ジェリー・ホーン由来とされる。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://www.tropicaladdictions.com/product/platycerium-willinckii-mayii/"
     ]
   },
   {
@@ -5986,11 +6189,15 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "ウィリンキー系の選抜のひとつ。",
+    "description": "ブラジルの育種家ペドロ・ルッソが作出したウィリンキー銘品。細長く優美に垂れる胞子葉をもち、カルロス・タツタの名と共に世界へ広まった。",
     "notes": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://www.vandaka-plants.com/legends_story_1/",
+      "https://welovetropicalplants.com/products/platycerium-willinckii-pedro-tatusta"
     ]
   },
   {
@@ -6086,8 +6293,8 @@
   {
     "id": "poulwebber",
     "name": "ポールウェバー",
-    "nameEn": "Poulwebber",
-    "scientificName": "Platycerium willinckii 'Poulwebber'",
+    "nameEn": "Paul Webber",
+    "scientificName": "Platycerium willinckii 'Paul Webber'",
     "group": "東南アジア系",
     "type": "選抜品種",
     "origin": "園芸品種（ウィリンキーの選抜）",
@@ -6106,11 +6313,15 @@
     "tags": [
       "ウィリンキー系"
     ],
-    "description": "ウィリンキー系の選抜のひとつ。",
-    "notes": "P. willinckii の選抜（カタログ記載のフォーム／流通名）。",
+    "description": "直立気味の胞子葉と銀色の葉をもつウィリンキー古典選抜。多くの交配親として用いられる銘品。",
+    "notes": "綴りは 'Paul Webber' が正しい（Poulwebber 表記でも流通）。'Narcissus'（× Mt. Lewis）等の交配親としても知られる。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://seedstudiosf.com/products/platycerium-blue-vista-spore-rare-tropical-plants-seed-studio%C2%AE",
+      "https://www.facebook.com/JungleArtStudio/posts/platycerium-narcissus-p-willinckii-cv-paul-webber-x-p-mt-lewis-/637994724982787/"
     ]
   },
   {
