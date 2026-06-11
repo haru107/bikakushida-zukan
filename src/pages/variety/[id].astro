@@ -105,6 +105,9 @@ const jsonLd = {
         <div class="no-image">
           <span class="no-image-icon">🦌</span>
           <p>📷 画像募集中</p>
+          {!variety.instagramUrl && (
+            <a class="contribute-link" href={`/contribute/?v=${encodeURIComponent(variety.name)}`}>この品種の写真を提供する →</a>
+          )}
         </div>
       )}
       {variety.imageCredit && (
@@ -378,6 +381,18 @@ const jsonLd = {
   }
   .no-image-icon { font-size: 3rem; opacity: 0.3; }
   .no-image p { font-size: 0.85rem; }
+  .contribute-link {
+    margin-top: 0.8rem;
+    font-size: 0.78rem;
+    color: #fff;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.35);
+    padding: 0.4rem 0.9rem;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .contribute-link:hover { background: rgba(255,255,255,0.3); }
 
   .image-credit {
     font-size: 0.72rem;
