@@ -1,0 +1,246 @@
+---
+import Base from '../../layouts/Base.astro';
+import varieties from '../../data/varieties.json';
+
+// よく子株を出す丈夫な品種
+const pupIds = ['bifurcatum', 'netherlands', 'hillii', 'willinckii'];
+const pupVars = pupIds.map(id => varieties.find(v => v.id === id)).filter(Boolean);
+---
+
+<Base
+  title="ビカクシダの子株の外し方と増やし方【株分け】 — ビカク図鑑"
+  description="ビカクシダ（コウモリラン）の子株（仔株）の外し方を解説。外すタイミングの見極め、ナイフでの切り分け手順、外した後の板付けと管理、失敗しやすいポイントまで。"
+>
+  <nav class="breadcrumb">
+    <a href="/guide/">育て方ガイド</a>
+    <span>›</span>
+    <span>子株の外し方</span>
+  </nav>
+
+  <article class="guide">
+    <header class="guide-head">
+      <p class="label">GROWING GUIDE</p>
+      <h1>🌱 ビカクシダの子株の外し方と増やし方</h1>
+      <p class="guide-lead">ビフルカツムやウィリンキー系のビカクシダは、株元や根から<strong>子株（pup）</strong>を出してどんどん増えます。子株を外して板付けすれば、親と同じ性質の株がもう一つ手に入る——ビカクシダ栽培のいちばん楽しい瞬間のひとつです。</p>
+    </header>
+
+    <figure class="g-fig">
+      <img src="/guide/kokabu_hero.jpg" alt="親株の脇から顔を出した子株" width="1200" height="675" />
+      <figcaption>イラストはイメージ図解です</figcaption>
+    </figure>
+
+    <section>
+      <h2>外すタイミングの見極め</h2>
+      <ul class="checks">
+        <li><strong>子株に貯水葉が2〜3枚展開している</strong> — 葉が1枚だけの赤ちゃん株はまだ早い</li>
+        <li><strong>手のひらサイズ（10cm前後）以上</strong> — 小さいほど外した後の管理が難しくなる</li>
+        <li><strong>子株自身の根が確認できる</strong> — 根なしで外すと活着率が大きく下がる</li>
+        <li><strong>季節は生育期（春〜初夏）</strong> — 外した後の回復が早い。真冬の作業は避ける</li>
+      </ul>
+      <p class="note">※グランデやリドレイのように子株をほとんど出さない「単頭種」もあります。それらを増やすには<a href="/guide/houshi/">胞子培養</a>で。</p>
+    </section>
+
+    <section>
+      <h2>外し方の手順（4ステップ）</h2>
+      <ol class="steps">
+        <li>
+          <h3>前日に水やりしておく</h3>
+          <p>水苔が湿っていると崩れにくく、根へのダメージも減ります。道具は清潔なナイフ（またはカッター）を用意。</p>
+        </li>
+        <li>
+          <h3>子株の根の範囲を確認する</h3>
+          <p>子株の貯水葉を軽く持ち上げ、どこから根が出ているかを確認。親株の根茎とつながっている部分を探します。</p>
+        </li>
+        <li>
+          <h3>水苔ごとナイフで切り分ける</h3>
+          <p>子株の<strong>根と周りの水苔をなるべく多く付けたまま</strong>、親とのつながりをナイフで切ります。子株の成長点（中心）を傷つけないよう、刃は親株側に向けて。</p>
+        </li>
+        <li>
+          <h3>すぐに板付けする</h3>
+          <p>外した子株は乾かさず、その日のうちに小さめの板へ。やり方は<a href="/guide/itazuke/">板付けガイド</a>と同じです。根が少ない分、水苔は薄めに巻くのがコツ。</p>
+        </li>
+      </ol>
+      <figure class="g-fig">
+        <img src="/guide/kokabu_cut.jpg" alt="ナイフで子株を切り分ける" width="1200" height="900" loading="lazy" />
+        <figcaption>根と水苔をなるべく多く付けたまま切り分ける</figcaption>
+      </figure>
+      <figure class="g-fig">
+        <img src="/guide/kokabu_mount.jpg" alt="外した子株を小さな板に板付け" width="1200" height="900" loading="lazy" />
+        <figcaption>外したその日のうちに小さな板へ板付け</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>外した後の管理</h2>
+      <table class="tools">
+        <tbody>
+          <tr><th>置き場所</th><td>明るい日陰。直射日光と強風は避ける</td></tr>
+          <tr><th>湿度</th><td>高めをキープ。乾燥する季節は葉水や透明袋をふんわり被せて保湿（蒸れない程度に）</td></tr>
+          <tr><th>水やり</th><td>水苔を乾かしすぎない。小さい株ほど乾くのが早いので注意</td></tr>
+          <tr><th>活着まで</th><td>1〜2ヶ月。新しい葉が動き出したら成功のサイン。肥料はそれまで不要</td></tr>
+          <tr><th>親株側</th><td>切り口はそのままで自然に乾きます。えぐれた部分には水苔を軽く足しておく</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>⚠️ 失敗しやすいポイント</h2>
+      <ul class="warns">
+        <li><strong>小さすぎる子株を外す</strong> — かわいくてつい外したくなりますが、小さいほど枯れやすい。貯水葉2〜3枚まで待つ</li>
+        <li><strong>根を付けずに外す</strong> — 葉だけ切り取っても育ちません。必ず根ごと</li>
+        <li><strong>外してから放置</strong> — 根がむき出しのまま乾くと一気に弱ります。即日板付け</li>
+        <li><strong>真冬・真夏の作業</strong> — 回復力が落ちる時期の手術は失敗のもと</li>
+        <li><strong>成長点を傷つける</strong> — 子株も親株も、中心の成長点を切ると終わりです。刃の向きに注意</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>よく子株を出す品種</h2>
+      <p class="sec-lead">「増やす楽しみ」重視ならこのあたりが優秀です。</p>
+      <div class="variety-links">
+        {pupVars.map((v: any) => (
+          <a href={`/variety/${v.id}`} class="v-chip">
+            <span class="v-name">{v.name}</span>
+            <span class="v-sci">{v.scientificName}</span>
+          </a>
+        ))}
+      </div>
+      <p class="more-link" style="margin-top:1rem;">
+        <a href="/guide/itazuke/">→ 板付け方法</a> ・
+        <a href="/guide/houshi/">→ 胞子培養入門（子株を出さない品種はこちら）</a>
+      </p>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .breadcrumb {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 0.4rem;
+  }
+  .breadcrumb a { color: var(--green-light); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  .guide { max-width: 760px; }
+  .label {
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .guide-head h1 { font-size: 1.55rem; color: var(--green-dark); margin-bottom: 0.8rem; line-height: 1.4; }
+  .guide-lead { font-size: 0.92rem; line-height: 1.9; color: var(--text-muted); margin-bottom: 1rem; }
+
+  .g-fig { margin: 0 0 1rem; }
+  .g-fig img { width: 100%; height: auto; border-radius: 12px; display: block; border: 1px solid var(--border); }
+  .g-fig figcaption { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.4rem; text-align: right; }
+  section .g-fig { margin-top: 1rem; }
+
+  .guide section {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .guide h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--green-light);
+  }
+  .guide section p { font-size: 0.88rem; line-height: 1.8; color: #444; }
+  .note { margin-top: 0.8rem; color: var(--text-muted) !important; font-size: 0.8rem !important; }
+  .note a { color: var(--green-mid); }
+
+  .tools { width: 100%; border-collapse: collapse; }
+  .tools th, .tools td {
+    padding: 0.6rem 0.7rem;
+    font-size: 0.86rem;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.6;
+  }
+  .tools th { width: 28%; color: var(--green-mid); font-weight: 700; }
+
+  .steps { list-style: none; counter-reset: step; }
+  .steps li {
+    counter-increment: step;
+    position: relative;
+    padding: 0 0 1.2rem 3rem;
+  }
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background: var(--green-dark);
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .steps li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 1.02rem;
+    top: 2.3rem;
+    bottom: 0.2rem;
+    width: 2px;
+    background: var(--border);
+  }
+  .steps h3 { font-size: 0.95rem; color: var(--green-dark); margin-bottom: 0.3rem; }
+  .steps p { font-size: 0.88rem; line-height: 1.8; color: #444; }
+  .steps a { color: var(--green-mid); }
+
+  .checks { list-style: none; margin-bottom: 0.5rem; }
+  .checks li {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: #444;
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    position: relative;
+  }
+  .checks li::before { content: '✓'; position: absolute; left: 0; color: var(--green-light); font-weight: 700; }
+
+  .warns { list-style: none; }
+  .warns li {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: #444;
+    padding: 0.5rem 0 0.5rem 1.4rem;
+    position: relative;
+    border-bottom: 1px dashed var(--border);
+  }
+  .warns li:last-child { border-bottom: none; }
+  .warns li::before { content: '✕'; position: absolute; left: 0; color: #c0392b; font-weight: 700; }
+  .warns strong { color: #2a2a2a; }
+
+  .sec-lead { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.9rem; }
+  .variety-links { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.6rem; }
+  .v-chip {
+    background: #eef5f0;
+    border: 1px solid #cce0d4;
+    border-radius: 10px;
+    padding: 0.7rem 0.9rem;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .v-chip:hover { background: #d8eddf; }
+  .v-name { display: block; font-weight: 700; color: var(--green-dark); font-size: 0.92rem; }
+  .v-sci { display: block; font-size: 0.68rem; font-style: italic; color: var(--text-muted); margin-top: 0.15rem; }
+  .more-link { font-size: 0.88rem; line-height: 2; }
+  .more-link a { color: var(--green-mid); text-decoration: none; }
+  .more-link a:hover { text-decoration: underline; }
+</style>

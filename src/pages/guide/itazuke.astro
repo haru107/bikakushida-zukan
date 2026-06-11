@@ -24,6 +24,11 @@ const beginners = beginnerIds.map(id => varieties.find(v => v.id === id)).filter
       <p class="guide-lead">ビカクシダは本来、木の幹に張り付いて育つ「着生シダ」。鉢植えでも育ちますが、板に付けると通気が良くなって根腐れしにくく、貯水葉が美しく展開し、壁掛けで楽しめるようになります。このページでは初めての板付けを、必要な道具から手順・失敗例まで通しで解説します。</p>
     </header>
 
+    <figure class="g-fig">
+      <img src="/guide/itazuke_hero.jpg" alt="板付けされたビカクシダ" width="1200" height="675" />
+      <figcaption>イラストはイメージ図解です</figcaption>
+    </figure>
+
     <section>
       <h2>必要なもの</h2>
       <table class="tools">
@@ -59,6 +64,10 @@ const beginners = beginnerIds.map(id => varieties.find(v => v.id === id)).filter
         <li>
           <h3>テグス（紐）で固定する</h3>
           <p>水苔ごと株を板に縛り付けます。<strong>成長点と葉のつけ根を避けて</strong>、水苔の部分を通るように2〜3周、ほどけないようしっかりと。株がグラつかなければOK。強く締めすぎて貯水葉を切らないように。</p>
+          <figure class="g-fig">
+            <img src="/guide/itazuke_fix.jpg" alt="テグスで株を板に固定する" width="1200" height="900" loading="lazy" />
+            <figcaption>成長点を避けて水苔ごと固定する</figcaption>
+          </figure>
         </li>
         <li>
           <h3>仕上げの水やりと吊るし</h3>
@@ -118,6 +127,10 @@ const beginners = beginnerIds.map(id => varieties.find(v => v.id === id)).filter
   .breadcrumb a:hover { text-decoration: underline; }
 
   .guide { max-width: 760px; }
+  .g-fig { margin: 0 0 1rem; }
+  .g-fig img { width: 100%; height: auto; border-radius: 12px; display: block; border: 1px solid var(--border); }
+  .g-fig figcaption { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.4rem; text-align: right; }
+  .steps .g-fig { margin-top: 0.8rem; }
   .label {
     font-size: 0.72rem;
     letter-spacing: 0.15em;

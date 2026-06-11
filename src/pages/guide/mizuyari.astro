@@ -1,0 +1,178 @@
+---
+import Base from '../../layouts/Base.astro';
+import varieties from '../../data/varieties.json';
+---
+
+<Base
+  title="ビカクシダの水やり【頻度・ドブ漬けのやり方・水切れサイン】 — ビカク図鑑"
+  description="ビカクシダ（コウモリラン）の水やりを解説。水苔が乾いたらたっぷりが基本。シャワーとドブ漬けのやり方、季節ごとの頻度目安、水切れ・水のやりすぎのサインまで。"
+>
+  <nav class="breadcrumb">
+    <a href="/guide/">育て方ガイド</a>
+    <span>›</span>
+    <span>水やり</span>
+  </nav>
+
+  <article class="guide">
+    <header class="guide-head">
+      <p class="label">GROWING GUIDE</p>
+      <h1>💧 ビカクシダの水やり【頻度・ドブ漬け・水切れサイン】</h1>
+      <p class="guide-lead">ビカクシダの管理で一番悩むのが水やり。基本はシンプルで「<strong>水苔がしっかり乾いたら、たっぷり</strong>」。木に着生して雨と乾燥を繰り返す植物なので、乾湿のメリハリが何より大事です。毎日少しずつあげるのが一番の失敗パターン。</p>
+    </header>
+
+    <figure class="g-fig">
+      <img src="/guide/mizuyari_hero.jpg" alt="板付けビカクシダへの水やり" width="1200" height="675" />
+      <figcaption>イラストはイメージ図解です</figcaption>
+    </figure>
+
+    <section>
+      <h2>水やりの方法は2つ</h2>
+      <table class="tools">
+        <tbody>
+          <tr><th>シャワー（ジョウロ）</th><td>水苔と貯水葉の裏にたっぷりかける。底から水が流れ出るまで。手軽で普段使いに</td></tr>
+          <tr><th>ドブ漬け（浸水）</th><td>バケツや桶に水を張り、板ごと10〜15分沈める。水苔の芯まで確実に吸水でき、乾かしすぎた株の回復にも最適。週末のメンテにおすすめ</td></tr>
+        </tbody>
+      </table>
+      <figure class="g-fig">
+        <img src="/guide/mizuyari_dunk.jpg" alt="ドブ漬けのイメージ" width="1200" height="900" loading="lazy" />
+        <figcaption>ドブ漬け：板ごと水に沈めて水苔の芯まで吸水させる</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>季節ごとの頻度目安</h2>
+      <table class="tools">
+        <tbody>
+          <tr><th>春・秋（生育期）</th><td>水苔が完全に乾いたら。環境にもよるが週1〜2回が目安</td></tr>
+          <tr><th>夏</th><td>乾きが早いので頻度アップ。日中の高温時を避け、夕方〜夜に。風通しを確保して蒸れ防止</td></tr>
+          <tr><th>冬</th><td>ぐっと絞る。10日〜2週間に1回程度、暖かい日の午前中に常温の水で。詳しくは<a href="/guide/fuyugoshi/">冬越しガイド</a></td></tr>
+        </tbody>
+      </table>
+      <p class="note">※頻度はあくまで目安。「カレンダーで決める」のではなく「乾いたか確かめてからやる」が正解です。</p>
+    </section>
+
+    <section>
+      <h2>乾き具合の見分け方</h2>
+      <ul class="checks">
+        <li><strong>板を持ち上げる</strong> — 一番確実。水を含んだ直後との重さの差を覚えておくと、軽くなったのがすぐ分かる</li>
+        <li><strong>水苔の色</strong> — 濡れていると濃い茶色、乾くと白っぽいベージュに</li>
+        <li><strong>水苔を指で触る</strong> — 表面だけでなく少し奥まで。表面が乾いていても中は湿っていることが多い</li>
+      </ul>
+      <figure class="g-fig">
+        <img src="/guide/mizuyari_sign.jpg" alt="水切れした胞子葉のしわ" width="1200" height="900" loading="lazy" />
+        <figcaption>水切れのサイン：胞子葉に細かいしわが寄り、力なく垂れる</figcaption>
+      </figure>
+      <p>水が切れると<strong>胞子葉に細かいしわが寄って垂れます</strong>。このサインが出たらすぐドブ漬けすればたいてい回復します。逆に貯水葉の付け根が黒ずんでくるのは水のやりすぎ（蒸れ・根腐れ）のサインです。</p>
+    </section>
+
+    <section>
+      <h2>⚠️ 失敗しやすいポイント</h2>
+      <ul class="warns">
+        <li><strong>毎日ちょろちょろあげる</strong> — 常に湿った状態が続くと根腐れします。乾く→たっぷり、のメリハリを</li>
+        <li><strong>成長点に水を溜める</strong> — 株の中心に水が溜まったまま夜の低温に当たると傷みます。冬は特に注意</li>
+        <li><strong>星状毛をこすり落とす</strong> — 葉の白い毛（星状毛）は乾燥・強光から株を守るもの。強い水流やスポンジでこすらない</li>
+        <li><strong>受け皿に水を溜めっぱなし</strong> — 鉢植え管理の場合。溜め水は蒸れと根腐れのもと</li>
+        <li><strong>真夏の昼に水やり</strong> — 水苔内が高温になり根を傷めます。夏は夕方に</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>留守がちなら「自動給水」という手も</h2>
+      <p>出張や旅行で数日空けるときは、ドブ漬けしてから出かければ1週間程度は持ちます。それ以上になる場合は、点滴式の自動給水（ペットボトル給水器など）を併用すると安心です。</p>
+    </section>
+
+    <section>
+      <h2>関連ページ</h2>
+      <p class="more-link">
+        <a href="/guide/itazuke/">→ 板付け方法</a> ・
+        <a href="/guide/fuyugoshi/">→ 冬越しガイド</a> ・
+        <a href="/">→ 品種ごとの水やり目安は各品種ページで（全{varieties.length}種）</a>
+      </p>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .breadcrumb {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 0.4rem;
+  }
+  .breadcrumb a { color: var(--green-light); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  .guide { max-width: 760px; }
+  .label {
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .guide-head h1 { font-size: 1.55rem; color: var(--green-dark); margin-bottom: 0.8rem; line-height: 1.4; }
+  .guide-lead { font-size: 0.92rem; line-height: 1.9; color: var(--text-muted); margin-bottom: 1rem; }
+
+  .g-fig { margin: 0 0 1rem; }
+  .g-fig img { width: 100%; height: auto; border-radius: 12px; display: block; border: 1px solid var(--border); }
+  .g-fig figcaption { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.4rem; text-align: right; }
+  section .g-fig { margin-top: 1rem; }
+
+  .guide section {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .guide h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--green-light);
+  }
+  .guide section p { font-size: 0.88rem; line-height: 1.8; color: #444; }
+  .note { margin-top: 0.8rem; color: var(--text-muted) !important; font-size: 0.8rem !important; }
+
+  .tools { width: 100%; border-collapse: collapse; }
+  .tools th, .tools td {
+    padding: 0.6rem 0.7rem;
+    font-size: 0.86rem;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.6;
+  }
+  .tools th { width: 32%; color: var(--green-mid); font-weight: 700; }
+  .tools a { color: var(--green-mid); }
+
+  .checks { list-style: none; margin-bottom: 0.5rem; }
+  .checks li {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: #444;
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    position: relative;
+  }
+  .checks li::before { content: '✓'; position: absolute; left: 0; color: var(--green-light); font-weight: 700; }
+
+  .warns { list-style: none; }
+  .warns li {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: #444;
+    padding: 0.5rem 0 0.5rem 1.4rem;
+    position: relative;
+    border-bottom: 1px dashed var(--border);
+  }
+  .warns li:last-child { border-bottom: none; }
+  .warns li::before { content: '✕'; position: absolute; left: 0; color: #c0392b; font-weight: 700; }
+  .warns strong { color: #2a2a2a; }
+
+  .more-link { font-size: 0.88rem; line-height: 2; }
+  .more-link a { color: var(--green-mid); text-decoration: none; }
+  .more-link a:hover { text-decoration: underline; }
+</style>

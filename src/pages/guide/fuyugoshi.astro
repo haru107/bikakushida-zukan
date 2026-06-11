@@ -1,0 +1,184 @@
+---
+import Base from '../../layouts/Base.astro';
+import varieties from '../../data/varieties.json';
+
+// 耐寒性の参考品種リンク
+const hardyIds = ['bifurcatum', 'veitchii', 'netherlands'];
+const tenderIds = ['ridleyi', 'coronarium', 'madagascariense'];
+const hardy = hardyIds.map(id => varieties.find(v => v.id === id)).filter(Boolean);
+const tender = tenderIds.map(id => varieties.find(v => v.id === id)).filter(Boolean);
+---
+
+<Base
+  title="ビカクシダの冬越し【耐寒温度・置き場所・冬の水やり】 — ビカク図鑑"
+  description="ビカクシダ（コウモリラン）の冬越しを解説。品種ごとの耐寒温度の目安、室内への取り込みタイミング、冬の置き場所と水やりの絞り方、よくある失敗まで。"
+>
+  <nav class="breadcrumb">
+    <a href="/guide/">育て方ガイド</a>
+    <span>›</span>
+    <span>冬越し</span>
+  </nav>
+
+  <article class="guide">
+    <header class="guide-head">
+      <p class="label">GROWING GUIDE</p>
+      <h1>🌡️ ビカクシダの冬越し【耐寒温度・置き場所・冬の水やり】</h1>
+      <p class="guide-lead">熱帯生まれのビカクシダにとって、日本の冬は一年で最大の関門。ただしポイントは「<strong>温度</strong>」「<strong>置き場所</strong>」「<strong>水やりを絞る</strong>」の3つだけです。これさえ押さえれば室内で問題なく春を迎えられます。</p>
+    </header>
+
+    <figure class="g-fig">
+      <img src="/guide/fuyugoshi_hero.jpg" alt="冬の窓辺のビカクシダ" width="1200" height="675" />
+      <figcaption>イラストはイメージ図解です</figcaption>
+    </figure>
+
+    <section>
+      <h2>耐寒温度の目安</h2>
+      <table class="tools">
+        <tbody>
+          <tr><th>多くの品種</th><td><strong>最低10℃</strong>を確保すれば安全圏。ウィリンキー系の選抜・交配の多くはここ</td></tr>
+          <tr><th>寒さに強め</th><td>{hardy.map((v: any, i: number) => (<>{i > 0 && '・'}<a href={`/variety/${v.id}`}>{v.name}</a></>))} など。短時間なら5℃前後まで耐えるとされるが、無理はさせない</td></tr>
+          <tr><th>寒さに弱い</th><td>{tender.map((v: any, i: number) => (<>{i > 0 && '・'}<a href={`/variety/${v.id}`}>{v.name}</a></>))} など。<strong>15℃以上</strong>キープが安心</td></tr>
+        </tbody>
+      </table>
+      <p class="note">※品種ごとの耐寒性は各品種ページの「耐寒性」欄に記載しています → <a href="/">品種一覧</a></p>
+    </section>
+
+    <section>
+      <h2>室内への取り込みタイミング</h2>
+      <p>目安は「<strong>最低気温が15℃を切り始めたら準備、10℃になる前に取り込み完了</strong>」。秋の冷え込みは急に来るので、天気予報の最低気温を見ながら早めに動くのが安全です。取り込み前に葉の裏や水苔に虫が付いていないかチェックしておくと、室内での虫トラブルを防げます。</p>
+    </section>
+
+    <section>
+      <h2>冬の置き場所</h2>
+      <ul class="checks">
+        <li><strong>明るい窓辺（レースカーテン越し）</strong> — 冬は光が弱いので、できるだけ明るい場所に</li>
+        <li><strong>夜は窓から離す</strong> — 窓際は夜間に外気近くまで冷えます（放射冷却）。夜だけ部屋の内側へ移動できると理想</li>
+        <li><strong>エアコンの直風は当てない</strong> — 極端な乾燥で葉が傷みます。風通しはサーキュレーターの間接風で</li>
+        <li><strong>多湿環境が欲しい品種は簡易温室</strong> — リドレイ等の寒がりは、室内ビニール温室＋必要ならパネルヒーターで15℃以上を保つと安心</li>
+      </ul>
+      <figure class="g-fig">
+        <img src="/guide/fuyugoshi_indoor.jpg" alt="室内温室での冬越し" width="1200" height="900" loading="lazy" />
+        <figcaption>寒がりな品種は室内の簡易温室でまとめて管理すると楽</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>冬の水やり</h2>
+      <table class="tools">
+        <tbody>
+          <tr><th>頻度</th><td>ぐっと絞る。10日〜2週間に1回程度。生育が緩むので乾きも遅い</td></tr>
+          <tr><th>タイミング</th><td>よく晴れた暖かい日の<strong>午前中</strong>。夜までに水苔の表面が乾くのが理想</td></tr>
+          <tr><th>水温</th><td>冷水は避けて常温の水で。ドブ漬けするなら時間も短めに</td></tr>
+          <tr><th>湿度</th><td>暖房で乾燥する部屋は、霧吹きの葉水や加湿器で補う（夜は控える）</td></tr>
+        </tbody>
+      </table>
+      <p class="note">水やりの基本は <a href="/guide/mizuyari/">水やりガイド</a> へ</p>
+    </section>
+
+    <section>
+      <h2>⚠️ 失敗しやすいポイント</h2>
+      <ul class="warns">
+        <li><strong>夜の窓辺に置きっぱなし</strong> — 冬の窓際は深夜に5℃近くまで下がることも。一番多い失敗です</li>
+        <li><strong>暖房の風が直撃</strong> — 数日で葉先がチリチリに。風の通り道を確認</li>
+        <li><strong>夏と同じペースで水やり</strong> — 低温×過湿は根腐れの最短コース</li>
+        <li><strong>逆に完全断水</strong> — 絞るのと止めるのは別。胞子葉にしわが出たら乾かしすぎ</li>
+        <li><strong>春に急に外へ出す</strong> — 遅霜と強光のダブルパンチ。最低気温15℃安定＋日陰から徐々に慣らす</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>関連ページ</h2>
+      <p class="more-link">
+        <a href="/guide/mizuyari/">→ 水やりガイド</a> ・
+        <a href="/guide/itazuke/">→ 板付け方法</a> ・
+        <a href="/">→ 品種ごとの耐寒性を見る（全{varieties.length}種）</a>
+      </p>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .breadcrumb {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 0.4rem;
+  }
+  .breadcrumb a { color: var(--green-light); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  .guide { max-width: 760px; }
+  .label {
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .guide-head h1 { font-size: 1.55rem; color: var(--green-dark); margin-bottom: 0.8rem; line-height: 1.4; }
+  .guide-lead { font-size: 0.92rem; line-height: 1.9; color: var(--text-muted); margin-bottom: 1rem; }
+
+  .g-fig { margin: 0 0 1rem; }
+  .g-fig img { width: 100%; height: auto; border-radius: 12px; display: block; border: 1px solid var(--border); }
+  .g-fig figcaption { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.4rem; text-align: right; }
+  section .g-fig { margin-top: 1rem; }
+
+  .guide section {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .guide h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--green-light);
+  }
+  .guide section p { font-size: 0.88rem; line-height: 1.8; color: #444; }
+  .note { margin-top: 0.8rem; color: var(--text-muted) !important; font-size: 0.8rem !important; }
+  .note a { color: var(--green-mid); }
+
+  .tools { width: 100%; border-collapse: collapse; }
+  .tools th, .tools td {
+    padding: 0.6rem 0.7rem;
+    font-size: 0.86rem;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.6;
+  }
+  .tools th { width: 28%; color: var(--green-mid); font-weight: 700; }
+  .tools a { color: var(--green-mid); }
+
+  .checks { list-style: none; margin-bottom: 0.5rem; }
+  .checks li {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: #444;
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    position: relative;
+  }
+  .checks li::before { content: '✓'; position: absolute; left: 0; color: var(--green-light); font-weight: 700; }
+
+  .warns { list-style: none; }
+  .warns li {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: #444;
+    padding: 0.5rem 0 0.5rem 1.4rem;
+    position: relative;
+    border-bottom: 1px dashed var(--border);
+  }
+  .warns li:last-child { border-bottom: none; }
+  .warns li::before { content: '✕'; position: absolute; left: 0; color: #c0392b; font-weight: 700; }
+  .warns strong { color: #2a2a2a; }
+
+  .more-link { font-size: 0.88rem; line-height: 2; }
+  .more-link a { color: var(--green-mid); text-decoration: none; }
+  .more-link a:hover { text-decoration: underline; }
+</style>

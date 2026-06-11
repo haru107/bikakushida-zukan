@@ -1,0 +1,246 @@
+---
+import Base from '../../layouts/Base.astro';
+import varieties from '../../data/varieties.json';
+
+// 子株を出しにくい＝胞子培養で増やす代表種
+const sporeIds = ['grande', 'superbum', 'ridleyi', 'wandae'];
+const sporeVars = sporeIds.map(id => varieties.find(v => v.id === id)).filter(Boolean);
+---
+
+<Base
+  title="ビカクシダの胞子培養入門【採取・播き方・前葉体から幼苗まで】 — ビカク図鑑"
+  description="ビカクシダ（コウモリラン）の胞子培養を初心者向けに解説。胞子の採取タイミング、殺菌と播種のやり方、前葉体から幼苗までの経過、カビ対策まで。"
+>
+  <nav class="breadcrumb">
+    <a href="/guide/">育て方ガイド</a>
+    <span>›</span>
+    <span>胞子培養入門</span>
+  </nav>
+
+  <article class="guide">
+    <header class="guide-head">
+      <p class="label">GROWING GUIDE</p>
+      <h1>🔬 ビカクシダの胞子培養入門【採取から幼苗まで】</h1>
+      <p class="guide-lead">シダ植物のビカクシダは種ではなく<strong>胞子</strong>で増えます。時間はかかりますが、一度に大量の苗が得られ、グランデやリドレイのような<strong>子株を出さない品種を増やせる唯一の方法</strong>。実生ならではの個体差から「当たり株」を探す楽しみもあります。</p>
+    </header>
+
+    <figure class="g-fig">
+      <img src="/guide/houshi_hero.jpg" alt="胞子葉裏の胞子パッチ" width="1200" height="675" />
+      <figcaption>イラストはイメージ図解です</figcaption>
+    </figure>
+
+    <section>
+      <h2>胞子の採取</h2>
+      <ul class="checks">
+        <li><strong>熟したパッチを狙う</strong> — 胞子葉の裏（先端側）にできるベルベット状のパッチが、緑→茶色に変わったら採りごろ</li>
+        <li><strong>葉ごと or こそげて採る</strong> — パッチ部分を葉ごと切り取るか、スプーンで軽くこそげて紙封筒へ</li>
+        <li><strong>数日乾かす</strong> — 封筒のまま室内で乾燥させると、細かい粉（胞子）が自然に落ちて集まる</li>
+        <li><strong>保存は冷蔵</strong> — すぐ播かない場合は乾燥剤と一緒に冷蔵庫へ。それでも鮮度が命、早めに播種を</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>播種の手順（5ステップ）</h2>
+      <ol class="steps">
+        <li>
+          <h3>容器と用土を用意する</h3>
+          <p>フタ付きの透明容器（タッパーなど）に、細かくした水苔やピートバン、ジフィーセブンなど保水性のある用土を敷きます。</p>
+        </li>
+        <li>
+          <h3>熱湯で殺菌する</h3>
+          <p>用土に熱湯を回しかけて殺菌し、フタをしたまま完全に冷まします。<strong>胞子培養の失敗のほとんどはカビ。この殺菌が成否を分けます。</strong></p>
+        </li>
+        <li>
+          <h3>胞子を薄く播く</h3>
+          <p>冷めた用土の表面に、胞子を紙の上からトントンと<strong>薄く均一に</strong>。厚播きは蒸れとカビのもと。土はかぶせません。</p>
+        </li>
+        <li>
+          <h3>霧吹きしてフタをする</h3>
+          <p>清潔な水（できれば湯冷ましか精製水）を軽く霧吹きし、フタを閉めて密閉。湿度100%近くを保ちます。</p>
+        </li>
+        <li>
+          <h3>明るい日陰に置く</h3>
+          <p>直射日光の当たらない明るい場所、20〜25℃が理想。あとは触らず待つだけです。</p>
+        </li>
+      </ol>
+      <figure class="g-fig">
+        <img src="/guide/houshi_sow.jpg" alt="タッパーへの播種" width="1200" height="900" loading="lazy" />
+        <figcaption>殺菌した湿らせ用土に胞子を薄く播き、密閉して待つ</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>発芽からの経過</h2>
+      <table class="tools">
+        <tbody>
+          <tr><th>2週間〜2ヶ月</th><td>用土の表面がうっすら緑に。コケのような<strong>前葉体</strong>が育ってマット状に広がる</td></tr>
+          <tr><th>前葉体が茂ったら</th><td>ときどき霧吹きで水膜を作る。前葉体上で受精が起こるには<strong>水が必要</strong></td></tr>
+          <tr><th>数ヶ月〜</th><td>受精に成功すると、前葉体から小さな葉（<strong>胞子体</strong>＝ビカクシダ本体）が立ち上がる</td></tr>
+          <tr><th>本葉数枚〜</th><td>塊のままスプーンですくって植え広げ（スポアリング）。少しずつフタを開けて外気に慣らす</td></tr>
+          <tr><th>1〜3年</th><td>個別に育てて板付けサイズへ。気長に楽しむのが胞子培養です</td></tr>
+        </tbody>
+      </table>
+      <figure class="g-fig">
+        <img src="/guide/houshi_grow.jpg" alt="前葉体から幼苗が出た様子" width="1200" height="900" loading="lazy" />
+        <figcaption>緑の前葉体マットから小さな胞子体（幼苗）が立ち上がる</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>⚠️ 失敗しやすいポイント</h2>
+      <ul class="warns">
+        <li><strong>殺菌不足でカビる</strong> — 最多の失敗。用土の熱湯殺菌＋清潔な容器・水を徹底</li>
+        <li><strong>厚播き</strong> — 前葉体が密集しすぎて蒸れ、カビの温床に。「薄く、まばらに」が鉄則</li>
+        <li><strong>直射日光に当てる</strong> — 密閉容器が高温になり全滅します。必ず明るい日陰</li>
+        <li><strong>乾かしてしまう</strong> — 前葉体は乾燥に超弱い。フタの開けっ放しに注意</li>
+        <li><strong>早すぎる開封・植え替え</strong> — 小さいうちに外気に出すと一気に枯れる。本葉が数枚出るまで我慢</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>胞子培養で増やしたい代表品種</h2>
+      <p class="sec-lead">子株をほとんど出さない単頭種は、胞子培養が実質唯一の増殖手段です。</p>
+      <div class="variety-links">
+        {sporeVars.map((v: any) => (
+          <a href={`/variety/${v.id}`} class="v-chip">
+            <span class="v-name">{v.name}</span>
+            <span class="v-sci">{v.scientificName}</span>
+          </a>
+        ))}
+      </div>
+      <p class="more-link" style="margin-top:1rem;">
+        <a href="/guide/kokabu/">→ 子株で増やせる品種なら株分けが手軽</a> ・
+        <a href="/guide/itazuke/">→ 育った苗の板付け方法</a>
+      </p>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .breadcrumb {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 0.4rem;
+  }
+  .breadcrumb a { color: var(--green-light); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  .guide { max-width: 760px; }
+  .label {
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .guide-head h1 { font-size: 1.55rem; color: var(--green-dark); margin-bottom: 0.8rem; line-height: 1.4; }
+  .guide-lead { font-size: 0.92rem; line-height: 1.9; color: var(--text-muted); margin-bottom: 1rem; }
+
+  .g-fig { margin: 0 0 1rem; }
+  .g-fig img { width: 100%; height: auto; border-radius: 12px; display: block; border: 1px solid var(--border); }
+  .g-fig figcaption { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.4rem; text-align: right; }
+  section .g-fig { margin-top: 1rem; }
+
+  .guide section {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .guide h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--green-light);
+  }
+  .guide section p { font-size: 0.88rem; line-height: 1.8; color: #444; }
+  .sec-lead { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.9rem; }
+
+  .tools { width: 100%; border-collapse: collapse; }
+  .tools th, .tools td {
+    padding: 0.6rem 0.7rem;
+    font-size: 0.86rem;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.6;
+  }
+  .tools th { width: 30%; color: var(--green-mid); font-weight: 700; }
+
+  .steps { list-style: none; counter-reset: step; }
+  .steps li {
+    counter-increment: step;
+    position: relative;
+    padding: 0 0 1.2rem 3rem;
+  }
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background: var(--green-dark);
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .steps li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 1.02rem;
+    top: 2.3rem;
+    bottom: 0.2rem;
+    width: 2px;
+    background: var(--border);
+  }
+  .steps h3 { font-size: 0.95rem; color: var(--green-dark); margin-bottom: 0.3rem; }
+  .steps p { font-size: 0.88rem; line-height: 1.8; color: #444; }
+
+  .checks { list-style: none; margin-bottom: 0.5rem; }
+  .checks li {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: #444;
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    position: relative;
+  }
+  .checks li::before { content: '✓'; position: absolute; left: 0; color: var(--green-light); font-weight: 700; }
+
+  .warns { list-style: none; }
+  .warns li {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: #444;
+    padding: 0.5rem 0 0.5rem 1.4rem;
+    position: relative;
+    border-bottom: 1px dashed var(--border);
+  }
+  .warns li:last-child { border-bottom: none; }
+  .warns li::before { content: '✕'; position: absolute; left: 0; color: #c0392b; font-weight: 700; }
+  .warns strong { color: #2a2a2a; }
+
+  .variety-links { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.6rem; }
+  .v-chip {
+    background: #eef5f0;
+    border: 1px solid #cce0d4;
+    border-radius: 10px;
+    padding: 0.7rem 0.9rem;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .v-chip:hover { background: #d8eddf; }
+  .v-name { display: block; font-weight: 700; color: var(--green-dark); font-size: 0.92rem; }
+  .v-sci { display: block; font-size: 0.68rem; font-style: italic; color: var(--text-muted); margin-top: 0.15rem; }
+  .more-link { font-size: 0.88rem; line-height: 2; }
+  .more-link a { color: var(--green-mid); text-decoration: none; }
+  .more-link a:hover { text-decoration: underline; }
+</style>
