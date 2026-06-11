@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const guides = [
+  {
+    href: '/guide/itazuke/',
+    emoji: '🪵',
+    title: 'ビカクシダの板付け方法',
+    desc: '必要な道具から手順・失敗しやすいポイント・板付け後の管理まで。初めての板付けを6ステップで解説。',
+    ready: true,
+  },
+  { emoji: '💧', title: '水やりのコツと自動給水', desc: '準備中', ready: false },
+  { emoji: '🌡️', title: '冬越しの方法', desc: '準備中', ready: false },
+  { emoji: '🌱', title: '子株の外し方と増やし方', desc: '準備中', ready: false },
+  { emoji: '🔬', title: '胞子培養入門', desc: '準備中', ready: false },
+];
+---
+
+<Base
+  title="育て方ガイド — ビカク図鑑"
+  description="ビカクシダ（コウモリラン）の育て方ガイド。板付けの方法・水やり・冬越し・子株の増やし方などを初心者向けに解説します。"
+>
+  <section class="intro">
+    <p class="label">GROWING GUIDE</p>
+    <h1>📖 育て方ガイド</h1>
+    <p class="lead">ビカクシダ（コウモリラン）を育てるための実践ガイド。品種選びは<a href="/">品種一覧</a>、品種ごとの個別の育て方は各品種ページをどうぞ。</p>
+  </section>
+
+  <div class="guide-list">
+    {guides.map(g => g.ready ? (
+      <a href={g.href} class="guide-card">
+        <span class="guide-emoji">{g.emoji}</span>
+        <div>
+          <h2>{g.title}</h2>
+          <p>{g.desc}</p>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+    ) : (
+      <div class="guide-card soon">
+        <span class="guide-emoji">{g.emoji}</span>
+        <div>
+          <h2>{g.title}</h2>
+          <p>近日公開</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .intro { margin-bottom: 2rem; }
+  .label {
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .intro h1 { font-size: 1.7rem; color: var(--green-dark); margin-bottom: 0.6rem; }
+  .lead { font-size: 0.9rem; line-height: 1.8; color: var(--text-muted); max-width: 720px; }
+  .lead a { color: var(--green-mid); }
+
+  .guide-list { display: flex; flex-direction: column; gap: 0.8rem; max-width: 760px; }
+  .guide-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.3rem;
+    text-decoration: none;
+    color: var(--text);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  a.guide-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.08); }
+  .guide-card.soon { opacity: 0.55; }
+  .guide-emoji { font-size: 1.8rem; flex-shrink: 0; }
+  .guide-card h2 { font-size: 1.05rem; color: var(--green-dark); margin-bottom: 0.2rem; }
+  .guide-card p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; }
+  .arrow { margin-left: auto; color: var(--green-light); font-weight: 700; }
+</style>

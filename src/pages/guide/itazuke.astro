@@ -1,0 +1,220 @@
+---
+import Base from '../../layouts/Base.astro';
+import varieties from '../../data/varieties.json';
+
+// 初心者向けの丈夫な品種（実在チェック付きで内部リンク）
+const beginnerIds = ['bifurcatum', 'netherlands', 'veitchii', 'hillii'];
+const beginners = beginnerIds.map(id => varieties.find(v => v.id === id)).filter(Boolean);
+---
+
+<Base
+  title="ビカクシダの板付け方法【初心者向け・6ステップ】 — ビカク図鑑"
+  description="ビカクシダ（コウモリラン）の板付けのやり方を初心者向けに解説。必要な道具、6つの手順、失敗しやすいポイント、板付け後の水やり管理まで。"
+>
+  <nav class="breadcrumb">
+    <a href="/guide/">育て方ガイド</a>
+    <span>›</span>
+    <span>板付け方法</span>
+  </nav>
+
+  <article class="guide">
+    <header class="guide-head">
+      <p class="label">GROWING GUIDE</p>
+      <h1>🪵 ビカクシダの板付け方法【初心者向け・6ステップ】</h1>
+      <p class="guide-lead">ビカクシダは本来、木の幹に張り付いて育つ「着生シダ」。鉢植えでも育ちますが、板に付けると通気が良くなって根腐れしにくく、貯水葉が美しく展開し、壁掛けで楽しめるようになります。このページでは初めての板付けを、必要な道具から手順・失敗例まで通しで解説します。</p>
+    </header>
+
+    <section>
+      <h2>必要なもの</h2>
+      <table class="tools">
+        <tbody>
+          <tr><th>板（焼き杉・ヘゴ板・コルク樹皮など）</th><td>株の2〜3倍の大きさが目安。針葉樹の無垢板でもOK。防腐剤入りの木材は避ける</td></tr>
+          <tr><th>水苔</th><td>乾燥水苔を水で戻しておく。株のサイズに応じてひと握り〜ふた握り</td></tr>
+          <tr><th>固定材（テグス・麻紐・ビニタイ）</th><td>テグスは目立たず強い。麻紐は自然に分解されるので活着後に外す手間がない</td></tr>
+          <tr><th>吊り金具・ワイヤー</th><td>板の上部に取り付けて壁掛け用に。株が育つと重くなるので頑丈に</td></tr>
+          <tr><th>（あれば）ドリル</th><td>板に紐通し用の穴を開けると固定が楽。三角フックの取り付けにも</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>板付けの手順（6ステップ）</h2>
+      <ol class="steps">
+        <li>
+          <h3>水苔を戻す</h3>
+          <p>乾燥水苔をぬるま湯に浸して戻し、軽く絞っておきます。びしょびしょではなく「握って水が垂れない程度」が扱いやすい固さです。</p>
+        </li>
+        <li>
+          <h3>株をポットから抜き、根鉢を整える</h3>
+          <p>ポット苗の場合は土を優しく落とします。根は細くて少ないので、無理にすべて落とさなくて大丈夫。古い土が固まっている部分だけほぐします。<strong>貯水葉の裏に隠れている成長点（株の中心）を傷つけないよう注意。</strong></p>
+        </li>
+        <li>
+          <h3>板に水苔の土台を作る</h3>
+          <p>板の中央よりやや下に、戻した水苔をお椀型に盛ります。株が成長すると上方向に展開するので、板の上側に余白を残しておくのがポイントです。</p>
+        </li>
+        <li>
+          <h3>株を乗せて向きを決める</h3>
+          <p>成長点が<strong>上向き・手前向き</strong>になるように株を水苔の上へ。貯水葉は上に向かって展開し、胞子葉は手前〜下に垂れます。向きを間違えると葉が変な方向に育つので、ここが一番大事な工程です。</p>
+        </li>
+        <li>
+          <h3>テグス（紐）で固定する</h3>
+          <p>水苔ごと株を板に縛り付けます。<strong>成長点と葉のつけ根を避けて</strong>、水苔の部分を通るように2〜3周、ほどけないようしっかりと。株がグラつかなければOK。強く締めすぎて貯水葉を切らないように。</p>
+        </li>
+        <li>
+          <h3>仕上げの水やりと吊るし</h3>
+          <p>全体にたっぷり水をやり、明るい日陰に吊るします。これで完成。新しい根が水苔に伸びて板に「活着」するまで1〜3ヶ月ほどかかります。</p>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>⚠️ 失敗しやすいポイント</h2>
+      <ul class="warns">
+        <li><strong>成長点を埋める・傷つける</strong> — 株の中心にある成長点が水苔や紐で覆われると生育が止まります。常に露出させておくこと。</li>
+        <li><strong>向きを間違える</strong> — 元の株で貯水葉が立ち上がっていた方向が「上」。迷ったら胞子葉が垂れる方を下に。</li>
+        <li><strong>水苔が少なすぎる／多すぎる</strong> — 少ないとすぐ乾いて活着前に弱り、多すぎると過湿で蒸れます。株の根を包んでひと回り大きい程度に。</li>
+        <li><strong>活着前に動かしすぎる</strong> — 頻繁に向きを変えたり触ったりすると新しい根が切れます。場所を決めたらしばらく固定。</li>
+        <li><strong>真夏・真冬に作業する</strong> — 板付けは株への負担が大きいので、生育期の春〜初夏（最低気温15℃以上）がベスト。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>板付け後の管理</h2>
+      <table class="tools">
+        <tbody>
+          <tr><th>水やり</th><td>水苔が乾いたらバケツの水に板ごと10分ほど浸けるか、シャワーでたっぷり。活着までは乾かしすぎない</td></tr>
+          <tr><th>置き場所</th><td>明るい日陰〜レースカーテン越し。風通しがよい場所だと根の張りが早い</td></tr>
+          <tr><th>肥料</th><td>活着して新しい葉が動き出すまでは不要</td></tr>
+          <tr><th>活着のサイン</th><td>新しい貯水葉が板を抱き込むように展開し始めたら成功。麻紐ならそのまま、テグスは貯水葉に食い込む前に切って外してもOK</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>板付けに向く初心者向きの品種</h2>
+      <p class="sec-lead">初めての板付けには、丈夫で生育の早い品種がおすすめです。</p>
+      <div class="variety-links">
+        {beginners.map((v: any) => (
+          <a href={`/variety/${v.id}`} class="v-chip">
+            <span class="v-name">{v.name}</span>
+            <span class="v-sci">{v.scientificName}</span>
+          </a>
+        ))}
+      </div>
+      <p class="more-link"><a href="/">→ 全{varieties.length}品種から探す</a> ・ <a href="/lineage/">→ 血統マップで系統から探す</a></p>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .breadcrumb {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 0.4rem;
+  }
+  .breadcrumb a { color: var(--green-light); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  .guide { max-width: 760px; }
+  .label {
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .guide-head h1 { font-size: 1.55rem; color: var(--green-dark); margin-bottom: 0.8rem; line-height: 1.4; }
+  .guide-lead { font-size: 0.92rem; line-height: 1.9; color: var(--text-muted); margin-bottom: 1rem; }
+
+  .guide section {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .guide h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--green-light);
+  }
+
+  .tools { width: 100%; border-collapse: collapse; }
+  .tools th, .tools td {
+    padding: 0.6rem 0.7rem;
+    font-size: 0.86rem;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.6;
+  }
+  .tools th { width: 38%; color: var(--green-mid); font-weight: 700; }
+
+  .steps { list-style: none; counter-reset: step; }
+  .steps li {
+    counter-increment: step;
+    position: relative;
+    padding: 0 0 1.2rem 3rem;
+  }
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background: var(--green-dark);
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .steps li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 1.02rem;
+    top: 2.3rem;
+    bottom: 0.2rem;
+    width: 2px;
+    background: var(--border);
+  }
+  .steps h3 { font-size: 0.95rem; color: var(--green-dark); margin-bottom: 0.3rem; }
+  .steps p { font-size: 0.88rem; line-height: 1.8; color: #444; }
+
+  .warns { list-style: none; }
+  .warns li {
+    font-size: 0.88rem;
+    line-height: 1.8;
+    color: #444;
+    padding: 0.5rem 0 0.5rem 1.4rem;
+    position: relative;
+    border-bottom: 1px dashed var(--border);
+  }
+  .warns li:last-child { border-bottom: none; }
+  .warns li::before { content: '✕'; position: absolute; left: 0; color: #c0392b; font-weight: 700; }
+  .warns strong { color: #2a2a2a; }
+
+  .sec-lead { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.9rem; }
+  .variety-links { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.6rem; }
+  .v-chip {
+    background: #eef5f0;
+    border: 1px solid #cce0d4;
+    border-radius: 10px;
+    padding: 0.7rem 0.9rem;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .v-chip:hover { background: #d8eddf; }
+  .v-name { display: block; font-weight: 700; color: var(--green-dark); font-size: 0.92rem; }
+  .v-sci { display: block; font-size: 0.68rem; font-style: italic; color: var(--text-muted); margin-top: 0.15rem; }
+  .more-link { margin-top: 1rem; font-size: 0.85rem; }
+  .more-link a { color: var(--green-mid); text-decoration: none; }
+  .more-link a:hover { text-decoration: underline; }
+</style>
