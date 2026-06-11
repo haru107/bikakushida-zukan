@@ -6,7 +6,8 @@
 - パス: `C:\Users\i2wal\dev\bikakushida-zukan`（メインPC。旧ノートPCパス `C:\Users\user\Desktop\...` は廃止）
 - 構成: Astro 静的サイト / Cloudflare Pages 公開（月額0円）
 - リポジトリ: https://github.com/haru107/bikakushida-zukan （default: main）
-- 公開URL: **https://bikakushida-zukan.pages.dev**
+- 公開URL: **https://bikaku.norimaro.com**（カスタムドメイン。pages.dev=bikakushida-zukan.pages.devは内部用）
+- アクセス解析: Cloudflare Web Analytics が norimaro.com ゾーン全体に自動注入済み（ダッシュボード→Web Analytics→norimaro.com、ホストで絞り込み）
 - 現在 **202種**（原種18 / 選抜品種116 / 交配種68）。写真設定済み79種、残り約123種は「画像募集中」（写真選定で順次設定）
 - 交配親が不明な交配種は詳細ページに「交配不明」、片親のみ判明は「〔親〕 × 不明」と自動表示（lineageが空/1件の交配種）
 

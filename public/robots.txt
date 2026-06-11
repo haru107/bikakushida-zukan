@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bikakushida-zukan.pages.dev/sitemap-index.xml
+Sitemap: https://bikaku.norimaro.com/sitemap-index.xml
