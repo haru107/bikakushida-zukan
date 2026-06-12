@@ -82,3 +82,9 @@ npx wrangler pages deploy dist --project-name=bikakushida-zukan --branch=main --
 - 画像募集中13種: 交配10種（A×B）＋ バリスパイダー / スノーフレーク / セーラーマーズ（固有タグ無し→URL直貼り待ち）
 - favicon は 🦌 で設定済み。自動デプロイは手動運用（将来Actions化可）
 - 将来: 1ドメイン統合（softcream/ramen/agave/bikaku）
+
+## アフィリエイト（もしも・2026-06-11〜）
+- もしもアフィリエイト本登録済み（ID 1195630）。ビカク図鑑・アガベ図鑑をメディア登録済み。**楽天市場のみ即時提携済み**（Amazon・園芸系は要・提携申請＝サイト審査最大5営業日）。
+- **リンクの貼り方（超かんたん）**: もしも管理画面→メディア運営ツール→「かんたんリンク」で商品検索→生成されたURLをコピー → `src/data/gear.json` の該当 `href` に貼る → build → deploy。空の間は何も表示されない。
+  - 例: gear.json の `"itazuke"` の「乾燥水苔」の href に楽天かんたんリンクURLを貼る → 板付けガイドに「そろえる道具」欄（PR表記付・rel=sponsored）が自動表示。
+- 対象ガイドと項目は gear.json 参照（板付け/水やり/冬越し/胞子培養）。GearBoxコンポーネントが描画。景表法ステマ規制のPR表記はGearBoxに内蔵済み。
