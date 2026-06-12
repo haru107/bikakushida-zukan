@@ -1,0 +1,21 @@
+{
+  "_comment": "各ガイドの『そろえる道具』アフィリンク。href にもしも かんたんリンクのURLを貼ると自動表示されます（空の間は非表示）。rel=sponsored 付き・PR表記つきで出ます。",
+  "itazuke": [
+    { "label": "乾燥水苔", "href": "" },
+    { "label": "コルク板（着生材）", "href": "" },
+    { "label": "テグス（釣り糸）", "href": "" }
+  ],
+  "mizuyari": [
+    { "label": "ジョウロ", "href": "" },
+    { "label": "霧吹き（ミスト）", "href": "" }
+  ],
+  "fuyugoshi": [
+    { "label": "簡易ビニール温室", "href": "" },
+    { "label": "パネルヒーター", "href": "" },
+    { "label": "最高最低温度計", "href": "" }
+  ],
+  "houshi": [
+    { "label": "密閉できる透明容器", "href": "" },
+    { "label": "殺菌剤（ベンレート等）", "href": "" }
+  ]
+}

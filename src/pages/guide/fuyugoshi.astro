@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import GearBox from '../../components/GearBox.astro';
+import gear from '../../data/gear.json';
 import varieties from '../../data/varieties.json';
 
 // 耐寒性の参考品種リンク
@@ -99,6 +101,8 @@ const jsonLd = {
         <li><strong>春に急に外へ出す</strong> — 遅霜と強光のダブルパンチ。最低気温15℃安定＋日陰から徐々に慣らす</li>
       </ul>
     </section>
+
+    <GearBox items={gear.fuyugoshi} />
 
     <section>
       <h2>関連ページ</h2>

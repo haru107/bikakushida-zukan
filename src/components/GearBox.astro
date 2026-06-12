@@ -1,0 +1,56 @@
+---
+// 「そろえる道具」アフィリンク欄。href が入っている項目だけ表示。
+// 全項目 href が空なら何も描画しない（壊れたリンク・空欄は出ない）。
+export interface Props {
+  items?: { label: string; href: string }[];
+  title?: string;
+}
+const { items = [], title = 'そろえる道具' } = Astro.props;
+const live = items.filter(i => i && i.href);
+---
+{live.length > 0 && (
+  <section class="gearbox">
+    <h2>{title}</h2>
+    <ul class="gear-list">
+      {live.map(i => (
+        <li>
+          <a href={i.href} target="_blank" rel="sponsored noopener nofollow">{i.label}<span class="ext"> ↗</span></a>
+        </li>
+      ))}
+    </ul>
+    <p class="gear-pr">※上記リンクには広告（アフィリエイト）を含みます。価格・在庫は各ショップでご確認ください。</p>
+  </section>
+)}
+
+<style>
+  .gearbox {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .gearbox h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--green-light);
+  }
+  .gear-list { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .gear-list a {
+    display: inline-block;
+    font-size: 0.84rem;
+    color: var(--green-mid);
+    background: #eef5f0;
+    border: 1px solid #cce0d4;
+    border-radius: 20px;
+    padding: 0.4rem 0.9rem;
+    text-decoration: none;
+    transition: all 0.15s;
+  }
+  .gear-list a:hover { background: var(--green-light); color: #fff; border-color: var(--green-light); }
+  .ext { font-size: 0.72rem; opacity: 0.8; }
+  .gear-pr { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.8rem; }
+</style>

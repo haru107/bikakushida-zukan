@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import GearBox from '../../components/GearBox.astro';
+import gear from '../../data/gear.json';
 import varieties from '../../data/varieties.json';
 
 // 子株を出しにくい＝胞子培養で増やす代表種
@@ -110,6 +112,8 @@ const jsonLd = {
         <li><strong>早すぎる開封・植え替え</strong> — 小さいうちに外気に出すと一気に枯れる。本葉が数枚出るまで我慢</li>
       </ul>
     </section>
+
+    <GearBox items={gear.houshi} />
 
     <section>
       <h2>胞子培養で増やしたい代表品種</h2>

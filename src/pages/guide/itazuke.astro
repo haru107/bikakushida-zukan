@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import GearBox from '../../components/GearBox.astro';
+import gear from '../../data/gear.json';
 import varieties from '../../data/varieties.json';
 
 // 初心者向けの丈夫な品種（実在チェック付きで内部リンク）
@@ -112,6 +114,8 @@ const jsonLd = {
         </tbody>
       </table>
     </section>
+
+    <GearBox items={gear.itazuke} />
 
     <section>
       <h2>板付けに向く初心者向きの品種</h2>
