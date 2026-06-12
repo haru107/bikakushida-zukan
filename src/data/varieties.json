@@ -30,6 +30,12 @@
     "iNatUrl": "https://www.inaturalist.org/taxa/133619",
     "lineage": [
       "bifurcatum"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177460-1",
+      "https://www.gbif.org/species/7126767",
+      "https://staghornfern.org/species/p-bifurcatum/",
+      "https://www.inaturalist.org/taxa/133619"
     ]
   },
   {
@@ -59,10 +65,15 @@
       "人気"
     ],
     "description": "全身が白い星状毛に覆われ、銀白色に輝く人気の原種。乾燥した岩場が原産のため強い日照と乾燥を好み、光が強いほど白さが際立つ。直立する細い胞子葉が群生するとシルバーの茂みのようになり観賞価値が高い。交配親としても多用される。",
-    "notes": "白さを保つには強光と風通しが鍵。日照不足だと緑が勝って間延びする。ビフルカツムとの交配種も多く流通する。",
+    "notes": "白さを保つには強光と風通しが鍵。日照不足だと緑が勝って間延びする。Kew POWOでは独立種 P. veitchii（自生地クイーンズランド）として受容されるが、bifurcatum の亜種 subsp. veitchii として扱う見解もある。ビフルカツムとの交配種も多く流通する。",
     "iNatUrl": "https://www.inaturalist.org/taxa/369401",
     "lineage": [
       "veitchii"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177540-1",
+      "https://www.gbif.org/species/4024696",
+      "https://staghornfern.org/guides/platycerium-veitchii-care/"
     ]
   },
   {
@@ -96,6 +107,11 @@
     "iNatUrl": "https://www.inaturalist.org/taxa/987744",
     "lineage": [
       "hillii"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177500-1",
+      "https://www.gbif.org/species/4024818",
+      "https://www.halling.com/Platyceriums/Hillii.htm"
     ]
   },
   {
@@ -125,10 +141,15 @@
       "品種の母種"
     ],
     "description": "長く垂れ下がる白毛の胞子葉が優美な人気種。'ジェイドガール''スパイダー'など数多くの有名栽培品種の母種となっており、ビカクシダ趣味の中心的存在。個体差・地域差が大きく、コレクション性が高い。",
-    "notes": "ビフルカツムと近縁で交配種も多い。'ジェイドガール'などの園芸品種は本種の選抜・交配。寒さにはビフルカツムより弱い。",
+    "notes": "ビフルカツムと近縁で交配種も多い。Kew POWOでは独立種 P. willinckii（自生地ジャワ〜スラウェシ）として扱うが、bifurcatum の亜種 subsp. willinckii とする分類もある。'ジェイドガール'などの園芸品種は本種の選抜・交配。寒さにはビフルカツムより弱い。",
     "iNatUrl": "https://www.inaturalist.org/taxa/133615",
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177570-1",
+      "https://www.gbif.org/species/4024642",
+      "https://staghornfern.org/species/p-willinckii/"
     ]
   },
   {
@@ -162,6 +183,11 @@
     "iNatUrl": "https://www.inaturalist.org/taxa/122311",
     "lineage": [
       "superbum"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17448430-1",
+      "https://www.gbif.org/species/4024726",
+      "https://www.halling.com/Platyceriums/Superbum.htm"
     ]
   },
   {
@@ -195,6 +221,11 @@
     "iNatUrl": "https://www.inaturalist.org/taxa/426440",
     "lineage": [
       "grande"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177490-1",
+      "https://www.gbif.org/species/8655717",
+      "https://www.halling.com/Platyceriums/Grande.htm"
     ]
   },
   {
@@ -228,6 +259,11 @@
     "iNatUrl": "https://www.inaturalist.org/taxa/425758",
     "lineage": [
       "coronarium"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17237070-1",
+      "https://www.gbif.org/species/4024927",
+      "https://www.halling.com/Platyceriums/Coronarium.htm"
     ]
   },
   {
@@ -256,11 +292,16 @@
       "人気",
       "栽培難"
     ],
-    "description": "貯水葉が脳のような網目状の凹凸を持ち、胞子葉が角のように直立する独特の姿で絶大な人気を誇る原種。野生では蟻と共生する。高温多湿を好む一方で株元の過湿に弱く、栽培難度は高め。愛好家の憧れの種のひとつ。",
-    "notes": "原産地では樹上で蟻の巣を内包して育つ。日本では温度・湿度・通風の管理が難しく上級者向け。乱獲で野生個体は減少しており、栽培株の入手が基本。",
+    "description": "貯水葉が脳のような網目状の凹凸を持ち、胞子葉が角のように直立する独特の姿で絶大な人気を誇る原種。マレー半島〜ボルネオ・スマトラに自生し、樹上で蟻と共生する。高温多湿を好む一方で株元の過湿に弱く、栽培難度は高め。愛好家の憧れの種のひとつ。",
+    "notes": "Kew POWOの自生地は「ペニンシュラ・タイ〜西マレシア（ボルネオ・マラヤ・スマトラ・タイ）」。原産地では樹上で蟻の巣を内包して育つ。日本では温度・湿度・通風の管理が難しく上級者向け。乱獲で野生個体は減少しており、栽培株の入手が基本。幅広の'ワイド'と細葉の'ナロー'のフォームが知られる。",
     "iNatUrl": "https://www.inaturalist.org/taxa/784799",
     "lineage": [
       "ridleyi"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17256060-1",
+      "https://www.gbif.org/species/4024769",
+      "https://www.halling.com/Platyceriums/Ridleyi.htm"
     ]
   },
   {
@@ -290,10 +331,15 @@
       "個性派"
     ],
     "description": "ビカクシダ属で最大級に育つ大型原種。貯水葉の上部が鬼の角のように細く長く伸び上がる独特の樹冠が特徴で「クイーン」の異名を持つ。十分なスペースと高温多湿があれば圧巻の大株に育つ。流通は少なめ。",
-    "notes": "貯水葉の角状の伸長が最大の見どころ。大型化するため育成には広い空間と支えが必要。",
+    "notes": "貯水葉の角状の伸長が最大の見どころ。ビカクシダ属で最大級（P. superbum より3割ほど大きく育つとされる）で、育成には広い空間と支えが必要。ニューギニア島原産で高温多湿を好む。",
     "iNatUrl": "https://www.inaturalist.org/taxa/431476",
     "lineage": [
       "wandae"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177560-1",
+      "https://www.gbif.org/species/4024670",
+      "https://www.halling.com/Platyceriums/Wandae.htm"
     ]
   },
   {
@@ -327,6 +373,11 @@
     "iNatUrl": "https://www.inaturalist.org/taxa/211026",
     "lineage": [
       "holttumii"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17448400-1",
+      "https://www.gbif.org/species/4024810",
+      "https://www.halling.com/Platyceriums/Holttumii.htm"
     ]
   },
   {
@@ -359,6 +410,11 @@
     "iNatUrl": "https://www.inaturalist.org/taxa/1046845",
     "lineage": [
       "wallichii"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177550-1",
+      "https://www.gbif.org/species/4024677",
+      "https://www.halling.com/Platyceriums/Wallichii.htm"
     ]
   },
   {
@@ -388,10 +444,15 @@
       "網目葉"
     ],
     "description": "貯水葉が深いワッフル状の網目を持つ、唯一無二の質感で知られる希少原種。葉脈が格子状に強く浮き出る姿はビカクシダ随一の個性。高温・高湿を強く好み乾燥に極端に弱いため、テラリウムなど湿度管理された環境が向く上級者向けの種。",
-    "notes": "独特の網目は本種最大の魅力にして識別点。低湿度・低温・強光のいずれにも弱く、安定栽培の難度はトップクラス。",
+    "notes": "独特の網目（ワッフル状の凹凸）は本種最大の魅力にして識別点で、成熟すると球状にまとまる。マダガスカル中部の森林に自生。低湿度・低温・強光のいずれにも弱く、安定栽培の難度はトップクラス。",
     "iNatUrl": "https://www.inaturalist.org/taxa/469917",
     "lineage": [
       "madagascariense"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177510-1",
+      "https://www.gbif.org/species/4024802",
+      "https://www.halling.com/Platyceriums/Madagascariense.htm"
     ]
   },
   {
@@ -424,6 +485,11 @@
     "iNatUrl": "https://www.inaturalist.org/taxa/354340",
     "lineage": [
       "elephantotis"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177470-1",
+      "https://www.gbif.org/species/4024898",
+      "https://www.halling.com/Platyceriums/Elephantotis.htm"
     ]
   },
   {
@@ -456,6 +522,11 @@
     "iNatUrl": "https://www.inaturalist.org/taxa/533762",
     "lineage": [
       "stemaria"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177520-1",
+      "https://www.gbif.org/species/4024758",
+      "https://www.halling.com/Platyceriums/Stemaria.htm"
     ]
   },
   {
@@ -488,6 +559,11 @@
     "iNatUrl": "https://www.inaturalist.org/taxa/533759",
     "lineage": [
       "alcicorne"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177390-1",
+      "https://www.gbif.org/species/7289981",
+      "https://www.halling.com/Platyceriums/Alcicorne.htm"
     ]
   },
   {
@@ -520,6 +596,11 @@
     "iNatUrl": "https://www.inaturalist.org/taxa/953512",
     "lineage": [
       "ellisii"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177480-1",
+      "https://www.gbif.org/species/4024887",
+      "https://www.halling.com/Platyceriums/Ellisii.htm"
     ]
   },
   {
@@ -549,10 +630,15 @@
       "休眠"
     ],
     "description": "胞子葉が規則正しく4回二又に分岐する繊細な姿の希少原種。マダガスカルの乾燥林に自生し、乾季には葉を落として休眠する独特の生活サイクルを持つ。この休眠リズムを理解した季節管理が必要で、栽培難度は高い。コレクター垂涎の種。",
-    "notes": "乾季の休眠（落葉）を病気と勘違いして水を与えすぎると腐敗する。原産地の季節サイクルの再現が栽培成功の鍵。",
+    "notes": "胞子葉が規則正しく4回二又に分岐する。乾季には貯水葉が筒状に丸まり休眠する（落葉性）ため、これを病気と勘違いして水を与えすぎると腐敗する。原産地（マダガスカルの乾燥林）の季節サイクルの再現が栽培成功の鍵。",
     "iNatUrl": "https://www.inaturalist.org/taxa/467755",
     "lineage": [
       "quadridichotomum"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17411090-1",
+      "https://www.gbif.org/species/4024780",
+      "https://www.halling.com/Platyceriums/Quadridichotomum.htm"
     ]
   },
   {
@@ -582,10 +668,15 @@
       "垂れ葉"
     ],
     "description": "ビカクシダ属で唯一、南米大陸（アンデス東麓）に自生する貴重な原種。長く垂れ下がる白毛の胞子葉が美しく、旧世界の白毛種とは独立に進化した点でも学術的に興味深い。自生地が限られ流通も少ないため、入手難易度・希少性ともに非常に高い。",
-    "notes": "新大陸唯一のビカクシダとして特別な位置づけ。自生地は乱獲・環境破壊で危機にあり、栽培株の保全が重要。",
+    "notes": "新大陸唯一のビカクシダとして特別な位置づけ（ペルー・ボリビアのアンデス東麓に自生）。自生地は乱獲・環境破壊で危機にあり、栽培株の保全が重要。",
     "iNatUrl": "https://www.inaturalist.org/taxa/790656",
     "lineage": [
       "andinum"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:201729-2",
+      "https://www.gbif.org/species/4025107",
+      "https://www.halling.com/Platyceriums/Andinum.htm"
     ]
   },
   {
@@ -616,10 +707,15 @@
       "人気"
     ],
     "description": "ウィリンキー（P. willinckii）から選抜された矮性（ドワーフ）の人気園芸品種。親譲りの白い毛をまといつつコンパクトにまとまるため、小スペースでも飾りやすい。胞子葉が密に分岐し、銀緑のこんもりした草姿が愛らしいと評判で、willinckii系の入門的な品種としても人気が高い。",
-    "notes": "'ジェイドガール' はビカクシダ趣味で定番の選抜品種。矮性なので大型化せず、棚や壁面コレクションに向く。CC画像が存在する数少ない品種。",
+    "notes": "'ジェイドガール' はウィリンキー系を代表する矮性（ドワーフ）選抜品種。シルバーのトリコームを濃く出すため、色を保つには明るめの光と、葉に直接かけない株元への水やりがコツ。大型化せず棚や壁面コレクションに向く。",
     "iNatUrl": "https://commons.wikimedia.org/w/index.php?curid=128721575",
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://staghornfern.org/species/p-willinckii/",
+      "https://staghornfern.org/guides/platycerium-hybridization-guide/",
+      "https://commons.wikimedia.org/w/index.php?curid=128721575"
     ]
   },
   {
@@ -648,11 +744,15 @@
       "垂れ葉",
       "人気"
     ],
-    "description": "白い毛をまとった長い胞子葉が、翼のように優美に垂れ下がる人気の交配品種。ウィリンキー系の血を引くとされ、銀白色の細かく分岐した葉姿が美しい。成長すると大きく葉を伸ばし、吊るして飾ると見事なボリュームになる。",
-    "notes": "'Pegasus' は白毛の垂れ葉が魅力の人気交配種。詳しい交配親には諸説ある。",
+    "description": "白い毛をまとった長い胞子葉が、翼のように優美に垂れ下がる人気の交配品種。ウィリンキーとディバーシフォリウムの交配（DW＝diversifolium × willinckii ライン）に位置づけられ、ホワイトホークやオモと同系統。銀白色の細かく分岐した葉姿が美しく、吊るして飾ると見事なボリュームになる。",
+    "notes": "'Pegasus' は DW（diversifolium × willinckii）系の白毛交配。ディバーシフォリウムが bifurcatum〜hillii の移行的形質を持つため、同系統の実生は変異に富む。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://staghornfern.org/guides/platycerium-hybridization-guide/",
+      "https://staghornfern.org/database/hybrid-cultivar-database/"
     ]
   },
   {
@@ -680,12 +780,17 @@
       "白毛",
       "人気"
     ],
-    "description": "全体が白い毛に覆われ、鷹（ホーク）のような力強くも白く美しい草姿が人気の交配品種。ウィリンキーの血を引く交配（willinckii × diversifolium として紹介されることが多い）とされ、強光で育てるほど白さが際立つ。",
-    "notes": "'White Hawk' はウィリンキー系の白毛交配。交配親の表記は出回りによって差がある。",
+    "description": "全体が白い毛（トリコーム）に厚く覆われ、鷹（ホーク）のような力強くも白く美しい草姿が人気の交配品種。ウィリンキー × ディバーシフォリウム（DW＝diversifolium × willinckii ライン）の交配で、青みを帯びた緑にビロード状の白毛がのる。強光で育てるほど白さが際立つ。",
+    "notes": "'White Hawk' は DW（diversifolium × willinckii）系の白毛交配。ペガサスやオモと同じ系統で、実生は変異に富む。",
     "iNatUrl": null,
     "lineage": [
       "willinckii",
       "diversifolium"
+    ],
+    "sources": [
+      "https://staghornfern.org/guides/platycerium-hybridization-guide/",
+      "https://staghornfern.org/database/hybrid-cultivar-database/",
+      "https://www.tropicaladdictions.com/product/platycerium-white-hawk-spores/"
     ]
   },
   {
@@ -1252,11 +1357,15 @@
       "白毛",
       "人気"
     ],
-    "description": "マレーシアの育種家フーン氏に由来するウィリンキー系の選抜品種。白毛をまとった整った草姿で人気が高い。",
-    "notes": "P. willinckii の選抜。SSフーンとは別系統の人気ウィリンキー。",
+    "description": "マレーシアの育種家フーン（Foong）氏が娘シキ（Si Qi）にちなんで名付けたウィリンキー系の銘品。成熟すると胞子葉の先端が内側にカールする独特の姿が最大の特徴で、近年最も人気のある栽培品種のひとつ。遺伝的変異に富み、多くの派生品種の母体ともなっている。",
+    "notes": "P. willinckii 系。育種家 SS Foong による作出。先端がカールする胞子葉と、変異の出やすさで知られる。SSフーンとは関連する別表記・別系統。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://staghornfern.org/guides/platycerium-hybridization-guide/",
+      "https://staghornfern.org/database/hybrid-cultivar-database/"
     ]
   },
   {
@@ -1748,6 +1857,10 @@
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://staghornfern.org/species/p-willinckii/",
+      "https://staghornfern.org/guides/platycerium-hybridization-guide/"
     ]
   },
   {
@@ -2851,11 +2964,15 @@
       "個性派"
     ],
     "description": "リドレイとコロナリウムの種間交配で、両親の造形美を受け継ぎながらリドレイ単独より丈夫で育てやすい人気ハイブリッド。タイのキチャクート山に由来する名を持ち、2024年に P. × kitshakoodiense として正式に学名登録された。成長が早く初心者にも向く。",
-    "notes": "交配親は P. ridleyi × P. coronarium。2024年に種間雑種名 P. × kitshakoodiense として登録。",
+    "notes": "交配親は P. ridleyi × P. coronarium。タイのキチャクート山（Khao Khitchakut）に由来。2024年に正式に P. × kitshakoodiense として発表され、IPNI に登録された。リドレイ単独より丈夫で成長が早く、初心者にも向く。",
     "iNatUrl": null,
     "lineage": [
       "ridleyi",
       "coronarium"
+    ],
+    "sources": [
+      "https://staghornfern.org/guides/platycerium-hybridization-guide/",
+      "https://www.halling.com/Platyceriums/Default.htm"
     ]
   },
   {
@@ -2918,10 +3035,14 @@
       "人気"
     ],
     "description": "リドレイの中でも胞子葉が幅広く育つフォーム。細葉のナローと対をなし、堂々とした幅広の角状胞子葉が見ごたえあり、コレクターに特に人気が高い。リドレイ同様に高温多湿を好み、株元の過湿には弱い。",
-    "notes": "P. ridleyi の幅広フォーム。ナロー（細葉）と区別される。",
+    "notes": "P. ridleyi の幅広フォーム。細葉の'ナロー'と区別される。原種リドレイの自生地はペニンシュラ・タイ〜西マレシア（Kew POWO）。高温多湿を好み株元の過湿に弱い点も原種に準じる。",
     "iNatUrl": null,
     "lineage": [
       "ridleyi"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17256060-1",
+      "https://www.halling.com/Platyceriums/Ridleyi.htm"
     ]
   },
   {
@@ -2951,10 +3072,14 @@
       "個性派"
     ],
     "description": "リドレイの中でも胞子葉が細く育つフォーム。幅広のワイドと対をなし、細くシャープに直立する角状胞子葉が繊細で美しい。リドレイ同様に高温多湿を好み、株元の過湿には弱い上級者向けの種。",
-    "notes": "P. ridleyi の細葉フォーム。ワイド（幅広）と区別される。",
+    "notes": "P. ridleyi の細葉フォーム。幅広の'ワイド'と区別される。原種リドレイの自生地はペニンシュラ・タイ〜西マレシア（Kew POWO）。高温多湿を好み株元の過湿に弱い点も原種に準じる。",
     "iNatUrl": null,
     "lineage": [
       "ridleyi"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17256060-1",
+      "https://www.halling.com/Platyceriums/Ridleyi.htm"
     ]
   },
   {
@@ -2982,12 +3107,16 @@
       "大型",
       "希少"
     ],
-    "description": "ステマリア（アフリカ系）とスパーバム（オーストラリア系）という系統をまたぐ珍しい大型交配。スパーバムの王冠状の迫力とステマリアの幅広の葉質を併せ持つ。ファーン研究家ホシザキにちなむ正式な雑種名 P. × mentelosii を持つ。",
-    "notes": "交配親は P. stemaria × P. superbum。正式な種間雑種名 P. × mentelosii（Hoshiz.）。",
+    "description": "ステマリア（アフリカ系）とスパーバム（オーストラリア系）という系統をまたぐ珍しい大型交配。スパーバムの王冠状の迫力とステマリアの幅広の葉質を併せ持つ。ホシザキが記載した正式な種間雑種名 P. × mentelosii Hoshiz. を持つ。",
+    "notes": "正式名 P. × mentelosii Hoshiz.。Kew POWO の交配式は P. stemaria × P. superbum（人工交配、American Fern Journal 1975）。",
     "iNatUrl": null,
     "lineage": [
       "stemaria",
       "superbum"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17448410-1",
+      "https://www.gbif.org/species/4024793"
     ]
   },
   {
@@ -3883,10 +4012,14 @@
       "ウィリンキー系"
     ],
     "description": "インドネシア野生由来のワイルドな草姿のフォーム。",
-    "notes": "P. willinckii の野生インドネシア産フォーム。",
+    "notes": "P. willinckii のインドネシア野生由来フォーム。ウィリンキーはジャワ・バリ・東ティモールの山地熱帯雨林を原産とし、産地ごとに葉形やトリコームの差が大きい。",
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ],
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177570-1",
+      "https://staghornfern.org/species/p-willinckii/"
     ]
   },
   {
@@ -4499,11 +4632,15 @@
       "白毛",
       "個性派"
     ],
-    "description": "ウィリンキーやビフルカツムに近縁とされる分類群。白毛をまとった胞子葉を持ち、白系交配（オモ等）の親としても重要視される。分類上の扱いには諸説ある。",
-    "notes": "分類には諸説あり（P. bifurcatum/willinckii 近縁）。'Omo' 等の白系交配の親。",
+    "description": "ビフルカツムとヒリーの中間的（移行的）形質を持つとされる分類群で、現在は P. bifurcatum の範囲に含める見解が一般的。白毛をまとった胞子葉を持ち、ウィリンキーと掛け合わせた DW（diversifolium × willinckii）系交配（ペガサス・ホワイトホーク・オモ等）の重要な親として知られる。分類上の扱いには諸説ある。",
+    "notes": "分類には諸説あり（bifurcatum〜hillii の移行形とされ、しばしば P. bifurcatum に含められる）。DW（diversifolium × willinckii）系白毛交配の親として重要。",
     "iNatUrl": null,
     "lineage": [
       "bifurcatum"
+    ],
+    "sources": [
+      "https://staghornfern.org/guides/platycerium-hybridization-guide/",
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:17177460-1"
     ]
   },
   {
@@ -4823,16 +4960,16 @@
       "希少",
       "個性派"
     ],
-    "description": "アンディヌムとエレファントティスの交配とされる希少種（Kewはステマリア交配とする説も）。両親より長く緑を保つ貯水葉を持ち、株を環状に増やしながら大きく育つ。",
-    "notes": "Tropical Addictions は P. andinum × P. elephantotis、Kew POWO は P. elephantotis × P. stemaria とする（諸説あり）。",
+    "description": "ファーン研究家ホシザキらが記載した正式な種間雑種 P. × elemaria（Hoshiz. & M.G.Price, 1990）。両親より長く緑を保つ貯水葉を持ち、株を環状に増やしながら大きく育つ。Kew POWOは交配式を P. elephantotis × P. stemaria とするが、流通上は andinum × elephantotis と紹介されることも多い。",
+    "notes": "正式名 P. × elemaria Hoshiz. & M.G.Price。Kew POWO は交配式を P. elephantotis × P. stemaria とする。Tropical Addictions など流通では P. andinum × P. elephantotis と表記され、交配親には諸説あり。",
     "iNatUrl": null,
     "lineage": [
       "andinum",
       "elephantotis"
     ],
     "sources": [
-      "https://www.tropicaladdictions.com/platycerium-cultivars/platycerium-elemaria/",
-      "https://powo.science.kew.org/taxon/17531060-1"
+      "https://powo.science.kew.org/taxon/17531060-1",
+      "https://www.tropicaladdictions.com/platycerium-cultivars/platycerium-elemaria/"
     ]
   },
   {
@@ -6582,6 +6719,477 @@
     "iNatUrl": null,
     "lineage": [
       "willinckii"
+    ]
+  },
+  {
+    "id": "willinckii-watchara",
+    "name": "ワッチャラ",
+    "nameEn": "Watchara",
+    "scientificName": "Platycerium willinckii 'Watchara'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "ウィリンキー選抜（東南アジア。選抜者ワッチャラ氏に由来）",
+    "size": "小型（矮性）",
+    "shieldFrond": "小ぶりで上部が細かく裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "短めで密に分岐し、深い切れ込みと細長い裂片が魚の骨（フィッシュボーン）状に並ぶ独特の質感",
+    "rarity": 4,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。矮性で蒸れやすいので風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "ウィリンキー系",
+      "矮性",
+      "白毛",
+      "フィッシュボーン",
+      "希少"
+    ],
+    "description": "ウィリンキーから選抜された矮性品種。胞子葉が深く切れ込んで細長い裂片を魚の骨のように規則正しく並べる「フィッシュボーン」状の質感が最大の魅力で、コンパクトに密にまとまる。選抜者ワッチャラ氏の名を冠した銘品で、ドワーフウィリンキーの中でも特に人気が高い。",
+    "notes": "P. willinckii の矮性選抜。同じく魚骨状の既存『フィッシュボーン』とは別系統で、矮性・密な草姿が識別点。",
+    "lineage": [
+      "willinckii"
+    ],
+    "sources": [
+      "https://www.thebasements.com/products/platycerium-willinckii-watchara-spore-fishbone-three-active-grow-points"
+    ]
+  },
+  {
+    "id": "willinckii-tanya",
+    "name": "ターニャ",
+    "nameEn": "Tanya",
+    "scientificName": "Platycerium willinckii 'Tanya'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "ウィリンキー選抜（実生由来の矮性個体）",
+    "size": "小型（成熟しても矮性サイズ）",
+    "shieldFrond": "小ぶりで上部が裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "細めの胞子葉が白毛をまとってすっきりと分岐し、コンパクトにまとまる",
+    "rarity": 4,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。小型で蒸れやすいので風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "ウィリンキー系",
+      "矮性",
+      "白毛",
+      "希少"
+    ],
+    "description": "実生から選抜された矮性ウィリンキー。成熟しても小さくまとまるドワーフタイプで、白毛をまとった細めの胞子葉がすっきりと展開する。流通量が少なく、コレクター向けの希少な選抜個体として扱われる。",
+    "notes": "P. willinckii の矮性選抜。実生由来のため株ごとに微妙な個体差がある。",
+    "lineage": [
+      "willinckii"
+    ],
+    "sources": [
+      "https://hcorchids.com/products/p-willinckii-tanya-dwarf"
+    ]
+  },
+  {
+    "id": "willinckii-tiara",
+    "name": "ティアラ",
+    "nameEn": "Tiara",
+    "scientificName": "Platycerium willinckii 'Tiara'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "ウィリンキー選抜（インドネシア由来。'Grace' と対で発表）",
+    "size": "中型",
+    "shieldFrond": "上部が細かく裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "整った形と緻密な分岐が美しく、白毛をまとって優雅に展開する",
+    "rarity": 4,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。風通しよく",
+    "humidity": "高め（60%以上を好む）",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "ウィリンキー系",
+      "白毛",
+      "人気",
+      "希少"
+    ],
+    "description": "姉妹品種『グレース』とともに発表され、世界の愛好家の注目を集めたウィリンキーの選抜。整った草姿と特徴的な胞子葉の構造を持ち、白毛をまとった優雅な姿が高く評価される。インドネシア原産のウィリンキーから選抜された、コレクター注目の品種。",
+    "notes": "P. willinckii の選抜。'Grace' と対で語られることが多い。",
+    "lineage": [
+      "willinckii"
+    ],
+    "sources": [
+      "https://platyandco.ca/blogs/news/the-majestic-platycerium-natures-living-wall-art"
+    ]
+  },
+  {
+    "id": "willinckii-grace",
+    "name": "グレース",
+    "nameEn": "Grace",
+    "scientificName": "Platycerium willinckii 'Grace'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "ウィリンキー選抜（インドネシア由来。'Tiara' と対で発表）",
+    "size": "中型",
+    "shieldFrond": "上部が細かく裂けて立ち上がり、白い毛をまとう",
+    "foliarFrond": "流れるような優美な形で垂れ、白毛をまとって繊細に分岐する",
+    "rarity": 4,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10℃前後）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。垂れ葉が蒸れないよう風通しよく",
+    "humidity": "高め（60%以上を好む）",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "ウィリンキー系",
+      "白毛",
+      "垂れ葉",
+      "希少"
+    ],
+    "description": "姉妹品種『ティアラ』とともに発表された人気のウィリンキー選抜。優美で流れるような胞子葉の形が名（grace＝優雅）の由来で、白毛をまとった繊細な草姿が美しい。インドネシア原産ウィリンキーの選抜で、近年のコレクションで注目を集める品種のひとつ。",
+    "notes": "P. willinckii の選抜。'Tiara' とセットで導入されることが多い。",
+    "lineage": [
+      "willinckii"
+    ],
+    "sources": [
+      "https://platyandco.ca/blogs/news/the-majestic-platycerium-natures-living-wall-art"
+    ]
+  },
+  {
+    "id": "veitchii-silver",
+    "name": "ベイチー シルバー",
+    "nameEn": "Veitchii Silver",
+    "scientificName": "Platycerium veitchii 'Silver'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "ベイチー選抜（白毛の強い銀葉選抜）",
+    "size": "中型（株張り40〜60cm）",
+    "shieldFrond": "白い星状毛に厚く覆われ、上部が指状に細く立ち上がる",
+    "foliarFrond": "細く直立し、厚い白毛（トリコーム）に覆われて霜をまとったように銀白色に輝く",
+    "rarity": 3,
+    "difficulty": 4,
+    "coldResistance": "やや強（5℃前後）",
+    "light": "強光を好む。日照が強いほど白さが増す",
+    "watering": "乾燥地原産で乾かし気味に。過湿に弱い",
+    "humidity": "低〜普通（乾燥に強い）",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "ベイチー系",
+      "銀葉",
+      "強光向け",
+      "白毛"
+    ],
+    "description": "ベイチーの中でも特に白毛（トリコーム）が濃く、霜をまとったように銀白色に輝く選抜系統。密な白毛が乾燥にも強さを与え、強光下で育てるほど白さが際立つ。銀葉系コレクションの目玉になる人気の選抜。",
+    "notes": "P. veitchii の銀葉選抜。標準ベイチーより白毛が濃く、フロストがかった質感が識別点。強光と乾燥気味の管理で白さを保つ。",
+    "lineage": [
+      "veitchii"
+    ],
+    "sources": [
+      "https://greenboog.com/product/platycerium-veitchii-silver/",
+      "https://staghornfern.org/guides/platycerium-veitchii-care/"
+    ]
+  },
+  {
+    "id": "veitchii-mt-stuart",
+    "name": "マウントスチュアート",
+    "nameEn": "Mt Stuart",
+    "scientificName": "Platycerium veitchii 'Mt Stuart'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "ベイチー選抜（オーストラリア産地系統）",
+    "size": "中型（株張り40〜60cm）",
+    "shieldFrond": "白い星状毛に覆われ、上部が立ち上がる",
+    "foliarFrond": "幅広い胞子葉が美しい銀灰色を帯び、ヒリーを思わせる幅広さを持つ",
+    "rarity": 3,
+    "difficulty": 4,
+    "coldResistance": "やや強（5℃前後）",
+    "light": "強光を好む",
+    "watering": "乾かし気味に。過湿に弱い",
+    "humidity": "低〜普通",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "ベイチー系",
+      "銀葉",
+      "幅広葉",
+      "強光向け"
+    ],
+    "description": "美しい銀灰色と、ヒリーを思わせる幅広い胞子葉が特徴のベイチー系統。一般的な細葉のベイチーとは対照的に、幅広く力強い葉が銀色に輝く独特の姿を見せる。強光と乾燥気味の管理を好み、銀葉系の中でもボリュームのある草姿が楽しめる。",
+    "notes": "P. veitchii の系統。幅広い銀灰色の胞子葉が標準ベイチーとの識別点（Mt Stewart 表記もあり）。",
+    "lineage": [
+      "veitchii"
+    ],
+    "sources": [
+      "https://www.halling.com/Platyceriums/Veitchii.htm"
+    ]
+  },
+  {
+    "id": "veitchii-green",
+    "name": "ベイチー グリーン",
+    "nameEn": "Veitchii Green",
+    "scientificName": "Platycerium veitchii 'Green'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "ベイチー選抜（白毛が少なく緑が勝る系統）",
+    "size": "中型（株張り40〜60cm）",
+    "shieldFrond": "上部が指状に立ち上がるが、白毛は控えめで緑が勝る",
+    "foliarFrond": "細く直立気味だが、白毛が少なく明るい緑を保つベイチーらしからぬ色味",
+    "rarity": 3,
+    "difficulty": 4,
+    "coldResistance": "やや強（5℃前後）",
+    "light": "明るい半日向〜強光",
+    "watering": "乾かし気味に。過湿に弱い",
+    "humidity": "普通",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "ベイチー系",
+      "緑葉",
+      "個性派",
+      "希少"
+    ],
+    "description": "白毛が際立つベイチーにあって、トリコームが少なく明るい緑を保つ異色の選抜。銀葉のベイチーとは正反対のフレッシュな緑が個性的で、直立する細い胞子葉のフォルムはベイチーそのもの。色のコントラストを楽しむコレクター向け。",
+    "notes": "P. veitchii の選抜。白毛が少なく緑が勝るのが識別点。古典品種レモイネイ（緑ベイチー）とは別系統。",
+    "lineage": [
+      "veitchii"
+    ],
+    "sources": [
+      "https://www.halling.com/Platyceriums/Veitchii.htm"
+    ]
+  },
+  {
+    "id": "veitchii-pumilum",
+    "name": "ベイチー プミルム",
+    "nameEn": "Pumilum",
+    "scientificName": "Platycerium veitchii 'Pumilum'",
+    "group": "オーストラリア系",
+    "type": "選抜品種",
+    "origin": "ベイチー選抜（矮性系統）",
+    "size": "小型（矮性。pumilum＝小型の意）",
+    "shieldFrond": "小ぶりで白い星状毛に覆われ、上部が指状に立ち上がる",
+    "foliarFrond": "細く直立し白毛をまとうが、全体に小型でコンパクトにまとまる",
+    "rarity": 4,
+    "difficulty": 4,
+    "coldResistance": "やや強（5℃前後）",
+    "light": "強光を好む",
+    "watering": "乾かし気味に。小型で蒸れやすいので風通しよく",
+    "humidity": "低〜普通",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "ベイチー系",
+      "矮性",
+      "銀葉",
+      "希少"
+    ],
+    "description": "ベイチーの矮性選抜で、品種名 pumilum（＝小型の）のとおりコンパクトに育つ。白毛をまとった細い銀葉はベイチーらしさを保ちつつ、小さくまとまるため小スペースでも飾りやすい。銀葉ドワーフを好むコレクターに注目される。",
+    "notes": "P. veitchii の矮性選抜。標準ベイチーより明確に小型化する点が識別の手がかり。",
+    "lineage": [
+      "veitchii"
+    ],
+    "sources": [
+      "https://www.halling.com/Platyceriums/Veitchii.htm"
+    ]
+  },
+  {
+    "id": "cross-elephantotis-alcicorne",
+    "name": "エレファントティス × アルシコルネ",
+    "nameEn": "P. elephantotis × alcicorne",
+    "scientificName": "Platycerium elephantotis × alcicorne",
+    "group": "交配種",
+    "type": "交配種",
+    "origin": "園芸交配種（アフリカ産種同士の種間交配。'Africa' の名で流通）",
+    "size": "中型（両親による）",
+    "shieldFrond": "丸く幅広い盾形で、上部は浅く波打つ程度。両親の中間的な姿",
+    "foliarFrond": "幅広く立ち上がるエレファントティスの量感に、アルシコルネの繊細な分岐が加わった鹿角状の葉",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱〜中（最低10〜12℃）",
+    "light": "明るい日陰〜半日向",
+    "watering": "生育期はたっぷり。蒸れないよう風通しよく",
+    "humidity": "高め",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "交配種",
+      "アフリカ系"
+    ],
+    "description": "アフリカ原産のエレファントティス（象の耳）とアルシコルネの種間交配。エレファントティスの幅広い量感ある葉に、アルシコルネの繊細で優美な分岐が加わり、両者の長所を併せ持つ鹿角状の草姿となる。'Africa' の名で流通するアフリカ系交配。",
+    "notes": "交配親は P. elephantotis × P. alcicorne。アフリカ産種同士の交配で、血統フィルターで両種から辿れる。",
+    "lineage": [
+      "elephantotis",
+      "alcicorne"
+    ],
+    "sources": [
+      "https://greenboog.com/product/platycerium-elephantotis-x-alcicorne-africa/",
+      "https://welovetropicalplants.com/products/platycerium-elephantotis-x-alcicorne-8"
+    ]
+  },
+  {
+    "id": "alcicorne-vassei",
+    "name": "アルシコルネ ヴァッセイ",
+    "nameEn": "Alcicorne var. vassei",
+    "scientificName": "Platycerium alcicorne var. vassei",
+    "group": "マダガスカル系",
+    "type": "選抜品種",
+    "origin": "アルシコルネのアフリカ産変種（東アフリカ産。'Africa' フォームとも）",
+    "size": "小〜中型",
+    "shieldFrond": "丸く小ぶりで、上部は浅く波打つ程度",
+    "foliarFrond": "細く繊細に分岐し、すっきりと立ち上がる。マダガスカル産タイプよりやや硬質",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "中（やや耐える）",
+    "light": "明るい日向〜半日向",
+    "watering": "乾季のある原産地のため乾かし気味も許容",
+    "humidity": "普通",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "アルシコルネ系",
+      "アフリカ産",
+      "繊細",
+      "変種"
+    ],
+    "description": "アルシコルネの東アフリカ産変種で、かつて独立種 Platycerium vassei とされたこともある系統。マダガスカル産のアルシコルネと比べてやや硬質で、繊細な胞子葉をすっきりと立ち上げる。「アフリカフォーム」の名でも流通し、産地による違いを楽しむコレクションのアクセントになる。",
+    "notes": "P. alcicorne の変種（var. vassei）。マダガスカル産タイプと並べると葉質・草姿の差がわかる。",
+    "lineage": [
+      "alcicorne"
+    ],
+    "sources": [
+      "https://tropicsathome.com/product/platycerium-alcicorne-africa/"
+    ]
+  },
+  {
+    "id": "stemaria-laurentii",
+    "name": "ステマリア ラウレンティ",
+    "nameEn": "Stemaria Laurentii",
+    "scientificName": "Platycerium stemaria var. laurentii",
+    "group": "アフリカ系",
+    "type": "選抜品種",
+    "origin": "ステマリアのアフリカ産変種（De Wildeman 記載の変種）",
+    "size": "中〜大型",
+    "shieldFrond": "層状に重なって立ち上がり、彫刻的な「巣（ネスト）」状の構造を作る",
+    "foliarFrond": "成株では楔形の胞子葉がより深く分岐し、長く流れるように垂れる",
+    "rarity": 3,
+    "difficulty": 3,
+    "coldResistance": "弱（最低12℃前後）",
+    "light": "明るい日陰（やや日陰を好む）",
+    "watering": "高湿度を好む。乾燥に弱め",
+    "humidity": "高い",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "ステマリア系",
+      "Y字葉",
+      "変種",
+      "アフリカ産"
+    ],
+    "description": "ステマリアのアフリカ産変種で、標準のステマリアより胞子葉がより深く分岐し、長く流れるように垂れる点が特徴。層状に重なる貯水葉が彫刻的な「巣」状の構造を作り、ボリュームある熱帯らしい姿になる。De Wildeman により記載された正式な変種。",
+    "notes": "P. stemaria の変種（var. laurentii）。成株で胞子葉の分岐がより細かく長くなるのが識別点。",
+    "lineage": [
+      "stemaria"
+    ],
+    "sources": [
+      "https://305greenery.com/product/platycerium-stemaria-var-laurentii/",
+      "https://plants.jstor.org/stable/10.5555/al.ap.specimen.br0000008711007"
+    ]
+  },
+  {
+    "id": "ridleyi-dwarf",
+    "name": "リドレイ ドワーフ",
+    "nameEn": "Ridleyi Dwarf",
+    "scientificName": "Platycerium ridleyi 'Dwarf'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "リドレイの矮性選抜（東南アジア）",
+    "size": "小型（矮性）",
+    "shieldFrond": "脳のような網目状の凹凸を持ち、株元を球状に包む。標準種より小ぶりで密",
+    "foliarFrond": "革質で濃緑、丸みを帯びてコンパクトに密集し、胞子葉はやや短め",
+    "rarity": 4,
+    "difficulty": 2,
+    "coldResistance": "弱（最低15℃前後）",
+    "light": "明るい半日向",
+    "watering": "過湿に弱く、株元が蒸れないよう水やりは慎重に",
+    "humidity": "高い（ただし通気必須）",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "リドレイ系",
+      "矮性",
+      "希少",
+      "栽培難"
+    ],
+    "description": "リドレイの矮性選抜で、標準種が大きく育つのに対し小さく密にまとまるよう選ばれた個体。革質で濃緑の胞子葉が丸みを帯びてコンパクトに密集し、小スペースでもリドレイ独特の脳状貯水葉と角状の胞子葉を楽しめる。小型ながら栽培の難しさは親譲り。",
+    "notes": "P. ridleyi の矮性選抜。ワイド／ナロー／ドワーフシルバー等とは別の純粋な小型選抜で、密でコンパクトな草姿が識別点。",
+    "lineage": [
+      "ridleyi"
+    ],
+    "sources": [
+      "https://www.thebasements.com/products/platycerium-ridleyi-dwarf"
+    ]
+  },
+  {
+    "id": "coronarium-philippine",
+    "name": "コロナリウム フィリピン",
+    "nameEn": "Coronarium Philippine Form",
+    "scientificName": "Platycerium coronarium 'Philippine'",
+    "group": "東南アジア系",
+    "type": "選抜品種",
+    "origin": "コロナリウムのフィリピン産地系統",
+    "size": "大型（胞子葉が1m以上に垂れる）",
+    "shieldFrond": "上部が細かく分岐して王冠状に高く立ち上がる",
+    "foliarFrond": "1mを超えて長く垂れ下がり、鹿角状に流れる。成長が速く伸びやか",
+    "rarity": 3,
+    "difficulty": 2,
+    "coldResistance": "弱（最低12℃前後）",
+    "light": "明るい半日向",
+    "watering": "高温多湿を好む。生育期はたっぷり",
+    "humidity": "高い",
+    "image": null,
+    "imageCredit": null,
+    "instagramUrl": null,
+    "iNatUrl": null,
+    "tags": [
+      "コロナリウム系",
+      "大型",
+      "フィリピン産",
+      "垂れ葉"
+    ],
+    "description": "フィリピン産のコロナリウム系統。1mを超えて長く垂れ下がる鹿角状の胞子葉と、王冠状に立ち上がる貯水葉が雄大で、タイ産の系統と比べて成長が速くエレガントな草姿に育つとされる。高温多湿を好み、十分なスペースで本領を発揮する。",
+    "notes": "P. coronarium の産地系統。フィリピン産は伸びやかで成長が速い点がタイ産タイプとの違いとされる。",
+    "lineage": [
+      "coronarium"
+    ],
+    "sources": [
+      "https://siborchid.com/product/platycerium-coronarium-philippine/"
     ]
   }
 ]
