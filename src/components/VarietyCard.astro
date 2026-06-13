@@ -34,7 +34,8 @@ const groupColors: Record<string, string> = {
 const placeholderColor = groupColors[variety.group] ?? '#356048';
 ---
 
-<a href={`/variety/${variety.id}`} class="card">
+<article class="card">
+  <a href={`/variety/${variety.id}`} class="card-stretch" aria-label={`${variety.name}の詳細を見る`}></a>
   <div class="card-image">
     {variety.image ? (
       <img
@@ -51,6 +52,7 @@ const placeholderColor = groupColors[variety.group] ?? '#356048';
       </div>
     )}
     <div class="type-badge">{variety.type}</div>
+    <a class="contribute-pill" href={`/contribute/?v=${encodeURIComponent(variety.name)}`} aria-label={`${variety.name}の写真を提供する`}>📷 写真提供</a>
   </div>
 
   <div class="card-body">
@@ -74,10 +76,11 @@ const placeholderColor = groupColors[variety.group] ?? '#356048';
       {variety.tags.map(tag => <span class="tag">{tag}</span>)}
     </div>
   </div>
-</a>
+</article>
 
 <style>
   .card {
+    position: relative;
     display: flex;
     flex-direction: column;
     background: var(--card-bg);
@@ -92,6 +95,34 @@ const placeholderColor = groupColors[variety.group] ?? '#356048';
     transform: translateY(-4px);
     box-shadow: 0 8px 28px rgba(0,0,0,0.12);
   }
+
+  /* カード全体を覆う詳細リンク（写真提供ボタンより下のレイヤー） */
+  .card-stretch {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border-radius: 12px;
+  }
+
+  /* 写真提供ボタン（詳細リンクの上に重ねて独立クリック可能に） */
+  .contribute-pill {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    z-index: 2;
+    font-size: 0.66rem;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(0,0,0,0.45);
+    border: 1px solid rgba(255,255,255,0.45);
+    padding: 0.2rem 0.55rem;
+    border-radius: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    backdrop-filter: blur(2px);
+    transition: background 0.15s, color 0.15s;
+  }
+  .contribute-pill:hover { background: var(--accent); color: #fff; }
 
   /* 画像エリア */
   .card-image {
