@@ -15,6 +15,12 @@ const ENTRY = 'entry.386725646'; // 品種名
     <p class="lead" id="lead">ビカク図鑑では、まだ写真のない「画像募集中」の品種がたくさんあります。あなたが育てているビカクシダの写真をご提供いただけませんか？ いただいた写真は、<strong>お名前をクレジット表記</strong>して掲載します。</p>
   </section>
 
+  <section class="card ig-card">
+    <h2>📸 インスタの写真、ぜんぶ使っていいよ！という方へ</h2>
+    <p>あなたのInstagramに載せている<strong>ビカクシダの写真</strong>を、図鑑に自由に使わせていただけるなら大歓迎です。むずかしい手続きは不要 — <strong>インスタのDMで「写真使っていいよ」と一言</strong>いただければOKです（掲載時はアカウント名をクレジット表記します）。</p>
+    <a class="form-btn ig-btn" href="https://www.instagram.com/norimaro_green/" target="_blank" rel="noopener">📩 InstagramでDMする ↗</a>
+  </section>
+
   <section class="card">
     <h2>ご提供にあたってのお願い</h2>
     <ul class="rules">
@@ -82,6 +88,10 @@ const ENTRY = 'entry.386725646'; // 品種名
   .rules li::before { content: '✓'; position: absolute; left: 0; color: var(--green-light); font-weight: 700; }
   .rules strong { color: #2a2a2a; }
   .card p { font-size: 0.88rem; line-height: 1.8; color: #444; }
+
+  .ig-card { border: 2px solid var(--green-mid); }
+  .ig-card h2 { border-bottom: none; margin-bottom: 0.6rem; }
+  .ig-card .ig-btn { margin-top: 0.6rem; }
 
   .cta-card { text-align: center; }
   .form-btn {
