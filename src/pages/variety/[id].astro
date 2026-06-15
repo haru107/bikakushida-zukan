@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import varieties from '../../data/varieties.json';
+import GearBox from '../../components/GearBox.astro';
+import gear from '../../data/gear.json';
 
 export function getStaticPaths() {
   return varieties.map(v => ({ params: { id: v.id } }));
@@ -326,6 +328,8 @@ const jsonLd = {
       )}
     </section>
   )}
+
+  <GearBox items={gear.variety} title={`${variety.name}を育てるのにおすすめの道具`} />
 
   <div class="back-link"><a href="/">← 一覧に戻る</a></div>
 

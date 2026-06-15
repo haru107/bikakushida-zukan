@@ -1,4 +1,6 @@
 ---
+import affiliate from '../data/affiliate.json';
+const amazonTag = (affiliate as any).amazonTag || '';
 export interface Props {
   title: string;
   description?: string;
@@ -130,6 +132,9 @@ const siteJsonLd = {
   <footer>
     <p>© 2026 ビカク図鑑 — データは随時更新中 ・ <a href="/sources">出典・参考資料</a> ・ <a href="/lineage">血統マップ</a> ・ <a href="/contribute/">写真提供</a></p>
     <p class="footer-links">姉妹サイト: <a href="https://agave.norimaro.com" target="_blank" rel="noopener">アガベ図鑑</a> ・ <a href="https://norimaro.com" target="_blank" rel="noopener">のりまろトップ</a> ・ グッズ: <a href="https://suzuri.jp/Norimaro" target="_blank" rel="noopener">AOAO（SUZURI）</a></p>
+    {amazonTag && (
+      <p class="footer-links">Amazonのアソシエイトとして、ビカク図鑑は適格販売により収入を得ています。</p>
+    )}
   </footer>
 </body>
 </html>

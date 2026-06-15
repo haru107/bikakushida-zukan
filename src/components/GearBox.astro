@@ -1,12 +1,25 @@
 ---
-// 「そろえる道具」アフィリンク欄。href が入っている項目だけ表示。
-// 全項目 href が空なら何も描画しない（壊れたリンク・空欄は出ない）。
+// 「そろえる道具」アフィリンク欄。表示される条件:
+//   1) href が入っていればそれを使う（もしもかんたんリンク等）
+//   2) href が空でも、affiliate.json に amazonTag があり項目に kw があれば
+//      Amazonの検索アフィリンクを自動生成
+//   どちらも無ければ非表示（壊れたリンク・空欄は出ない）。
+import affiliate from '../data/affiliate.json';
 export interface Props {
-  items?: { label: string; href: string }[];
+  items?: { label: string; href?: string; kw?: string }[];
   title?: string;
 }
 const { items = [], title = 'そろえる道具' } = Astro.props;
-const live = items.filter(i => i && i.href);
+const tag = (affiliate as any).amazonTag || '';
+const live = items
+  .map(i => {
+    let href = i && i.href ? i.href : '';
+    if (!href && tag && i && i.kw) {
+      href = `https://www.amazon.co.jp/s?k=${encodeURIComponent(i.kw)}&tag=${tag}`;
+    }
+    return { label: i.label, href };
+  })
+  .filter(i => i.href);
 ---
 {live.length > 0 && (
   <section class="gearbox">
