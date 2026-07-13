@@ -1,6 +1,7 @@
 ---
 import affiliate from '../data/affiliate.json';
 const amazonTag = (affiliate as any).amazonTag || '';
+const adsenseClient = (affiliate as any).adsenseClient || '';
 export interface Props {
   title: string;
   description?: string;
@@ -36,6 +37,9 @@ const siteJsonLd = {
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <script type="application/ld+json" set:html={JSON.stringify(siteJsonLd)} is:inline />
   {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />}
+  {adsenseClient && (
+    <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`} crossorigin="anonymous" is:inline></script>
+  )}
   <title>{title}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

@@ -1,34 +1,63 @@
 ---
-// 「そろえる道具」アフィリンク欄。表示される条件:
-//   1) href が入っていればそれを使う（もしもかんたんリンク等）
-//   2) href が空でも、affiliate.json に amazonTag があり項目に kw があれば
-//      Amazonの検索アフィリンクを自動生成
-//   どちらも無ければ非表示（壊れたリンク・空欄は出ない）。
+// 「そろえる道具」アフィリンク欄。表示ロジック:
+//   1) gear.json の項目に href があれば、それを使う（もしも かんたんリンク等）＝ラベル自体がリンク
+//   2) href が空でも、affiliate.json に amazonTag / rakutenAffiliateId があり項目に kw があれば
+//      Amazon・楽天の検索アフィリンクを自動生成し、[Amazon][楽天] ボタンを並べて表示
+//   どのリンクも作れない項目は非表示。1件もリンクが無ければセクションごと非表示。
 import affiliate from '../data/affiliate.json';
 export interface Props {
   items?: { label: string; href?: string; kw?: string }[];
   title?: string;
 }
 const { items = [], title = 'そろえる道具' } = Astro.props;
-const tag = (affiliate as any).amazonTag || '';
+const amazonTag = (affiliate as any).amazonTag || '';
+const rakutenId = (affiliate as any).rakutenAffiliateId || '';
+
 const live = items
   .map(i => {
-    let href = i && i.href ? i.href : '';
-    if (!href && tag && i && i.kw) {
-      href = `https://www.amazon.co.jp/s?k=${encodeURIComponent(i.kw)}&tag=${tag}`;
+    // もしも かんたんリンク等を貼っていれば最優先（ラベル＝単一リンク）
+    if (i && i.href) {
+      return { label: i.label, single: i.href, shops: [] as { key: string; name: string; href: string }[] };
     }
-    return { label: i.label, href };
+    const shops: { key: string; name: string; href: string }[] = [];
+    if (i && i.kw && amazonTag) {
+      shops.push({
+        key: 'amazon',
+        name: 'Amazon',
+        href: `https://www.amazon.co.jp/s?k=${encodeURIComponent(i.kw)}&tag=${amazonTag}`,
+      });
+    }
+    if (i && i.kw && rakutenId) {
+      const target = `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(i.kw)}/`;
+      shops.push({
+        key: 'rakuten',
+        name: '楽天',
+        href: `https://hb.afl.rakuten.co.jp/ichiba/${rakutenId}/?pc=${encodeURIComponent(target)}&m=${encodeURIComponent(target)}`,
+      });
+    }
+    return { label: i.label, single: '', shops };
   })
-  .filter(i => i.href);
+  .filter(i => i.single || i.shops.length > 0);
 ---
 {live.length > 0 && (
   <section class="gearbox">
     <h2>{title}</h2>
     <ul class="gear-list">
       {live.map(i => (
-        <li>
-          <a href={i.href} target="_blank" rel="sponsored noopener nofollow">{i.label}<span class="ext"> ↗</span></a>
-        </li>
+        i.single ? (
+          <li class="gear-pill">
+            <a href={i.single} target="_blank" rel="sponsored noopener nofollow">{i.label}<span class="ext"> ↗</span></a>
+          </li>
+        ) : (
+          <li class="gear-row">
+            <span class="gear-name">{i.label}</span>
+            <span class="gear-shops">
+              {i.shops.map(s => (
+                <a class={`shop shop-${s.key}`} href={s.href} target="_blank" rel="sponsored noopener nofollow">{s.name}<span class="ext"> ↗</span></a>
+              ))}
+            </span>
+          </li>
+        )
       ))}
     </ul>
     <p class="gear-pr">※上記リンクには広告（アフィリエイト）を含みます。価格・在庫は各ショップでご確認ください。</p>
@@ -52,18 +81,45 @@ const live = items
     border-bottom: 2px solid var(--green-light);
   }
   .gear-list { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem; }
-  .gear-list a {
+  /* もしも かんたんリンク等：ラベル自体がリンクのピル */
+  .gear-pill a {
     display: inline-block;
     font-size: 0.84rem;
     color: var(--green-mid);
-    background: #eef5f0;
-    border: 1px solid #cce0d4;
+    background: #f3f0e6;
+    border: 1px solid var(--border);
     border-radius: 20px;
     padding: 0.4rem 0.9rem;
     text-decoration: none;
     transition: all 0.15s;
   }
-  .gear-list a:hover { background: var(--green-light); color: #fff; border-color: var(--green-light); }
+  .gear-pill a:hover { background: var(--green-light); color: #fff; border-color: var(--green-light); }
+  /* 検索アフィリンク：ラベル＋[Amazon][楽天] ボタン行（1行占有） */
+  .gear-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.35rem 0;
+    border-bottom: 1px dashed var(--border);
+  }
+  .gear-row:last-child { border-bottom: none; }
+  .gear-name { font-size: 0.86rem; color: var(--text); flex: 1 1 auto; min-width: 8rem; }
+  .gear-shops { display: inline-flex; gap: 0.4rem; flex-wrap: wrap; }
+  .shop {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 0.3rem 0.7rem;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: opacity 0.15s;
+  }
+  .shop:hover { opacity: 0.85; }
+  .shop-amazon { background: #ff9900; color: #1a1a1a; }
+  .shop-rakuten { background: #bf0000; color: #fff; }
   .ext { font-size: 0.72rem; opacity: 0.8; }
   .gear-pr { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.8rem; }
 </style>

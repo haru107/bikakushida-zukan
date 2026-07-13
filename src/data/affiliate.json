@@ -1,4 +1,8 @@
 {
   "_comment": "AmazonアソシエイトのトラッキングID（例: norimaro-22）をここに1つ入れるだけで、全ページの『おすすめ道具』が自動でAmazon検索アフィリンクになります。空の間は非表示。もしもかんたんリンク等を個別に使う場合は gear.json の各項目の href に貼ればそちら優先。",
-  "amazonTag": ""
+  "amazonTag": "",
+  "_comment_rakuten": "楽天アフィリエイトID（楽天アフィリ管理画面で確認できるドット区切りの長いID。例: 1a2b3c4d.5e6f7g8h.1a2b3c4d.5e6f7g8h）を入れると、各道具に『楽天』検索アフィリンクが自動表示。楽天は審査不要なので、入れた瞬間に収益化できる唯一のチャネル。空の間は非表示。",
+  "rakutenAffiliateId": "54f037c3.0458ebbf.54f037c4.f264e2f2",
+  "_comment_adsense": "Google AdSense パブリッシャーID（例: ca-pub-1234567890123456）を入れると、全ページに自動広告スクリプトと /ads.txt が出ます。空の間は広告ゼロ＝公開サイトは変化しません。AdSenseの審査に通ってから貼ってください。",
+  "adsenseClient": ""
 }

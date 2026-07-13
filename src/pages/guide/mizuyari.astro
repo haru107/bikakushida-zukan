@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import GearBox from '../../components/GearBox.astro';
+import gear from '../../data/gear.json';
 import varieties from '../../data/varieties.json';
 
 const siteUrl = Astro.site!.toString().replace(/\/$/, '');
@@ -94,6 +96,8 @@ const jsonLd = {
       <h2>留守がちなら「自動給水」という手も</h2>
       <p>出張や旅行で数日空けるときは、ドブ漬けしてから出かければ1週間程度は持ちます。それ以上になる場合は、点滴式の自動給水（ペットボトル給水器など）を併用すると安心です。</p>
     </section>
+
+    <GearBox items={gear.mizuyari} title="水やりにそろえる道具" />
 
     <section>
       <h2>関連ページ</h2>

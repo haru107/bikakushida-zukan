@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import GearBox from '../../components/GearBox.astro';
+import gear from '../../data/gear.json';
 import varieties from '../../data/varieties.json';
 
 // よく子株を出す丈夫な品種
@@ -107,6 +109,8 @@ const jsonLd = {
         <li><strong>成長点を傷つける</strong> — 子株も親株も、中心の成長点を切ると終わりです。刃の向きに注意</li>
       </ul>
     </section>
+
+    <GearBox items={gear.kokabu} title="子株の株分けにそろえる道具" />
 
     <section>
       <h2>よく子株を出す品種</h2>
